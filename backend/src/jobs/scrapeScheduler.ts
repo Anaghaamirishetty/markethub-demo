@@ -1,0 +1,37 @@
+import cron from "node-cron";
+import User from "../models/User";
+import PriceHistory from "../models/PriceHistory";
+import { scrapeAmazonProduct } from "../scrapers/amazonScraper";
+
+// Run every day at 3 AM
+cron.schedule("0 3 * * *", async () => {
+  console.log("⏰ Running daily price updater...");
+
+  try {
+    const users = await User.find({});
+
+    for (const user of users) {
+      for (const item of user.tracklist) {
+        const { productId, url, title } = item;
+
+        const data = await scrapeAmazonProduct(url);
+        const price = Number(data.price?.replace(/[^0-9]/g, "")) || 0;
+
+        if (price > 0) {
+          await PriceHistory.create({
+            productId,
+            title,
+            url,
+            price
+          });
+
+          console.log(`📦 Updated: ${productId} → ₹${price}`);
+        }
+      }
+    }
+
+    console.log("✔ Daily scrape completed.");
+  } catch (error) {
+    console.error("❌ Daily scrape failed:", error);
+  }
+});
