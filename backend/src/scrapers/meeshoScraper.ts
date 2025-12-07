@@ -5,17 +5,15 @@ import { ScrapedProduct } from "../types";
 
 chromium.use(StealthPlugin());
 
-export const scrapeAmazonProduct = async (
+export const scrapeMeeshoProduct = async (
 	rawUrl: string
 ): Promise<ScrapedProduct> => {
 	let browser: Browser | null = null;
 
 	try {
-		// Clean the URL (remove tracking)
-		const cleanUrl =
-			rawUrl.match(/https:\/\/www\.amazon\.in\/dp\/[A-Z0-9]+/i)?.[0] || rawUrl;
+		const cleanUrl = rawUrl.split("?")[0];
 
-		console.log("🟦 Scraping:", cleanUrl);
+		console.log("🟦 Scraping Meesho:", cleanUrl);
 
 		browser = await chromium.launch({
 			headless: true,
@@ -34,7 +32,6 @@ export const scrapeAmazonProduct = async (
 
 		const page = await context.newPage();
 
-		// Load page
 		await page.goto(cleanUrl, {
 			waitUntil: "domcontentloaded",
 			timeout: 60000,
@@ -43,15 +40,9 @@ export const scrapeAmazonProduct = async (
 		// Wait for JS to execute
 		await page.waitForTimeout(3000);
 
-		// Check if blocked
 		const html = await page.content();
-		if (
-			html.includes("captcha") ||
-			html.includes("Robot Check") ||
-			html.includes("Enter the characters you see below") ||
-			html.includes("Page Not Found")
-		) {
-			console.log("❌ Blocked by Amazon");
+		if (html.includes("captcha") || html.includes("Access Denied")) {
+			console.log("❌ Blocked by Meesho");
 			await browser.close();
 			return {
 				title: "Blocked",
@@ -65,31 +56,49 @@ export const scrapeAmazonProduct = async (
 
 		await autoScroll(page);
 
-		// Extract data
-		const title = await getText(page, "#productTitle");
-		const priceText = await getText(page, ".a-price .a-offscreen");
-		const ratingText = await getText(page, "span.a-icon-alt");
-		const reviewsText = await getText(page, "#acrCustomerReviewText");
+		// Meesho specific selectors
+		const title = await getText(
+			page,
+			'h1[class*="ProductDetail"], h1[class*="Title"]'
+		);
+		const priceText = await getText(
+			page,
+			'span[class*="PriceCard__Price"], h4[class*="DesktopPriceCard__Price"]'
+		);
+		const ratingText = await getText(
+			page,
+			'span[class*="Rating__RatingLabel"], div[class*="Rating"] span'
+		);
+		const reviewsText = await getText(
+			page,
+			'span[class*="Rating__Count"], span[class*="ReviewCount"]'
+		);
 
-		// Extract product image
-		const image =
-			(await page.locator("#landingImage").getAttribute("src")) || "";
+		// Extract image
+		let image = "";
+		try {
+			const imgLocator = page
+				.locator(
+					'img[class*="DetailCard__StickyImage"], img[class*="ProductDetail__Image"]'
+				)
+				.first();
+			image = (await imgLocator.getAttribute("src")) || "";
+		} catch {
+			image = "";
+		}
 
-		// --- FIX PRICE ---
-		// "₹3,999.00" → "399900" → 3999
+		// Parse price
 		let numericPrice = 0;
 		if (priceText && priceText !== "N/A") {
 			const digitsOnly = priceText.replace(/[^\d]/g, "");
-			numericPrice = parseInt(digitsOnly) / 100;
+			numericPrice = parseInt(digitsOnly) || 0;
 		}
 
-		// --- FIX RATING ---
-		// "4.1 out of 5 stars" → 4.1
+		// Parse rating
 		const ratingNumber =
-			ratingText && ratingText.includes("out") ? parseFloat(ratingText) : 0;
+			ratingText && ratingText !== "N/A" ? parseFloat(ratingText) : 0;
 
-		// --- FIX REVIEWS ---
-		// "(4,864)" → 4864
+		// Parse reviews
 		const reviewNumber =
 			reviewsText && reviewsText !== "N/A"
 				? parseInt(reviewsText.replace(/[^\d]/g, ""))
@@ -106,7 +115,7 @@ export const scrapeAmazonProduct = async (
 			url: cleanUrl,
 		};
 	} catch (err) {
-		console.log("❌ SCRAPER ERROR:", err);
+		console.log("❌ MEESHO SCRAPER ERROR:", err);
 		if (browser) await browser.close();
 		return {
 			title: "Error",
@@ -119,12 +128,22 @@ export const scrapeAmazonProduct = async (
 			details: err,
 		};
 	}
-}; // Helpers
+};
+
+// Helper functions
 async function getText(page: Page, selector: string): Promise<string> {
 	try {
-		const element = page.locator(selector).first();
-		const text = await element.textContent();
-		return text?.trim() || "N/A";
+		const selectors = selector.split(",").map((s) => s.trim());
+		for (const sel of selectors) {
+			try {
+				const element = page.locator(sel).first();
+				const text = await element.textContent();
+				if (text && text.trim() !== "") return text.trim();
+			} catch {
+				continue;
+			}
+		}
+		return "N/A";
 	} catch {
 		return "N/A";
 	}

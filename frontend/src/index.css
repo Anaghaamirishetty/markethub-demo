@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+
 	:root {
 		/* Soft mint/teal theme with violet accents */
 		--background: 165 30% 98%;

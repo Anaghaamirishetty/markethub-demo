@@ -5,17 +5,16 @@ import { ScrapedProduct } from "../types";
 
 chromium.use(StealthPlugin());
 
-export const scrapeAmazonProduct = async (
+export const scrapeFlipkartProduct = async (
 	rawUrl: string
 ): Promise<ScrapedProduct> => {
 	let browser: Browser | null = null;
 
 	try {
-		// Clean the URL (remove tracking)
-		const cleanUrl =
-			rawUrl.match(/https:\/\/www\.amazon\.in\/dp\/[A-Z0-9]+/i)?.[0] || rawUrl;
+		// Clean the URL
+		const cleanUrl = rawUrl.split("?")[0];
 
-		console.log("🟦 Scraping:", cleanUrl);
+		console.log("🟦 Scraping Flipkart:", cleanUrl);
 
 		browser = await chromium.launch({
 			headless: true,
@@ -47,11 +46,10 @@ export const scrapeAmazonProduct = async (
 		const html = await page.content();
 		if (
 			html.includes("captcha") ||
-			html.includes("Robot Check") ||
-			html.includes("Enter the characters you see below") ||
+			html.includes("Access Denied") ||
 			html.includes("Page Not Found")
 		) {
-			console.log("❌ Blocked by Amazon");
+			console.log("❌ Blocked by Flipkart");
 			await browser.close();
 			return {
 				title: "Blocked",
@@ -65,31 +63,41 @@ export const scrapeAmazonProduct = async (
 
 		await autoScroll(page);
 
-		// Extract data
-		const title = await getText(page, "#productTitle");
-		const priceText = await getText(page, ".a-price .a-offscreen");
-		const ratingText = await getText(page, "span.a-icon-alt");
-		const reviewsText = await getText(page, "#acrCustomerReviewText");
+		// Extract data - Flipkart specific selectors
+		const title = await getText(page, ".VU-ZEz, .B_NuCI, span.B_NuCI, .yhB1nd");
+		const priceText = await getText(page, "._30jeq3, ._30jeq3._16Jk6d");
+		const ratingText = await getText(page, "._3LWZlK, div._3LWZlK");
+		const reviewsText = await getText(
+			page,
+			"._2_R_DZ span, span._2_R_DZ, ._13vcmD span"
+		);
 
 		// Extract product image
-		const image =
-			(await page.locator("#landingImage").getAttribute("src")) || "";
+		let image = "";
+		try {
+			const imgLocator = page
+				.locator("._396cs4._2amPTt img, ._1Nyybr img, img._396cs4")
+				.first();
+			image =
+				(await imgLocator.getAttribute("src")) ||
+				(await imgLocator.getAttribute("data-src")) ||
+				"";
+		} catch {
+			image = "";
+		}
 
-		// --- FIX PRICE ---
-		// "₹3,999.00" → "399900" → 3999
+		// Parse price - "₹3,999" → 3999
 		let numericPrice = 0;
 		if (priceText && priceText !== "N/A") {
 			const digitsOnly = priceText.replace(/[^\d]/g, "");
-			numericPrice = parseInt(digitsOnly) / 100;
+			numericPrice = parseInt(digitsOnly) || 0;
 		}
 
-		// --- FIX RATING ---
-		// "4.1 out of 5 stars" → 4.1
+		// Parse rating - "4.1" → 4.1
 		const ratingNumber =
-			ratingText && ratingText.includes("out") ? parseFloat(ratingText) : 0;
+			ratingText && ratingText !== "N/A" ? parseFloat(ratingText) : 0;
 
-		// --- FIX REVIEWS ---
-		// "(4,864)" → 4864
+		// Parse reviews - "4,864 Ratings" → 4864
 		const reviewNumber =
 			reviewsText && reviewsText !== "N/A"
 				? parseInt(reviewsText.replace(/[^\d]/g, ""))
@@ -106,7 +114,7 @@ export const scrapeAmazonProduct = async (
 			url: cleanUrl,
 		};
 	} catch (err) {
-		console.log("❌ SCRAPER ERROR:", err);
+		console.log("❌ FLIPKART SCRAPER ERROR:", err);
 		if (browser) await browser.close();
 		return {
 			title: "Error",
@@ -119,12 +127,23 @@ export const scrapeAmazonProduct = async (
 			details: err,
 		};
 	}
-}; // Helpers
+};
+
+// Helper functions
 async function getText(page: Page, selector: string): Promise<string> {
 	try {
-		const element = page.locator(selector).first();
-		const text = await element.textContent();
-		return text?.trim() || "N/A";
+		// Try multiple selectors separated by comma
+		const selectors = selector.split(",").map((s) => s.trim());
+		for (const sel of selectors) {
+			try {
+				const element = page.locator(sel).first();
+				const text = await element.textContent();
+				if (text && text.trim() !== "") return text.trim();
+			} catch {
+				continue;
+			}
+		}
+		return "N/A";
 	} catch {
 		return "N/A";
 	}

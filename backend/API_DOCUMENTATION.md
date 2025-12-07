@@ -1,4 +1,6 @@
-# MarketHub Backend API Documentation
+# MarketHub API Documentation
+
+Complete API reference for the MarketHub backend service.
 
 ## Base URL
 
@@ -10,17 +12,41 @@ http://localhost:5000/api
 
 Most endpoints require authentication via JWT token in the Authorization header:
 
-```
+```http
 Authorization: Bearer <your_jwt_token>
+```
+
+## Response Format
+
+All API responses follow this format:
+
+### Success Response
+
+```json
+{
+  "success": true,
+  "data": { ... },
+  "message": "Operation successful"
+}
+```
+
+### Error Response
+
+```json
+{
+	"success": false,
+	"error": "Error message",
+	"message": "Detailed error description"
+}
 ```
 
 ---
 
-## Endpoints
+## 🔐 Authentication Endpoints
 
-### 🔐 Authentication
+### Register User
 
-#### Register User
+Create a new user account.
 
 ```http
 POST /auth/register
@@ -33,9 +59,17 @@ POST /auth/register
 	"name": "John Doe",
 	"email": "john@example.com",
 	"password": "securePassword123",
-	"role": "user" // Optional: "user" | "seller" | "admin"
+	"role": "user"
 }
 ```
+
+**Parameters:**
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| name | string | Yes | User's full name |
+| email | string | Yes | Valid email address |
+| password | string | Yes | Password (min 6 characters) |
+| role | string | No | "user", "seller", or "admin" (default: "user") |
 
 **Response:** `201 Created`
 
@@ -45,9 +79,16 @@ POST /auth/register
 }
 ```
 
+**Error Codes:**
+
+- `400` - Invalid input or email already exists
+- `500` - Server error
+
 ---
 
-#### User Login
+### User Login
+
+Authenticate a user and receive JWT token.
 
 ```http
 POST /auth/login
@@ -77,9 +118,17 @@ POST /auth/login
 }
 ```
 
+**Error Codes:**
+
+- `401` - Invalid credentials
+- `400` - Missing email or password
+- `500` - Server error
+
 ---
 
-#### Admin Login
+### Admin Login
+
+Authenticate admin with username/password.
 
 ```http
 POST /auth/admin
@@ -100,103 +149,373 @@ POST /auth/admin
 {
 	"message": "Admin login successful",
 	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-	"user": {
-		"id": "507f1f77bcf86cd799439011",
-		"name": "Admin User",
-		"email": "admin@markethub.com",
+	"admin": {
+		"username": "admin",
 		"role": "admin"
 	}
 }
 ```
 
+**Error Codes:**
+
+- `401` - Invalid credentials
+- `400` - Missing username or password
+- `500` - Server error
+
 ---
 
-### 🔍 Product Scraping
+## 🛒 Product Scraping Endpoints
 
-#### Scrape Amazon Product
+All scraping endpoints require authentication and are rate-limited to 3 requests/minute.
+
+### Scrape Amazon Product
 
 ```http
 POST /scrape/amazon
+```
+
+**Headers:**
+
+```http
 Authorization: Bearer <token>
+Content-Type: application/json
 ```
 
 **Request Body:**
 
 ```json
 {
-	"url": "https://www.amazon.in/dp/B0ABCD1234",
-	"productId": "B0ABCD1234" // Optional
+	"url": "https://www.amazon.in/dp/B0XXXXXXXX",
+	"productId": "custom-product-id"
 }
 ```
+
+**Parameters:**
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| url | string | Yes | Amazon product URL |
+| productId | string | No | Custom product identifier |
 
 **Response:** `200 OK`
 
 ```json
 {
 	"source": "amazon",
-	"productId": "B0ABCD1234",
-	"title": "Product Title",
-	"price": 3999,
+	"productId": "B0XXXXXXXX",
+	"title": "Samsung Galaxy S24 Ultra 5G",
+	"price": 124999,
 	"rating": 4.5,
-	"reviews": 1234,
+	"reviews": 2847,
 	"image": "https://m.media-amazon.com/images/...",
-	"url": "https://www.amazon.in/dp/B0ABCD1234",
+	"url": "https://www.amazon.in/dp/B0XXXXXXXX",
 	"recommendation": "Good time to buy ✅"
 }
 ```
 
-**Rate Limit:** 3 requests per minute
+**Error Codes:**
+
+- `401` - Unauthorized (missing or invalid token)
+- `429` - Too many requests (rate limit exceeded)
+- `400` - Invalid URL
+- `500` - Scraping failed
 
 ---
 
-### 📊 Price History
-
-#### Get Price History
+### Scrape Flipkart Product
 
 ```http
-GET /prices/:productId?days=180
+POST /scrape/flipkart
+```
+
+**Request/Response:** Same format as Amazon scraper
+
+---
+
+### Scrape Meesho Product
+
+```http
+POST /scrape/meesho
+```
+
+**Request/Response:** Same format as Amazon scraper
+
+---
+
+### Scrape Myntra Product
+
+```http
+POST /scrape/myntra
+```
+
+**Request/Response:** Same format as Amazon scraper
+
+---
+
+### Scrape Ajio Product
+
+```http
+POST /scrape/ajio
+```
+
+**Request/Response:** Same format as Amazon scraper
+
+---
+
+## 🔍 Deals & Search Endpoints
+
+### Smart Product Search
+
+Search for products across all platforms with fuzzy matching.
+
+```http
+GET /deals/search
+```
+
+**Query Parameters:**
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| query | string | Yes | Product search query |
+| platforms | string | No | Comma-separated platforms (e.g., "amazon,flipkart") |
+| minPrice | number | No | Minimum price filter |
+| maxPrice | number | No | Maximum price filter |
+| sortBy | string | No | Sort order: "relevance", "price_low", "price_high", "rating" |
+
+**Example:**
+
+```http
+GET /deals/search?query=iPhone%2015&platforms=amazon,flipkart&sortBy=price_low
+```
+
+**Response:** `200 OK`
+
+```json
+{
+	"query": "iPhone 15",
+	"totalResults": 12,
+	"groupedResults": 3,
+	"fromCache": false,
+	"products": [
+		{
+			"title": "Apple iPhone 15 (128GB)",
+			"normalizedTitle": "apple iphone 15",
+			"platforms": ["amazon", "flipkart"],
+			"prices": {
+				"amazon": 79900,
+				"flipkart": 79999
+			},
+			"bestPrice": 79900,
+			"bestPlatform": "amazon",
+			"rating": 4.6,
+			"reviews": 3421,
+			"image": "https://...",
+			"urls": {
+				"amazon": "https://www.amazon.in/...",
+				"flipkart": "https://www.flipkart.com/..."
+			},
+			"discount": 15,
+			"category": "electronics",
+			"brand": "apple"
+		}
+	]
+}
+```
+
+---
+
+### Get Live Deals
+
+Fetch current live deals from automated scraping.
+
+```http
+GET /deals/live
+```
+
+**Query Parameters:**
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| platform | string | No | Filter by platform |
+| category | string | No | Filter by category |
+| limit | number | No | Number of results (default: 20) |
+| minDiscount | number | No | Minimum discount percentage |
+
+**Example:**
+
+```http
+GET /deals/live?platform=amazon&minDiscount=20&limit=10
+```
+
+**Response:** `200 OK`
+
+```json
+{
+	"deals": [
+		{
+			"_id": "507f1f77bcf86cd799439011",
+			"title": "Samsung Galaxy M34 5G",
+			"normalizedTitle": "samsung galaxy m34 5g",
+			"price": 16999,
+			"originalPrice": 24999,
+			"discount": 32,
+			"platform": "amazon",
+			"url": "https://www.amazon.in/...",
+			"image": "https://...",
+			"rating": 4.3,
+			"reviews": 1847,
+			"category": "electronics",
+			"brand": "samsung",
+			"expiresAt": "2025-12-08T12:00:00.000Z",
+			"createdAt": "2025-12-07T12:00:00.000Z"
+		}
+	],
+	"total": 47,
+	"page": 1
+}
+```
+
+---
+
+### Manually Add Deal
+
+Add a product as a deal (admin/seller only).
+
+```http
+POST /deals/scrape
+```
+
+**Headers:**
+
+```http
+Authorization: Bearer <token>
+```
+
+**Request Body:**
+
+```json
+{
+	"url": "https://www.amazon.in/dp/PRODUCTID"
+}
+```
+
+**Response:** `201 Created`
+
+```json
+{
+  "message": "Deal added successfully",
+  "deal": { ... }
+}
+```
+
+---
+
+### Trigger Live Scraping
+
+Scrape platforms in real-time for a search query.
+
+```http
+POST /deals/scrape-search
+```
+
+**Headers:**
+
+```http
+Authorization: Bearer <token>
+```
+
+**Request Body:**
+
+```json
+{
+	"query": "wireless earbuds",
+	"platforms": ["amazon", "flipkart"]
+}
+```
+
+**Response:** `200 OK`
+
+```json
+{
+	"message": "Live scraping completed",
+	"results": {
+		"total": 5,
+		"success": 4,
+		"failed": 1,
+		"platforms": {
+			"amazon": { "success": 2, "failed": 0 },
+			"flipkart": { "success": 2, "failed": 1 }
+		}
+	}
+}
+```
+
+---
+
+## 📊 Price History Endpoints
+
+### Get Price History
+
+Retrieve historical price data for a product.
+
+```http
+GET /prices/:productId
+```
+
+**Headers:**
+
+```http
 Authorization: Bearer <token>
 ```
 
 **Query Parameters:**
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| days | number | No | Number of days (default: 180) |
 
-- `days` (optional): Number of days of history (default: 180)
+**Example:**
+
+```http
+GET /prices/B0XXXXXXXX?days=30
+```
 
 **Response:** `200 OK`
 
 ```json
-[
-	{
-		"_id": "507f1f77bcf86cd799439011",
-		"productId": "B0ABCD1234",
-		"title": "Product Title",
-		"url": "https://www.amazon.in/dp/B0ABCD1234",
-		"price": 3999,
-		"timestamp": "2025-12-01T10:00:00.000Z",
-		"createdAt": "2025-12-01T10:00:00.000Z",
-		"updatedAt": "2025-12-01T10:00:00.000Z"
-	},
-	{
-		"_id": "507f1f77bcf86cd799439012",
-		"productId": "B0ABCD1234",
-		"title": "Product Title",
-		"url": "https://www.amazon.in/dp/B0ABCD1234",
-		"price": 3799,
-		"timestamp": "2025-12-02T10:00:00.000Z",
-		"createdAt": "2025-12-02T10:00:00.000Z",
-		"updatedAt": "2025-12-02T10:00:00.000Z"
+{
+	"productId": "B0XXXXXXXX",
+	"history": [
+		{
+			"price": 124999,
+			"timestamp": "2025-12-07T00:00:00.000Z",
+			"platform": "amazon"
+		},
+		{
+			"price": 119999,
+			"timestamp": "2025-12-06T00:00:00.000Z",
+			"platform": "amazon"
+		}
+	],
+	"stats": {
+		"currentPrice": 124999,
+		"lowestPrice": 119999,
+		"highestPrice": 129999,
+		"averagePrice": 124332,
+		"priceDropPercentage": -4.16
 	}
-]
+}
 ```
 
 ---
 
-### 📈 Price Summary
+### Get Price Summary
 
-#### Get Price Summary
+Get price analysis and buy recommendations.
 
 ```http
 GET /summary/:productId
+```
+
+**Headers:**
+
+```http
 Authorization: Bearer <token>
 ```
 
@@ -204,22 +523,33 @@ Authorization: Bearer <token>
 
 ```json
 {
-	"current": 3999,
-	"lowest": 3499,
-	"average": 3799,
-	"recommendation": "Price higher than usual, wait ⏳",
-	"historyCount": 45
+	"productId": "B0XXXXXXXX",
+	"currentPrice": 124999,
+	"lowestPrice": 119999,
+	"highestPrice": 129999,
+	"averagePrice": 124332,
+	"recommendation": "Wait for better deal 🕒",
+	"priceDropPercentage": -4.16,
+	"daysTracked": 30,
+	"trend": "decreasing"
 }
 ```
 
 ---
 
-### 🔔 Price Alerts
+## 🔔 Alert Endpoints
 
-#### Create Price Alert
+### Create Price Alert
+
+Set up a notification for price drops.
 
 ```http
 POST /alerts
+```
+
+**Headers:**
+
+```http
 Authorization: Bearer <token>
 ```
 
@@ -227,64 +557,78 @@ Authorization: Bearer <token>
 
 ```json
 {
-	"productId": "B0ABCD1234",
-	"targetPrice": 3500,
-	"email": "notify@example.com" // Optional
+	"productId": "B0XXXXXXXX",
+	"targetPrice": 110000,
+	"currentPrice": 124999
 }
 ```
 
-**Response:** `200 OK`
+**Response:** `201 Created`
 
 ```json
 {
-	"message": "Alert created and queued for monitoring",
+	"message": "Alert created successfully",
 	"alert": {
 		"_id": "507f1f77bcf86cd799439011",
-		"userId": "507f1f77bcf86cd799439010",
-		"productId": "B0ABCD1234",
-		"targetPrice": 3500,
-		"email": "notify@example.com",
-		"triggered": false,
-		"createdAt": "2025-12-07T10:00:00.000Z",
-		"updatedAt": "2025-12-07T10:00:00.000Z"
+		"userId": "507f1f77bcf86cd799439012",
+		"productId": "B0XXXXXXXX",
+		"targetPrice": 110000,
+		"currentPrice": 124999,
+		"isActive": true,
+		"createdAt": "2025-12-07T12:00:00.000Z"
 	}
 }
 ```
 
 ---
 
-#### Get User Alerts
+### Get User Alerts
+
+Retrieve all alerts for authenticated user.
 
 ```http
 GET /alerts
+```
+
+**Headers:**
+
+```http
 Authorization: Bearer <token>
 ```
 
 **Response:** `200 OK`
 
 ```json
-[
-	{
-		"_id": "507f1f77bcf86cd799439011",
-		"userId": "507f1f77bcf86cd799439010",
-		"productId": "B0ABCD1234",
-		"targetPrice": 3500,
-		"email": "notify@example.com",
-		"triggered": false,
-		"createdAt": "2025-12-07T10:00:00.000Z",
-		"updatedAt": "2025-12-07T10:00:00.000Z"
-	}
-]
+{
+	"alerts": [
+		{
+			"_id": "507f1f77bcf86cd799439011",
+			"productId": "B0XXXXXXXX",
+			"targetPrice": 110000,
+			"currentPrice": 124999,
+			"isActive": true,
+			"createdAt": "2025-12-07T12:00:00.000Z"
+		}
+	],
+	"total": 5
+}
 ```
 
 ---
 
-### 📝 User Tracklist
+## 📋 Tracklist Endpoints
 
-#### Add to Tracklist
+### Add to Tracklist
+
+Add a product to user's watchlist.
 
 ```http
 POST /tracklist
+```
+
+**Headers:**
+
+```http
 Authorization: Bearer <token>
 ```
 
@@ -292,50 +636,72 @@ Authorization: Bearer <token>
 
 ```json
 {
-	"productId": "B0ABCD1234",
-	"title": "Product Title",
-	"url": "https://www.amazon.in/dp/B0ABCD1234",
-	"price": 3999
+	"productId": "B0XXXXXXXX",
+	"platform": "amazon",
+	"title": "Samsung Galaxy S24 Ultra",
+	"price": 124999,
+	"url": "https://www.amazon.in/dp/B0XXXXXXXX",
+	"image": "https://..."
 }
 ```
 
-**Response:** `200 OK`
+**Response:** `201 Created`
 
 ```json
 {
-	"message": "Product added to tracklist ✅"
+  "message": "Product added to tracklist",
+  "tracklist": { ... }
 }
 ```
 
 ---
 
-#### Get User Tracklist
+### Get User Tracklist
+
+Retrieve user's saved products.
 
 ```http
 GET /tracklist
+```
+
+**Headers:**
+
+```http
 Authorization: Bearer <token>
 ```
 
 **Response:** `200 OK`
 
 ```json
-[
-	{
-		"productId": "B0ABCD1234",
-		"title": "Product Title",
-		"url": "https://www.amazon.in/dp/B0ABCD1234",
-		"price": 3999,
-		"_id": "507f1f77bcf86cd799439011"
-	}
-]
+{
+	"tracklist": [
+		{
+			"productId": "B0XXXXXXXX",
+			"platform": "amazon",
+			"title": "Samsung Galaxy S24 Ultra",
+			"price": 124999,
+			"url": "https://www.amazon.in/dp/B0XXXXXXXX",
+			"image": "https://...",
+			"addedAt": "2025-12-07T12:00:00.000Z"
+		}
+	],
+	"total": 12
+}
 ```
 
 ---
 
-#### Remove from Tracklist
+### Remove from Tracklist
+
+Remove a product from watchlist.
 
 ```http
 DELETE /tracklist/:productId
+```
+
+**Headers:**
+
+```http
 Authorization: Bearer <token>
 ```
 
@@ -343,133 +709,132 @@ Authorization: Bearer <token>
 
 ```json
 {
-	"message": "Removed from tracklist ✅"
+	"message": "Product removed from tracklist"
 }
 ```
 
 ---
 
-## Error Responses
+## 🚫 Error Codes
 
-### 400 Bad Request
+| Code | Description                             |
+| ---- | --------------------------------------- |
+| 200  | Success                                 |
+| 201  | Created                                 |
+| 400  | Bad Request - Invalid input             |
+| 401  | Unauthorized - Missing or invalid token |
+| 403  | Forbidden - Insufficient permissions    |
+| 404  | Not Found - Resource doesn't exist      |
+| 429  | Too Many Requests - Rate limit exceeded |
+| 500  | Internal Server Error                   |
 
-```json
-{
-	"message": "Validation error message"
-}
+---
+
+## 🔒 Rate Limiting
+
+### Scraping Endpoints
+
+- **Limit**: 3 requests per minute per IP
+- **Window**: 60 seconds
+- **Response Header**: `X-RateLimit-Remaining`
+
+### Other Endpoints
+
+- **Limit**: 100 requests per 15 minutes per IP
+- **Window**: 900 seconds
+
+---
+
+## 📝 Request Examples
+
+### cURL Examples
+
+#### Register User
+
+```bash
+curl -X POST http://localhost:5000/api/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password123"
+  }'
 ```
 
-### 401 Unauthorized
+#### Search Products
 
-```json
-{
-	"message": "Not authorized, token missing"
-}
+```bash
+curl "http://localhost:5000/api/deals/search?query=iPhone%2015&sortBy=price_low"
 ```
 
-### 404 Not Found
+#### Scrape Product
 
-```json
-{
-	"message": "Resource not found"
-}
+```bash
+curl -X POST http://localhost:5000/api/scrape/amazon \
+  -H "Authorization: Bearer YOUR_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://www.amazon.in/dp/B0XXXXXXXX"}'
 ```
 
-### 500 Internal Server Error
+### JavaScript (Axios) Examples
 
-```json
-{
-	"message": "Error description",
-	"error": {}
-}
+#### Login
+
+```javascript
+const response = await axios.post("http://localhost:5000/api/auth/login", {
+	email: "john@example.com",
+	password: "password123",
+});
+
+const { token, user } = response.data;
+```
+
+#### Search with Authentication
+
+```javascript
+const response = await axios.get("http://localhost:5000/api/deals/search", {
+	params: {
+		query: "iPhone 15",
+		platforms: "amazon,flipkart",
+		sortBy: "price_low",
+	},
+	headers: {
+		Authorization: `Bearer ${token}`,
+	},
+});
 ```
 
 ---
 
-## Data Models
+## 🔄 Webhooks (Future Feature)
 
-### User
-
-```typescript
-{
-	_id: ObjectId;
-	name: string;
-	email: string;
-	password: string(hashed);
-	role: "user" | "seller" | "admin";
-	tracklist: Array<{
-		productId: string;
-		title: string;
-		url: string;
-		price: number;
-	}>;
-	loginHistory: Array<{
-		date: Date;
-		ip: string;
-	}>;
-	createdAt: Date;
-	updatedAt: Date;
-}
-```
-
-### PriceHistory
-
-```typescript
-{
-	_id: ObjectId;
-	productId: string;
-	title: string;
-	url: string;
-	price: number;
-	timestamp: Date;
-	createdAt: Date;
-	updatedAt: Date;
-}
-```
-
-### Alert
-
-```typescript
-{
-	_id: ObjectId;
-	userId: string;
-	productId: string;
-	targetPrice: number;
-	email: string | null;
-	triggered: boolean;
-	createdAt: Date;
-	updatedAt: Date;
-}
-```
+Webhook support for price drop notifications coming soon.
 
 ---
 
-## Background Jobs
+## 📞 Support
 
-### Daily Price Scraper
+For API issues or questions:
 
-- **Schedule:** Every day at 3:00 AM
-- **Function:** Automatically scrapes prices for all products in user tracklists
-- **Updates:** Price history in database
-
----
-
-## Rate Limiting
-
-### Scraper Endpoints
-
-- **Window:** 1 minute
-- **Max Requests:** 3
-- **Reason:** Prevent IP blocking by Amazon
+- GitHub Issues: https://github.com/GollaBharath/markethub-demo/issues
+- Email: api-support@markethub.com
 
 ---
 
-## Environment Variables
+## 📜 Changelog
 
-See `.env.example` for required configuration:
+### v1.0.0 (2025-12-07)
 
-- `MONGO_URI` - MongoDB connection string
-- `JWT_SECRET` - Secret key for JWT tokens
-- `PORT` - Server port (default: 5000)
-- `REDIS_URL` - Redis connection URL
-- `RABBITMQ_URL` - RabbitMQ connection URL
+- Initial API release
+- Authentication endpoints
+- Multi-platform scraping
+- Smart search with fuzzy matching
+- Price history tracking
+- Alerts and tracklist management
+- Live deals system
+
+---
+
+## 📄 License
+
+MIT License - See LICENSE file for details

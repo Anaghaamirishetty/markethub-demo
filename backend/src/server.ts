@@ -15,7 +15,9 @@ import scraperRoutes from "./routes/scraperRoutes";
 import summaryRoutes from "./routes/summaryRoutes";
 import alertRoutes from "./routes/alertRoutes";
 import priceRoutes from "./routes/priceRoutes";
+import dealRoutes from "./routes/dealRoutes";
 import "./jobs/scrapeScheduler";
+import { startDealsScheduler } from "./jobs/dealsScheduler";
 
 connectQueue(); // <<< CALL AFTER dotenv
 
@@ -33,8 +35,10 @@ app.use("/api/scrape", scraperRoutes);
 app.use("/api/prices", priceRoutes);
 app.use("/api/summary", summaryRoutes);
 app.use("/api/alerts", alertRoutes);
+app.use("/api/deals", dealRoutes);
 
 connectDB();
+startDealsScheduler();
 
 app.get("/", (req, res) => {
 	res.send("MarketHub Backend Running with MongoDB 🚀");
