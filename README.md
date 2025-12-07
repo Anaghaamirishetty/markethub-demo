@@ -236,10 +236,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License.
 
-## 👥 Authors
-
-- **Golla Bharath** - [GollaBharath](https://github.com/GollaBharath)
-
 ## 🙏 Acknowledgments
 
 - shadcn/ui for beautiful UI components

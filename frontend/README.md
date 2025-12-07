@@ -477,10 +477,6 @@ VITE_ENABLE_NOTIFICATIONS=true
 
 MIT License - see LICENSE file for details
 
-## 👥 Contributors
-
-- Golla Bharath - [GitHub](https://github.com/GollaBharath)
-
 ## 📞 Support
 
 For issues or questions:

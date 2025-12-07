@@ -21,16 +21,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "bm_ss",
-      "value": "ab8e18ef4e",
-      "domain": ".meesho.com",
-      "path": "/",
-      "expires": 1765098854.692053,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "V",
       "value": "201",
       "domain": ".ajio.com",
@@ -38,16 +28,6 @@
       "expires": 1799655254.696558,
       "httpOnly": true,
       "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "TS01d405db",
-      "value": "015d0fa226dd7d078b0a891963b612de4df9ea62960345acfa6591a83bc359c8d3b4e143929d6b9d8177ed68e18e6546939a614bc74342d83364930e022bdc0ef8c6f34c68a4ee8926edecd7fb2783ef6b65d2d8e880dd5fda5bb8d53b36f7e4cc2c536665",
-      "domain": ".ajio.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": false,
-      "secure": false,
       "sameSite": "Lax"
     },
     {
@@ -61,16 +41,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "bm_ss",
-      "value": "ab8e18ef4e",
-      "domain": ".ajio.com",
-      "path": "/",
-      "expires": 1765098854.696944,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "T",
       "value": "TI176509525461000127040654051957932817981604398237118574720901540271",
       "domain": ".flipkart.com",
@@ -79,26 +49,6 @@
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
-    },
-    {
-      "name": "_pv",
-      "value": "default",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765095641.038715,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "dp",
-      "value": "d",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765095701.038967,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
     },
     {
       "name": "at",
@@ -111,26 +61,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "lt_timeout",
-      "value": "1",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765097141.039349,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "lt_session",
-      "value": "1",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765097054.755291,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "_d_id",
       "value": "543a5540-8558-4799-8483-c1a9ee21be95",
       "domain": ".myntra.com",
@@ -138,26 +68,6 @@
       "expires": 1799655254.755409,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "__cf_bm",
-      "value": "mYRA7yqIbbDhbCH1HvSQklFMwDaSkHVXryLLDz0gNVQ-1765095254-1.0.1.1-QzlmR48fYTjwL8dj5_MLbWMtASM7QEunfI2A84stTqt6CiHUvNAb8P3s3F5QIiLKZqQqdaQ2w17gVl5V8rUUQqUenEvMhNrwLvTsWUNNS74",
-      "domain": ".pixelbin.io",
-      "path": "/",
-      "expires": 1765097054.809871,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_abck",
-      "value": "BB2DA98B015637E3B645404E534FDEBD~-1~YAAQDyCwe89DRaGaAQAAsS3g9w+c2d4CRdhQ33/LQaZc9EwaSTP+BzvadKfup3WIVpA1Lg73MGDkcRHulc7YyzzNYdvaiOfs5q6TjdzKWcW1SGE5xGDu3zEyaAobsymacGVSacZ+gyTOV5664S/tjj0bUOE3oV1SwhGrPWm3BtrQDUj65H+vCQB7pL1Q3vrd7VcMpKx2JfWGE5Ikq0C683r6+oYHXKBTunK9du9rigQlpLesSFn/+I8n7CUKv/38srikUgFZTih0CJuxGtR6SveLbh6ismXokwRSz8HA7kdgJtVa8r5aKYtkkeOt3t/tXjrUCdV23IcWDHxYVcR0qLJBYkDWN1lF4x9IEACm5VqI1dVTGNSaBCBJD/5OojVVPanm9T/52mOs6AeZTjpUZV17luZReOCeUG0VM0GybTaZj2gOzralVy++DsJCICacUL7o2Ti1D+v8x/YXgfo+YRenkQM9pJQxhkzgbzn6egvgZ9PBlbRSzn5zAfMeI9tooBswjLT4GSWHotcryBpzS1/DZJYoUZylqPMSbMkXymb+wmXIU4ZCWN1xympnBBOaqxrIXRPvGXoPnQ==~-1~-1~-1~AAQAAAAE%2f%2f%2f%2f%2fy4roBPxLSlaIuJOPdp3Wl%2fx8sfTOM2aOuJ4fDXuFGmsPKN6U0AGKrC%2f7BLJiueJiRugd6Zsvj87NC9+tmqTszqBQgi7jGvV1mrF~-1",
-      "domain": ".meesho.com",
-      "path": "/",
-      "expires": 1796631255.484784,
-      "httpOnly": false,
-      "secure": true,
       "sameSite": "Lax"
     },
     {
@@ -181,51 +91,11 @@
       "sameSite": "Lax"
     },
     {
-      "name": "_mxab_",
-      "value": "config.bucket%3Dregular%3Bcoupon.cart.channelAware%3DchannelAware_Enabled%3Bcart.cartfiller.personalised%3Denabled",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765097055.83138,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "microsessid",
-      "value": "103",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765097141.039114,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_xsrf",
-      "value": "R7KbR4AGBSDUYlKZccFU0xPC6ufnqTEX",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1796631341.039606,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "mynt-ulc-api",
       "value": "pincode%3A500001",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1799655255.97464,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "mynt-loc-src",
-      "value": "expiry%3A1765096695973%7Csource%3AIP",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1799655255.974793,
+      "expires": 1799672165.291064,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -237,26 +107,6 @@
       "path": "/",
       "expires": 1799655256.224729,
       "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "ak_bmsc",
-      "value": "5981E1DE7224572DE6CD4C36B8360791~000000000000000000000000000000~YAAQDyCwe+ZDRaGaAQAAtzDg9x57mz2H3r9Aod+W0WVCqA5Cr6G/upW0Z6OncSLNVN36qsc5Ew+lYmUsB8xzLNP05hRBTOHvC6I5KcYPslqhMbmF1G2B8qJF21ZY+Lr95/mX3D412qDQCr1ajsh4ohlMTkSRm+6xQFxD9RXsI8cIvWHc57IpUkykKkmLYdh7TnWbWhHfNw7vC/1YbuKElOiNQCkoJejDjjVTQaIPslnYeuXu26CBHmEJrxga/Fjrfq2KlfOVQ1+0TM/RrSHgUBngnaskGCnpnzRIf6N53GDRViUqDL2Ztfa8cHxXt1/W5at4AW/5nnk8nCOng54sGRvi5U5Stwp4zkERN08lX5cWxMlpV1jijuNa+H0u8x2qqG2/N4qlOoGPbg62OPOyHijIn9jLiMi2XR86zUR6TvC4/3GreW4EBwnz8h8AAcnTC0ERFZ52NVYipufo74jPBzluuYoPDRVqqUXK",
-      "domain": ".meesho.com",
-      "path": "/",
-      "expires": 1765102455.261379,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "ak_bmsc",
-      "value": "D0E1D1F4A11BC9D4BDA05143135D758E~000000000000000000000000000000~YAAQVnxBFzZB86uaAQAA3TDg9x6j+14skmWgwjFNSrKZjTSNzHbaWqKIJLUs9mXrA8uUmMeFYQFWswRQdqqlWPP1Io8J70gj44f4A0bLotfoi4fU72RE8VLaTF5Wo5rZV/VNdn88yKrlsP4DWt+kK9y2D/ysFpIs0lMOb6xd/0sAn0bVT64mZn0qfNQk3ktuVAGZTWycYuTPhKJVMKK0L9MRXP/B00qQIJQ4z27hygb4CEHzsioRQNeONp9NIJyIzL3wnCJSba1eZCcI4zL5wryFroqODmJRmMIr//oKKvsCeoo/T+hOoAWLfh1wetWFcGd2VyHyuxlP1PloCIlVnUBZq2N3bA07LkuoHqsR39iY5tZ88bferE4f1Q5twsx7ioozYs2kt8I0IyqFMao3jMd/cVyZa5A4UaywHwRtX2mSu3kuXtFmdbDV7yHdQFwJKcvATgwzK84WecIa+0D4EGeS9FAt7HE=",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765102454.292291,
-      "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
@@ -275,7 +125,7 @@
       "value": "1",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1767687341,
+      "expires": 1767704165,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -295,7 +145,7 @@
       "value": "fb.1.1765095257696.5879061109499854",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1772871342,
+      "expires": 1772888166,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -385,7 +235,7 @@
       "value": "B",
       "domain": ".ajio.com",
       "path": "/",
-      "expires": 1799655278.910634,
+      "expires": 1799672166.765559,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -395,7 +245,7 @@
       "value": "fb.1.1765095259743.44319670250926430.Bg",
       "domain": ".ajio.com",
       "path": "/",
-      "expires": 1772871280,
+      "expires": 1772888168,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -415,7 +265,7 @@
       "value": "GA1.2.1951901335.1765095260",
       "domain": ".ajio.com",
       "path": "/",
-      "expires": 1799655280.387136,
+      "expires": 1799672168.597433,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -425,7 +275,7 @@
       "value": "GA1.2.477884646.1765095260",
       "domain": ".ajio.com",
       "path": "/",
-      "expires": 1765181680,
+      "expires": 1765198568,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -455,7 +305,7 @@
       "value": "65951ab7-cf73-4fa2-a7e1-2a60fd08ac3b",
       "domain": ".ajio.com",
       "path": "/",
-      "expires": 1796631279,
+      "expires": 1796648167,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -475,7 +325,7 @@
       "value": "dWlkPVl6a3pNalV3T0RJdE1tVTFaQzAwWkdJMkxUZzVZMkl0T0dKaE1UbGhNMkU0TnpZeQ",
       "domain": ".ajio.com",
       "path": "/",
-      "expires": 1796631280,
+      "expires": 1796648168,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -485,7 +335,7 @@
       "value": "1",
       "domain": ".pinterest.com",
       "path": "/",
-      "expires": 1796631280.436134,
+      "expires": 1796648169.022733,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -506,26 +356,6 @@
       "domain": ".ajio.com",
       "path": "/",
       "expires": 1796631262,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "ak_bmsc",
-      "value": "E50754AACD1C22B04D7120534B55E722~000000000000000000000000000000~YAAQ1wxSt+llKOSaAQAA9Urg9x537f1X0PGRSMdBAY0iEfOCikZ3fr8lWeEr8VmiXNfH14PVbXgz7Hq3K8mVWIDOI5Kp6DP6fK6inGbMk/lvxHaBN34ww9iJeS3fjnxFGmu4rbOhBpARHa+Qa3gWW4TQ+w1M3AbOFJiuHfPUqZDL/570O5vR3ooLgn+q40yCCHS6UDjeytwZUaD8OOkS1IZVSshLvj+pnEHXxCE0702vdKDVma9i46TpVx7vaFv/MSeOVLSIvtjMiYHvxcovXuJIQ8KBQo77shhKG4HLNSglJxqwiFxyjPQbMKEp93dz9Z0IFVTJ9vVDcrf1Cw91wyWjg4QhdkqKugQK7VJnB6zm08eRDGo3kQhZocrsCYRvCQr1h3tjGOnMEsifmi2RLxV9Ekjxq9OOdxcpAo/R1ZXaUg==",
-      "domain": ".ajio.com",
-      "path": "/",
-      "expires": 1765102459.978388,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "ImpressionCookie",
-      "value": "0",
-      "domain": "www.ajio.com",
-      "path": "/",
-      "expires": 1765097063,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -579,7 +409,7 @@
       "value": "ZJfxS3TRV2CRvjvrV-c9xdtnkcaXMDNZVKyMzBrTD_HvvxDHW7gj0dsptc8FMPXqsgbgQgvjfHIUzP0YzjKTxSnMO8L-qhLp5bu2oh8tjf8.",
       "domain": ".adnxs.com",
       "path": "/",
-      "expires": 1772871286.115284,
+      "expires": 1772888174.527547,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None",
@@ -591,7 +421,7 @@
       "value": "8602284145323934572",
       "domain": ".adnxs.com",
       "path": "/",
-      "expires": 1772871286.115488,
+      "expires": 1772888174.527945,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -671,7 +501,7 @@
       "value": "aTU3ZBdaRKsAE0J1BxLpQQAA",
       "domain": ".casalemedia.com",
       "path": "/",
-      "expires": 1796631286.088058,
+      "expires": 1796648174.312703,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -691,7 +521,7 @@
       "value": "5480",
       "domain": ".casalemedia.com",
       "path": "/",
-      "expires": 1772871286.088256,
+      "expires": 1772888174.312767,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -711,7 +541,7 @@
       "value": "k-mEMZlhxU5pu_ECivqKFJaG3JsaaB5FlG1pp_mw~~3",
       "domain": ".media.net",
       "path": "/",
-      "expires": 1767687285.092903,
+      "expires": 1767704174.438805,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -721,7 +551,7 @@
       "value": "CAA=",
       "domain": ".rlcdn.com",
       "path": "/",
-      "expires": 1770279286.103679,
+      "expires": 1770296174.425496,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -731,7 +561,7 @@
       "value": "aTU3ZMCo8HkAANRuMxcAAAAA",
       "domain": ".socdm.com",
       "path": "/",
-      "expires": 1799655286.324738,
+      "expires": 1799672174.583139,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -781,7 +611,7 @@
       "value": "MIVG5E5I-28-IIEB",
       "domain": ".rubiconproject.com",
       "path": "/",
-      "expires": 1796631285.896599,
+      "expires": 1796648174.167808,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -791,7 +621,7 @@
       "value": "MIVG5E5I-28-IIEB",
       "domain": ".rubiconproject.com",
       "path": "/",
-      "expires": 1796631285.896665,
+      "expires": 1796648174.167879,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None",
@@ -803,7 +633,7 @@
       "value": "1",
       "domain": ".rubiconproject.com",
       "path": "/",
-      "expires": 1772871285.896781,
+      "expires": 1772888174.168,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None",
@@ -825,7 +655,7 @@
       "value": "2793213102886999825270",
       "domain": ".3lift.com",
       "path": "/",
-      "expires": 1772871285.954443,
+      "expires": 1772888174.223516,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None",
@@ -837,7 +667,7 @@
       "value": "2793213102886999825270",
       "domain": ".3lift.com",
       "path": "/",
-      "expires": 1772871285.954625,
+      "expires": 1772888174.224259,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -867,7 +697,7 @@
       "value": "%7B%22rx_uuid%22%3A%22RX-31fd9abb-11b3-481f-b5d4-871c99739f0d-004%22%7D",
       "domain": ".targeting.unrulymedia.com",
       "path": "/",
-      "expires": 1796631286.009039,
+      "expires": 1796648174.606878,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -877,7 +707,7 @@
       "value": "89f57d80-1080-4f4b-8673-c9a95be6a438-tuct102ebce5",
       "domain": ".taboola.com",
       "path": "/",
-      "expires": 1796631286.083523,
+      "expires": 1796648112.479237,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -887,7 +717,7 @@
       "value": "89f57d80-1080-4f4b-8673-c9a95be6a438-tuct102ebce5",
       "domain": ".taboola.com",
       "path": "/",
-      "expires": 1796631286.083719,
+      "expires": 1796648112.479513,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None",
@@ -935,66 +765,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "ak_RT",
-      "value": "\"z=1&dm=myntra.com&si=65259ce1-dfe0-4cde-8dc6-00b517f8818f&ss=mivg52xy&sl=1&tt=6a2&rl=1\"",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765700078,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "bm_so",
-      "value": "4AAB7D94A97843297F097CDB69AC143152CD47F6C0E860C73508F1461AA1AE77~YAAQDyCwe7FFRaGaAQAAeYbg9wWwUf8T2pTE2phEPKKRukgsonGkahvrf5rGt0OF4Iuo+lSKDtAFmhi9CCjUu2HKeSEKAUCzHbLY1QQnR5rfShExeQ6ZO6Vow9ZnGLkop6jqiATTapor7V74d89vnHgXnk6AOuPHJYjVcW+zaEj6ML4FBpBTlc+RcLpuvUuwXSTvyzuVIwGFHHBjWwShRdTLDhr5Gc+Oosckiup/ppm6XepvqJhNXaMI/fK+y6UDxT7s5FKCq6nJ7UBRB8zQHRwWDKCNtFjwkorj9lNW8vUgz+/8tLvDK9rjLPU2NvtfRW7qkHUfEXUNnIdLGqTLyMaNv7OOq3UicL+JRqxDxWSj4p496hGprynC5ePuNpyfd/teEWb8bcxlFVpEPh6ijn+VLVb/vz5ckqksWtke5RS2LzDKTA/hekIhz9NK6EJdud0t1OZqy+1jsCwlAOwiyKcFT+XZUFP67AGfsJj0JxUC/qEP7A==",
-      "domain": ".meesho.com",
-      "path": "/",
-      "expires": 1765181678.211247,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "bm_sv",
-      "value": "7365A9C7DBD3067ACD5EA7CAA8B6A189~YAAQDyCwe7JFRaGaAQAAeYbg9x7KHJIi4Or55CQptms5Y4u+4c2IhsUurx8cQuAnKRt6KqQSVLJuVr8Jtpj85kNaczJ27pQWZeZ9KTXjWgabDd+9XkTKJQ0JAm3wU6SVVKzaZ0QTZCOQISIm1SdT7rkG7xRP/Vdzs3CWO2QWWWY5iSkNwAl33DcyZZZUxkUMVQQ4ljD00hujTDpCAwTLtJW1cBrIJiLO23JhqiCBSyf55h6zaJkrJpTMlM7tb/Ui~1",
-      "domain": ".meesho.com",
-      "path": "/",
-      "expires": 1765102455.211363,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "bm_sz",
-      "value": "269515A8D736C63B37B4E77175C788BB~YAAQDyCwe7NFRaGaAQAAeYbg9x4gsMkyDQyzw50sbXKEP5nCxKUgn3iYIL7uX6w46fZQyi0GMmZa1+3WBsshJEjY9T13LnZPFsZZf/YyORFScAYyJnv6S/MDFx90vEmDwbeS8Jtc6AHtFh2EOwIO2nwR9cMXyX1Dve9+Dbno97UNZwQtI96wtFZ6BtxtLpX1OTy3ocofh372RNHmUidbvPIJ1c61RxfRdwbQ6cb2LHKsn2LB68Y0GhhLvdEjhb3ovzcDzhUOvflZYWahS9mGOKElYvaUPfSQDGuSiRiwWq2hoPd/53sc0OzUp3U8P0NLsdpqTprCzG9GZfexPuFbt9DgiS4q5he3unQ1mbEIr6aR2AXh4wXg0xtxOSUsIcFrJtnGT/7PCFCF5hmws26cBHjDsitl+dCEMhQFbkYrlGUHD3Vf8TLCWY8=~3753273~3684676",
-      "domain": ".meesho.com",
-      "path": "/",
-      "expires": 1765109654.211545,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "bm_lso",
-      "value": "4AAB7D94A97843297F097CDB69AC143152CD47F6C0E860C73508F1461AA1AE77~YAAQDyCwe7FFRaGaAQAAeYbg9wWwUf8T2pTE2phEPKKRukgsonGkahvrf5rGt0OF4Iuo+lSKDtAFmhi9CCjUu2HKeSEKAUCzHbLY1QQnR5rfShExeQ6ZO6Vow9ZnGLkop6jqiATTapor7V74d89vnHgXnk6AOuPHJYjVcW+zaEj6ML4FBpBTlc+RcLpuvUuwXSTvyzuVIwGFHHBjWwShRdTLDhr5Gc+Oosckiup/ppm6XepvqJhNXaMI/fK+y6UDxT7s5FKCq6nJ7UBRB8zQHRwWDKCNtFjwkorj9lNW8vUgz+/8tLvDK9rjLPU2NvtfRW7qkHUfEXUNnIdLGqTLyMaNv7OOq3UicL+JRqxDxWSj4p496hGprynC5ePuNpyfd/teEWb8bcxlFVpEPh6ijn+VLVb/vz5ckqksWtke5RS2LzDKTA/hekIhz9NK6EJdud0t1OZqy+1jsCwlAOwiyKcFT+XZUFP67AGfsJj0JxUC/qEP7A==^1765095278349",
-      "domain": ".www.meesho.com",
-      "path": "/",
-      "expires": 1767687278,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "user_session",
-      "value": "7KD6BpCCM7iLNZuwCDi1-Q.vP6ISX5f7Z5FJsPpfE3kV9-qsXFjBmivCVIqqz_3RosDlUzBfmP6KzJxkzlGVrq8hlQQXQfKHCn6I62elm2OgEvnz2_Gvjty50QkSePWnNyUotLzaqmTYG0GcaPRuChVPgP9WghBND-mcd0xlZS0HQ.1765095255813.86400000.MMHIA0Nm3U-zxEMbq3-4G0aGI_il9rm0cH_mkQruFEY",
-      "domain": ".myntra.com",
-      "path": "/",
-      "expires": 1765095878.445086,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "ubid-acbin",
       "value": "522-6079207-6747908",
       "domain": ".amazon.in",
@@ -1015,36 +785,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "sessionStatus",
-      "value": "true|undefined",
-      "domain": ".ajio.com",
-      "path": "/",
-      "expires": 1765201478,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "FirstPage",
-      "value": "Sun Dec 07 2025 13:44:38 GMT+0530 (India Standard Time)",
-      "domain": ".ajio.com",
-      "path": "/",
-      "expires": 1791015278,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "session-token",
-      "value": "qGru25miegZ7ov7BT19UZlF5i5o35XNNrhVcHB9uAnT2G6Jypmei7CQEQB3leNWX2yaAHCqZcpWmjXD6w7kPVc2f1rOr8HJGaIs862G/RwoKP+H4VYUpzYeeUT9Ye8s/LHfEkXRNvhGTD81xWHT6Nydm8AVjybX5UmZ2Z7gwjwAXW/IC7XZ0nuPpxEHtLrvdVOxGluc+1mz0JTYn+y2RjZLb+TIO5CSzvAWnGo6nRkvAwSdqVzdmDC3etbhsLXOof2IKhGhiGkoXDtQTj3md6+HJ2K8ddhQKQ9DLBBXi+MaBCg04qfLJK04uYbmSqLX1H6T+vvJVn3+gQJK//vT0ORnfzH+SdKFT",
-      "domain": ".amazon.in",
-      "path": "/",
-      "expires": 1799655292.956174,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "ad-id",
       "value": "A4HauCRCskc1tJYXzsSPkTg",
       "domain": ".amazon-adsystem.com",
@@ -1060,36 +800,6 @@
       "domain": ".amazon-adsystem.com",
       "path": "/",
       "expires": 1799655280.156072,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "_abck",
-      "value": "E713E0ABDF69B7BD7FC53876D56754F4~-1~YAAQ1wxSt4JoKOSaAQAAWo7g9w+6bpF/gsaawEGEoOZjKlqrf/n9CiGtQPWU+Pf7mJhMSzy2Woa4xfs6NMXtQAXnlb2qf8xfT1feynrIp087+m56mYwPZ1Lxk1daZQnbbiSOZYox/TVl/FtmzWQ0D2qjLVimLUHTKHyTHxGe26eYp4Qa2diNV1CXTrlyGqqOtfgUsQnmK7hTJ6AkKwcDTgUBuXf4m1FGAL6iNYhCNvPaqx7Ofwv4a56jizXMYfF00In1uVZ4YbPCvTuLZSnSXJehxiJM21CC1JPk5pdAKVOB9A+6JacGMs0sJymAKqJoXoTNCDFoGoyBfnnmGbZdywe1j+hnpxR2TC23B9KOWTnn7axRniB3zHSSWr4kDHS35Nz+dcHTZsIOSWHTQMiT1vFxLyiYkSbvpVLh0qlMZM8AS2+zb9l2RhhePzZzKytNTu5omzESwO56PJwpuhzgKzbM6MSGzAo9SEKvaeRdYMj6BdrM/Dq6UCapHq9MQp+bHalvVkTeL56CuqM00FpXkvLiRZ+2vDcw5yTWRyahvatKlclDb8RLN0u/AFIoX1BJ6AZbaj5ZTWf6hiy8vVBgUUk6LX5hdA8tjyWNhuMeIbaPcWlI6pt6ZZSkV42iQiHyOxvWNFWsZ/b9RZKqFCNHF1UVhhNLJTnzbYMiR2BrCxOX~-1~-1~1765098859~AAQAAAAE%2f%2f%2f%2f%2f7tpdp+00iDoFmJRM9gjdy0th11KmUik+E3DTBXLrHj+0aBe3HU+T8RAJQVOuBSsfbCaaWVC9r4P75yrOZf9wOl77vKmaRhhKF35~-1",
-      "domain": ".ajio.com",
-      "path": "/",
-      "expires": 1796631280.224752,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_pinterest_ct_ua",
-      "value": "TWc9PSZUdTdhdU51dWtCQkpQdDRldVVnNHZaV1lKZFpRVlhFck5lb2VnUkMxSEZ4UExmYzU2VTdDaGFxc3kzQlU4dHFXREpzQjJ3cFFUR1cxWUpINVdxWWE1VHhVdzYwRWJBNEx5MzVBOEk2TjJybz0mN05VZkxWaXB1ZkF4d3VrUURScE5tNTB6N1dFPQ==",
-      "domain": ".ct.pinterest.com",
-      "path": "/",
-      "expires": 1796631280.436365,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "__cf_bm",
-      "value": "PtmEmfVWS86AtXEN3OhTehCTKA9BysiuTjD7cItqgag-1765095280-1.0.1.1-AugAVsy1hXPr8KPV49cMAXaTRQu.AZjO1GnoSl6uXKZrfzgAsZsYF6DUGHyeJbxkn2OUnTSfKz3QaeXE7Wj4CqM.FtcIORA6OOnfiB4XxSg",
-      "domain": ".izooto.com",
-      "path": "/",
-      "expires": 1765097080.445519,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -1127,21 +837,11 @@
       "_crHasCrossSiteAncestor": true
     },
     {
-      "name": "cdigiMrkt",
-      "value": "utm_source%3A%7Cutm_medium%3A%7Cdevice%3Adesktop%7Cexpires%3ATue%2C%2006%20Jan%202026%2008%3A14%3A40%20GMT%7C",
-      "domain": ".ajio.com",
-      "path": "/",
-      "expires": 1767687280,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "csync",
       "value": "79:k-gllzoBxU5pu_ECivqKFJaG3JsaZ4FWwa0pGdCQ|145:ueGJS987QgaX2YaLos_q1Q",
       "domain": ".smartadserver.com",
       "path": "/",
-      "expires": 1767687286.898773,
+      "expires": 1767704175.343761,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -1261,16 +961,6 @@
       "sameSite": "None"
     },
     {
-      "name": "cto_bundle",
-      "value": "lBtXjF84JTJCZHVMbFZZR042QjhCMW1OcWtSaDFOZGtjRXZnQmdKMDI0SnhZa1VIWUZSU1ZraiUyQnJZMnBtQkdEeiUyRkZ4UkREOGVaSDU1WEhnWUR6czQ4RVo2b0xIUkQ4eWdWVFVWTGVVJTJGUzN4JTJGb21yc2NGYnlOcFZGR29oSldaSkNPT3JFQklNcTl2M0VJcFphVTIwTCUyQm94ajFWU0ElM0QlM0Q",
-      "domain": ".ajio.com",
-      "path": "/",
-      "expires": 1799259281,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "tluidp",
       "value": "2793213102886999825270",
       "domain": ".3lift.com",
@@ -1281,16 +971,6 @@
       "sameSite": "None",
       "partitionKey": "https://amazon.in",
       "_crHasCrossSiteAncestor": true
-    },
-    {
-      "name": "bm_sc",
-      "value": "3~1~252122748~YAAQDyCwe+BFRaGaAQAAjJLg9wbXekjmI+hSaePs6LOPGFE/RHNYPRsOZ3uvzl4sUZb7HhVpRhJA4jWw8KxJVxKftT1c5gDi9HS4xLwqg9QnmSr15fjnVfPdInea7I9ZoOMYwzQe448SY3WVrIQ0YXyzFf/1bl3o0+GzwudPF5C+ZLslkHlXfnW9eVzGioKdg0hL7cTSckyL1C6dkRFMl2TQJEn+VX6fLpdpgNbjpeeaqHJBsz0W2rp4kDQaLRfh2eaYwEomET9pti57AlS+kNwa5qoNJf7LU0KkGafa0RgZzikHcDY4EYv/fZ7o0ZoijnNHWC+IltxSms68OokT6oWFMYqQpM5pPesi9AePtqM2O+fKBv5fSsU19gW0sGuDlqF19u16mDb62WNpyX409pfUnmInLAdaElQ9jKydi1wSpAyWaED4WzSRfns=",
-      "domain": ".meesho.com",
-      "path": "/",
-      "expires": 1765095938.300722,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
     },
     {
       "name": "i",
@@ -1463,110 +1143,6 @@
       "sameSite": "None"
     },
     {
-      "name": "bm_s",
-      "value": "YAAQDyCwezhGRaGaAQAAh6Hg9wQBd0GOcfHE0PPUBOMOKvjF+Khdx2k+JhbquEwIcsKP2f0CN7V6+hgzBduaUw7WzjAx3TXHEPF7joq4uxSe0q3cCw4A1NGWW5PImpYw3bMDica/i4cd6STxpqJKQhFOzQi2sXh1H2ZqI+RtZhJIXckOmQJ7Ih4EceTth1B4spDrpe0iQPLTcSFaA7Br53RtaDW1WdHXVO/r2tBClTgr5ENJNSqOakUF3rANKS21jdxcMblttUCTau6Ef4WnW69P5XV1KEcRF1bBHwpp0b32IO/MrllHp4jz1lI2HDmr7EBWB+ZnVlS3xl+kRzkpTIeogEP0YUn40bQB5RWC0/KL6shoXQXwlKJxuWRx8aNsKGW4kH5s7zHE5BuvEXcWDwNu+WIc3zAcq7cZgCxLRxZsma9YdvK7+nnLN/NKf4Hkkv3L9u9jNC/stVA0R5+Z4RNCuLpmvg5bIXE40GeCWXeqPgIPi7L/8sz2uUKPHKWI7ZRAaYjYbpQfrQ0hw1MghBpVxUL9RrWzJOEu+ViKghHvrgnCt1rx2y83LF9bgc9Dyq3kXcvEKgroQ2ufi3U=",
-      "domain": ".meesho.com",
-      "path": "/",
-      "expires": 1767773685.136558,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "SPugT",
-      "value": "1765095285",
-      "domain": ".pubmatic.com",
-      "path": "/",
-      "expires": 1767687285.890952,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "audit_p",
-      "value": "1|WNdZ3eO63nQ2Jq840K6iBsbN1LKJ8c4aXu3KfNNqkb8tKixFwPd8V/oZlCxJyj4u+vNt1EC1DfwwHTRO1/p4iCck1N7K9KkV0dqlR5NoluSCD9zFQIvrTSkRjfTy53Bm6UJVR09Fa9e9zey7VUo0/cjosJDSfMt2G9TrYQYjMU516h2LKXkYaJDy+KCnXKr4N6JXMcYuiJM=",
-      "domain": ".rubiconproject.com",
-      "path": "/",
-      "expires": 1796631285.896387,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None",
-      "partitionKey": "https://ajio.com",
-      "_crHasCrossSiteAncestor": true
-    },
-    {
-      "name": "audit",
-      "value": "1|WNdZ3eO63nQ2Jq840K6iBsbN1LKJ8c4aXu3KfNNqkb8tKixFwPd8V/oZlCxJyj4u+vNt1EC1DfwwHTRO1/p4iCck1N7K9KkV0dqlR5NoluSCD9zFQIvrTSkRjfTy53Bm6UJVR09Fa9e9zey7VUo0/cjosJDSfMt2G9TrYQYjMU516h2LKXkYaJDy+KCnXKr4N6JXMcYuiJM=",
-      "domain": ".rubiconproject.com",
-      "path": "/",
-      "expires": 1796631285.896724,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "um",
-      "value": "!416,NgaFooOJwHsZyZekxl7ev2J5ioo312IgGAHcJTroVWYZeN1PUE7JqWGKWhimOg4WP-KT5Q,1772871280!38,SPEUY7vxYUUKit0iE6DK.KD4pyrDaMSFA5ZZ6Jto-P-NagKJP6G10NO2mmapd96Uu3zQkW.gArWG.8b8eTw6sQ2T7bk,1772871285",
-      "domain": ".360yield.com",
-      "path": "/",
-      "expires": 1772871285.9063,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "umeh",
-      "value": "!416,0,1827303280,-1!38,0,1827303285,-1",
-      "domain": ".360yield.com",
-      "path": "/",
-      "expires": 1772871285.906395,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "cto_bundle",
-      "value": "ntk7wF9icFZTQnIwVTJoZGthdlhqWXNIR0JpN3NUQjNWN2lYRFA0eGxiRTclMkZhbiUyRkhYTUlSUWZMaW15V2JTS2psMTNHTUpxNkZJNlF4ekZ1YjVjckIlMkJ1UjZsOUclMkZIcjFpYVQ2QVMlMkI2WktWMXVyVUtqbSUyRjkzRSUyQkFvUGU0aTZFMXNKVGZtUWt3a2tTRGxxYnNGNFQ5NGZWV0REQSUzRCUzRA",
-      "domain": ".criteo.com",
-      "path": "/",
-      "expires": 1798791287.080132,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None",
-      "partitionKey": "https://ajio.com",
-      "_crHasCrossSiteAncestor": true
-    },
-    {
-      "name": "data-c-ts",
-      "value": "1765095285",
-      "domain": ".media.net",
-      "path": "/",
-      "expires": 1767687285.093358,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "rlas3",
-      "value": "BazARbEQKzcQYI+8PRHMpXFHUxEtLR33kLBgtVkf9OM=",
-      "domain": ".rlcdn.com",
-      "path": "/",
-      "expires": 1796631286.103524,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "anj",
-      "value": "dTM7k!M40mh.v04ghqdmU(3$1m6J4P#[2REN:uKeRh0MLZLmm*-dvJ:-uKoeQ$p5'S`dBG+9#Q!P8rr$:W^UwDCOblp*/bwN]QCyRq?*tmi(:f0Kf+%ekZIYe52Xz+hkpvSqt`YG3JJTs-9IK@u<w8U3@/T@PkKHAr3P4?(--w-=jrD'F@6mnx4i7!li$qIPt`7L.:7$a=$?n<S:-$KyAuHYZM.o_5kYgP-HC_#u#-Q7Wk%]",
-      "domain": ".adnxs.com",
-      "path": "/",
-      "expires": 1772871286.115432,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "rxc",
       "value": "AA+zLBRawWWbjr5lZXY",
       "domain": "www.amazon.in",
@@ -1577,135 +1153,667 @@
       "sameSite": "Lax"
     },
     {
-      "name": "bm_so",
-      "value": "954BAE451A1D04673061BA1ED3B79FD6FBAE1DCA96B5D474AC33DFC95CD8D9FD~YAAQzwxSt7BgK6iaAQAAICHh9wXyplglp57r5ZZTiAgQhhy1ludfj/HvltYHHQsHQsEPd79FB+XtmXM++NSgr3CvOpsMTXhsFLiAgp3P7FDQ+IC0BHis9KmreqpKBGcZe2beZxaRlKPEvEmEto43UQ0cvVT4XIY9J4RFUb3uwRZ+HMtR4f7QemfbagAdAPefN6+ziBhMctKTDppMdzlNyg7qOh9Bhu9tRZPQOFzxRIkBNZVXc6xw+g/3jg34msx3SJtieMFudCy64SMYrXKMZRvPYpAIP8JPP9iuPvK7M8a8v31FNTom/2U/2PUwyccOlexga+LlvWAIFNpTnQBST+82f3EnBjVt/NAZSTM02tDr2J13py1x3fyXbhzwpM3Rv7KAHbvtvb09irsUScfpWAmVe9DQgOsPMhLBmW9uFdL0eF7CRT/Op4h0Zuw/DOSN5JDHJmil6KeMtK2wlGsqoUjRK2qjA2uXPWpaWp25rVZNst4=",
+      "name": "TS01d405db",
+      "value": "015d0fa2265be78615933ef91efb58adabbcd18c09fd784935cc13cb2f3d9cad527ef240bc1d0a431b0a7ab71f0350db32d21f07e0edd3dfbbc2f75a559a2405ddf8cfdfb8a5ce08bc22fa97f497c352ee9e58d5a1aa0c2f37967aca015c2ea73d568368a0",
       "domain": ".ajio.com",
       "path": "/",
-      "expires": 1765181717.800788,
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_ss",
+      "value": "ab8e18ef4e",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1765115701.848179,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "iIzg192_ZIS2POuGuZ1FeFt2ZRtXy1j2Yz_1sjiCcA0-1765112102-1.0.1.1-mtAzU_ukHP1Jr.zhhVcfxRWq_qZxjj4EDVOkvLJhqXwtNFM9DjDdVLe8jIKSvAlszT7c8iqpbQ3Ex_FnU9USClDvjwScEbPWefGLMV_oTys",
+      "domain": ".pixelbin.io",
+      "path": "/",
+      "expires": 1765113902.519848,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ImpressionCookie",
+      "value": "0",
+      "domain": "www.ajio.com",
+      "path": "/",
+      "expires": 1765113905,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "7FC6BD3E5B14257079B5241AA09C92EF~000000000000000000000000000000~YAAQX0XHF+sGp+iaAQAAN03h+B4StJg1PI4LJawwBea6wuw/Ixq+vHiLDun0z/OlESG5ZCG+Fel8PLrT83rQ/IlHSsIKlW0dWuNdcUuN9Q0Ith9qzxisT3nmqoEkpfH6FisbU4c8hyo90f/ymryqerVC2s0/P14VHaaRru0D/vZQa4LPEYX/AmVgoearQ8tLshV0PVIUkpP6q4xpKC/furFCUm2Yu06Ln+AWq1ZEwzp7t1Bs+Rwn29+YU8QjpHw67Sc0JoC1o3zHYFPt7wdOESvdZaHYkiklRQp5ZS95leDsCsL/Q/CmaazxRpzH2NT7eW0JBoAe3fFQlrNNm20/pyX1nDz0tSlDACj1R/pWrWa4cmDloV3Zfe1UL3KOGPJvOIMQNxRZKyg1FOBdo5fQLsn9MKB3Al9e8nLRLvirGcCCFQ==",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1765119304.634447,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_ss",
+      "value": "ab8e18ef4e",
+      "domain": ".meesho.com",
+      "path": "/",
+      "expires": 1765115706.895746,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_abck",
+      "value": "BB2DA98B015637E3B645404E534FDEBD~-1~YAAQDyCwexm4SqGaAQAAik/h+A+d0SKSNJD3McCzur9O29EjqNy24lOUQCIn3fYjPBG1WIAevjZMh2h/NSORC8NBo+npa47lP8ZLP09vTmN4jMl/jGdUgwIjzSb6FjEYfTgoDCBjHh5PCD7LnVxhmcy36h/v53fKluJT5dYPG6nkQVC+knYW8KPRboLrbtW5EJ4KrruQ6VDBiciPpoJZfNQwM7FbtD0F8z5OI8O6tR/N+ATUj723wC3EhN7yeueO/vOOZWo9yFzZOA5s+pEunHcR3PZPBhv1/JYL5MxBFHm4kxqAAr0nEjhTvc2Vtnypx50kvNXLwviRLiZjoJ29ipT6nrgbdnOmSFMgiecx+C1oYP7Em+3HBLisGc7K+aLX1ekf+1iiQ0xz3iUUFu8olJ7rM+8dLGebapy6F51Nx/vgW8ech3y2jZzB15b5870Me/4grwIaLqRg2jLoKytsDOgFIikH2Rkj4j6GdTIxeJuT/N1dK+gaoUTVhcjljHFMFrA/0Sv0IOgprKbFdqDH/GxSWvSRR4xFxGzujCVcYFdjYsmLEKUJNSQA1Uju9sN2IHDr15DtHwxTbg==~-1~-1~-1~AAQAAAAE%2f%2f%2f%2f%2fy4roBPxLSlaIuJOPdp3Wl%2fx8sfTOM2aOuJ4fDXuFGmsPKN6U0AGKrC%2f7BLJiueJiRugd6Zsvj87NC9+tmqTszqBQgi7jGvV1mrF~-1",
+      "domain": ".meesho.com",
+      "path": "/",
+      "expires": 1796648106.895945,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_so",
+      "value": "9622A92B416992402AEE6B6B2CA448A9DA911DD6BC9529D2516AE4B11EE42F81~YAAQDyCwex24SqGaAQAAik/h+AUcgnBxxQQ5o7fxAL5fEvPxWjsTL3WKB+u4j0NzYUB97sNqDfRYGGYQcJa5Oagd07g2pUEX6Eyd4hBEmdo4SB5cD3uvbQZMPwvcnugAw9yMeqhfYG+iApBuB3er4GkLJTa8770DE5Aqk6HZ/18gXFHp6bQReCup5WIsF2E+UBcWCob41VTXS1zBbO2SkVhRgAX/Pb2JHY7UWc5vYkFYIUOOGuhmDk2HMOviOYLZdQcXt5IMIRrFB+2KA6ubJaUtIBTOBB0kS4h5f1xBtLKc+ZAHRDaHyN25PmSAIh1wl59OZYXMiMKIbmSDWGZNxVjgztbbfheF7WAarPRtou3VT7fOK9ISJNL8BM1M1Bi/AxDTjvHHL95IJ5ikEpTz2VgE+Ux7U0ObbcfxC5D6kBgV1QOOHBjh6gqGR3lkopExc/WJ7FgW9d4XNMQ9SpK2tLsIPMR0JNNn7yzXHfBcsaicelO9tQ==",
+      "domain": ".meesho.com",
+      "path": "/",
+      "expires": 1765198506.896438,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "bm_sz",
-      "value": "3D15433D81E32BEC7674FF7707EDFFD9~YAAQzwxSt7FgK6iaAQAAICHh9x7V3sQHMeijxp4LxgAhE6LAqCIkKJEQ9TK2vOxt1NYYuiaOVSgh2iaapwoFLR6H5qZROICDO1TzeDAT5HymKVfqG6pzm6TyVrHQLKQa8zwqujts/jvnMXwRg2jvXHdpNfnVqlFb7XolUyy2x8zUu++eSE2WoTWm5AzL6qa8rZ5DWhHzBo43EULFlnWIC9IwRBniR1LGQ8kjDt5vBmZ09dn3xap4wU8z1WzPju/7JZ1kJNUHBxZB6pWHF0En3GAWui7IvVD5984SPgRCSlK1VZ7OuzLdEX9dXTIw+us8h1BsFZ0cpX/3L7bpXCyx5pZ17ZotJHJPHuYHNFfKnybjeyn8e0gitvk7jV3HC/YwwPGBBA5bPn6uhFTr8KCury00q+t4haH9QwwSDGAXlvoTvA85aghY5ZRmog==~4405041~4339256",
-      "domain": ".ajio.com",
+      "value": "89BB176E4E378774B565EFC28D78701E~YAAQDyCwex64SqGaAQAAik/h+B7pV0G/pppRyBVJpIKVLQAl7pQy+OrMFIHtaHUS9beOQc1Obuu70O3xktpnoG7m8iKTEkdGpqgbzPJUDLiVKdG2Zn/UAtnM3rFnLzfKWq+frTTtNF9SZ463tnM/n1RwBmUBg3dUkOWPLNEtpFJNnvw89WwnIsLrotwrHAG12EfN2v/iXsreIIgp9mN8qK4wbesyH+G4svj1B/xs9g2XUpgdvwdWFEbco4vcrJgK5G7VfbEBsOG6zwmvW5fEgiZykqswkk32j/YCuBD8Ic/UQIMfZ5rnbaKckRW5ua9NXiPKsSv++9IOmoCuZkJA57BHc7us9uAdY9F6dhv5BDxpak07n0LdcuA+yRNuXc2gq8qMkWqxpDm0rx/uTF8s4UeMQoYVZVxuKrKSyA4=~3289413~3487041",
+      "domain": ".meesho.com",
       "path": "/",
-      "expires": 1765109654.800923,
+      "expires": 1765126506.896541,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "bm_lso",
-      "value": "954BAE451A1D04673061BA1ED3B79FD6FBAE1DCA96B5D474AC33DFC95CD8D9FD~YAAQzwxSt7BgK6iaAQAAICHh9wXyplglp57r5ZZTiAgQhhy1ludfj/HvltYHHQsHQsEPd79FB+XtmXM++NSgr3CvOpsMTXhsFLiAgp3P7FDQ+IC0BHis9KmreqpKBGcZe2beZxaRlKPEvEmEto43UQ0cvVT4XIY9J4RFUb3uwRZ+HMtR4f7QemfbagAdAPefN6+ziBhMctKTDppMdzlNyg7qOh9Bhu9tRZPQOFzxRIkBNZVXc6xw+g/3jg34msx3SJtieMFudCy64SMYrXKMZRvPYpAIP8JPP9iuPvK7M8a8v31FNTom/2U/2PUwyccOlexga+LlvWAIFNpTnQBST+82f3EnBjVt/NAZSTM02tDr2J13py1x3fyXbhzwpM3Rv7KAHbvtvb09irsUScfpWAmVe9DQgOsPMhLBmW9uFdL0eF7CRT/Op4h0Zuw/DOSN5JDHJmil6KeMtK2wlGsqoUjRK2qjA2uXPWpaWp25rVZNst4=^1765095318538",
-      "domain": ".www.ajio.com",
+      "name": "udmts",
+      "value": "1765112107.0",
+      "domain": ".udmserve.net",
       "path": "/",
-      "expires": 1767687318,
+      "expires": 1796648107.20553,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dt",
+      "value": "6FCDF23D-FEAF-31CB-AF20-8386086C3FD7",
+      "domain": ".udmserve.net",
+      "path": "/",
+      "expires": 1796648107.205659,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rtbh",
+      "value": "dHBqCHgLBaP-fY2lXhehC1ADf2BDlVY7S7QLzQiajAs",
+      "domain": ".udmserve.net",
+      "path": "/",
+      "expires": 1772888107.205699,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bm_lso",
+      "value": "9622A92B416992402AEE6B6B2CA448A9DA911DD6BC9529D2516AE4B11EE42F81~YAAQDyCwex24SqGaAQAAik/h+AUcgnBxxQQ5o7fxAL5fEvPxWjsTL3WKB+u4j0NzYUB97sNqDfRYGGYQcJa5Oagd07g2pUEX6Eyd4hBEmdo4SB5cD3uvbQZMPwvcnugAw9yMeqhfYG+iApBuB3er4GkLJTa8770DE5Aqk6HZ/18gXFHp6bQReCup5WIsF2E+UBcWCob41VTXS1zBbO2SkVhRgAX/Pb2JHY7UWc5vYkFYIUOOGuhmDk2HMOviOYLZdQcXt5IMIRrFB+2KA6ubJaUtIBTOBB0kS4h5f1xBtLKc+ZAHRDaHyN25PmSAIh1wl59OZYXMiMKIbmSDWGZNxVjgztbbfheF7WAarPRtou3VT7fOK9ISJNL8BM1M1Bi/AxDTjvHHL95IJ5ikEpTz2VgE+Ux7U0ObbcfxC5D6kBgV1QOOHBjh6gqGR3lkopExc/WJ7FgW9d4XNMQ9SpK2tLsIPMR0JNNn7yzXHfBcsaicelO9tQ==^1765112107717",
+      "domain": ".www.meesho.com",
+      "path": "/",
+      "expires": 1767704107,
       "httpOnly": false,
       "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sc",
+      "value": "3~1~751423281~YAAQDyCwe3e4SqGaAQAABF3h+AYzpDBih4yfMHpZV4gQ9JSLSs0t7VbO7DJqVXqRVWGkfbv1Fcn2+LRh4mLcpxtHhCjTzRdXJ+IPPtdi9ffWNCP737Qr7dLADDL94dmMOsE2M2YZDnSmJYROJn+Kx8U51oPW6TSg7IlsC5RkSI1AazXq8S9paxXoI2gemXacAfZOOaKBzchMMVOwMnHOMlLhRq7lNKdnttNM6Wvpc8r7vateASCepkdLltODBDALOM1cSB1D9Ii+EIAgJ1DYAnh4PRTenrUw6E2oWHkV08X9ePYod4anc5qREHBfP/gc9EYbrC/1ypNIFckZY1Z2PGF4cluFCunuuOufbJwbq9/nnh6ofe4BJM+aSdhqydtxvRHROqz5TJ4ya4IfSyCYJBvI1helHHz2chn5wgLPORrGys4EWr6z82mB7tA=",
+      "domain": ".meesho.com",
+      "path": "/",
+      "expires": 1765112766.345454,
+      "httpOnly": false,
+      "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "bm_s",
-      "value": "YAAQzwxStyFhK6iaAQAAJirh9wTn04BYyL9QKsMDXGw/bDRqm762V+ltH7iToTUZBXsz0kLInbuFw5MyCQeRJ3+bXWw++MnYek+2fQcKUOD2+Xf4hm3Ln9w/fVtxeRcIE1WJ3rqR7uiiM5ErfjPXL+Wjp28LFS/AkhoLztzi3sNG+oAJQ3LSBFnasevNppigMODQY6TlqI053GpOM0xfXr7Gvvb25UCiU057ClVzPgWmE4udc3eclDOAXeJfjewZqC1nzEPFJ5SFTPVVMHkwMjYrqeUTIcciuQ+XacZEdFDUjop/EpA+18bi3m8lMt+qQGgUpe8svgh0pxRy7h0I9qRpdqrCrE6/nuSW/lKHsJaLLrNQg1HzEAPl4OfT9vqRn0pwWCw/Q8l+t5RpxkuGJZ+hHV3ghqiYaZaSVvIe14nGExh9/dgM/HZ5AVpD5ps22iE4scoGMOdiSMJD9apZrkzh5Nl+AAr4FSUgDeLtyNTh0cqIewYtaZ4dnSiSZIJYXoMc/DxAPhlX+BiN0CxEUb3yH9cx94azL0z0IHPCiOCljMa/2cE1+uObYnzrHILVQNlVJjIfY30YHXqFbgc3r7K2",
-      "domain": ".ajio.com",
+      "value": "YAAQDyCwe3m4SqGaAQAAJ13h+ARF8vq5dhKXbTQFd7ifX9zfBBW/HY0S8i+7JaBcGVDXA40+cSGzZw1aNU+pr//2Q9ceW4sGcEFgPGzVH24/HyoSt1J3aG4wXi7qTz1EQcV6QdFeB5e4AGPrmtrt48H93tJ3hk7tB8ifZYPqava7rsi9YNSzCiLjPq2SIb90fJ/dVDRla7exeDGyhDbqtv3Mh+jbURBJ6Nla6qJYZOX8ADqTDYRmHzzy5wvxrYPpcKmKXAZKgeCRVD6q4ibwxsDkVrUrikCLwW3kdRzuqxOsq56AWCnZ76z3uRtPQn7jwFvaHirlF8/XHX25KoGP7J2MmcuUuK53RReoj04rnbBiNCdiSuPGeNKqA3C7xrw9kQqo7csgUxqJRJqSnHtsBhWt5X9CZF1Hpz2/9VNzvyvpfCPrc5hDRYkNeEVlhyP3145SlU9gCGpC8UzyYK07+NxdI7YGU7WbZdLOoOmvganQYcm3YTGaaKRZs+zgN5dxA6MhAf798LjGtNr2xvl4vekgR+ZRGclNqehq8YPXvTBw4xb7W228uzRJERkD5vrazNoi4Rl4NY1hoQEabYg=",
+      "domain": ".meesho.com",
       "path": "/",
-      "expires": 1767773717.108884,
+      "expires": 1767790510.383818,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
     },
     {
-      "name": "bm_sz",
-      "value": "C63D460CBF38F76717424D86A3AC4412~YAAQVnxBF2Jq86uaAQAAlnnh9x6sncqukIoDczLnokbTH1m/QjOQa2GaJ/h+vwYXL7gQerZ7U3C7NAfa20p9qKXW5lnycBzVo4GSBrKbY7v00NJsVjVRsX0VYRUZo58zRfS3PMNSR9/Q+rTSJc6BHhYw0doGdHNZx+S/+upA5tJ6hY08pPqZRwk5bnKTkleWSoa7zZpcMMJDmPu0MRWt8jXbN2syP9F13G+YCruwL0+bzKtmpyQjeMhG3IRVGoA3AzsyXI+t7eVqLG5v0HTgXVenx29RaIboW8Tc4Us6LWRild1ORvqQmCEo+JdDA4BguoevvhT4p/noiY4VMjkBZsIYKCF4Jkqla8+lnLMjvJhCA8hQeT20W7fWl1yz6RLA+x2Xln1+GgmDz581caGK6GnSgSslocTaSo1DqSv4pc5c2Ft3jCtGOmHmX5khXYE=~4534839~3290694",
+      "name": "ak_bmsc",
+      "value": "265088997302231F5877127D8546636D~000000000000000000000000000000~YAAQDyCwe324SqGaAQAAQV3h+B5Z1iZLOUESHp+MoeCf++tcIVOeuZVberge77XebHA5EeDznRISL4Iu6aLNLQSQyx2aFijmIh5mbN2nTNT7DUcyyUybs7shLex6GIbd6A8qRltLPeV3YT1eydChAwpuDGfmCVdJfROx0TEl0CK2ldxFFmp1k+2JoYvqK/rfqtZkQVE+kDTy2n52AAXuBqzVeM2eV2rfeB7gGUH2B3YGTkPxvVrOsaSomE+//YoYxgdvKL19+fD6Q+jelmPiOpu4yspjJvkiEeMwrVn3UCSMUXXV88E3qoi6MkNsXdS+/JalfSNtnsroa9LVPHuf48N2V9taIhz8fJ7e4A0E+94hM6Ik4Q56M5SfY4e02rDP3kTCIKT1RrwWs6lLxjCsFj+97jgo98wxGwvil/rmpg9TggwC",
+      "domain": ".meesho.com",
+      "path": "/",
+      "expires": 1765119306.477198,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session-token",
+      "value": "tl4jzdu3eOxiC2dO/bNoQqhjwD8RROJBISBT0fEuT9gCXT/jTwbf1sun6iW+PH9aCqL7bnVL+Iip5VE0+kwYdCgLMGxpmrjSu33hQ7G/bH0MFhRponPpW5DvGq2TwV+m1QI7huIEFUlmRnNiktPcuM6PFWQYrxstLqHBMtWSIEhLjcOjl4NTxa4x0KwNmM7c2FEfu5pIae7uiw192jfGfp3Yhky/trH0l6AIOkYm8BwDZTpFtB41HPZuTiAMlH7pg7LyaS14cqHxZGU8hW0murLwOkPJ+U/iH6llpQZPco0Xfb/R4iohKjcie2T7mG2szjH1ouh9f1sFCm0dujMqlt46MqDmI1Wm",
+      "domain": ".amazon.in",
+      "path": "/",
+      "expires": 1796648131.915388,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_mxab_",
+      "value": "config.bucket%3Dregular%3Bcoupon.cart.channelAware%3DchannelAware_Enabled%3Bcart.cartfiller.personalised%3Denabled",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1765109654.448512,
+      "expires": 1765113964.224385,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "utm_track_v1",
-      "value": "%7B%22utm_source%22%3A%22direct%22%2C%22utm_medium%22%3A%22direct%22%2C%22trackstart%22%3A1765095341%2C%22trackend%22%3A1765095401%7D",
+      "name": "_pv",
+      "value": "default",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1765095401.039255,
+      "expires": 1765112465.314658,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dp",
+      "value": "d",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765112525.314762,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utm_track_v1",
+      "value": "%7B%22utm_source%22%3A%22direct%22%2C%22utm_medium%22%3A%22direct%22%2C%22trackstart%22%3A1765112164%2C%22trackend%22%3A1765112224%7D",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765112224.225395,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lt_timeout",
+      "value": "1",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765113965.31482,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lt_session",
+      "value": "1",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765113964.225556,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "02E2877D865EBC6B1F5A77281DC0EAED~YAAQRozQFx/UV6yaAQAAXC/i+B4AVLpah0fdAAgWhEKqtLFstYYckK492gGob69R42ZiTSomQBJljc9ZkfC3qmeINuVlBl27/mbjKfZeSc+so+qjvqiJNOn8XnRRf+B31ZftyJHtLfPeJ0E7Fz3dXtmON7GzelNPD+0CFJF50lnRuT2tiKE9BEbMJ0IRvEIQch9Xn+T5lrm8ey2JScIr7PRrtMEZuXM2k1IWTzieIxNq2Sj+cNolPoUk2/QSfHOm7n39g0Jy8/LhJ3v494eJ4EIOMRsUhw+S3Go6lKEcaVHEFPPH21fRrxYUiErGUb7K+vNaVF3p6JhXes0rpW9jXNB5rZ/pfjIdD22EwxDz9R76HAa751k44BUHt9McJHaxfosELPkihafaoCOXm6LAxO6TTC39a8KtRLCz+A==~3163449~4602178",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765126563.226025,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ma_session",
+      "value": "%7B%22id%22%3A%22076b16e2-0d42-4dc1-9d7d-ff4d2a07484b-543a5540-8558-4799-8483-c1a9ee21be95%22%2C%22referrer_url%22%3A%22%22%2C%22utm_medium%22%3A%22%22%2C%22utm_source%22%3A%22%22%2C%22utm_channel%22%3A%22%22%7D",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765113965,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mynt-loc-src",
+      "value": "expiry%3A1765113605291%7Csource%3AIP",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1799672165.291139,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "microsessid",
+      "value": "647",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765113965.314797,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "utrid",
-      "value": "XWB3QGpcfhMdZGJOc2pAMCMxNzc5MzI0Njg1JDI%3D.c0eab00b0dc2e3259109ac771f0c9d87",
+      "value": "cm52RVpSCXBCTX9NUn1AMCMzMTc2NzYzNDIxJDI%3D.25e4f11705666ee43854638cadb53879",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1780647341.039471,
+      "expires": 1780664165.314848,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "_ma_session",
-      "value": "%7B%22id%22%3A%22b12f6863-fb55-4334-8480-700477e94cdc-543a5540-8558-4799-8483-c1a9ee21be95%22%2C%22referrer_url%22%3A%22%22%2C%22utm_medium%22%3A%22%22%2C%22utm_source%22%3A%22%22%2C%22utm_channel%22%3A%22%22%7D",
+      "name": "_xsrf",
+      "value": "k8R6itykjpDoRc4yNjTKMXM4L4zRcgGG",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1765097141,
-      "httpOnly": false,
+      "expires": 1796648165.314884,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "user_session",
+      "value": "Bss7cElbAJAPMicWc5fTWw.LqHhrUyAmLiaLdOiF6aPYYHoF_v5S9_aXkJMFMLAQq2wqYMyroa8mVAXbf9jxe_N8Y0dGJjDE_KD-2TV3S8NiRNGSIwwxPLl-mHwFl3Iq7C-JTDTvhLlmw7OeEet5mGfi5d6HIBqip2tZhDPq1SN6g.1765112165246.86400000.c3_5z6oJ5qo_3rtQNp_sad-AC_pRo-JFh4fZBs5KvG0",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765112765.314916,
+      "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "bm_sv",
-      "value": "F89838C146D3616BABD8DC714FB26BF8~YAAQX3xBF+XliqeaAQAAV3zh9x5k8Q5Kg8KwwhlLhW1s/DEEsl0p8vTwxU7ExLBzEowLpKFCVLpx9SCFEHCz5fpJ/xh8Ji92LEN7dTox1uQvZ5U5fjUEZdsDNpF71XIl6XYDcK73GkZF87NFK4yaoHouaO7d9HKzEG44epcOc+GmXuDNSOdjATX+0/HZkqieX54lzuWh0V3FnbwnnvTmh88Qqq6ZSU6V95auXVQEHXp2Syon4RvJEJKPMrrqQasYiw==~1",
+      "value": "126FA7B721E49E9E9A3104D20A3E0E0D~YAAQRozQF17UV6yaAQAAJTTi+B7x57p1sX8zIkZf2YAvKwtem6OILupmlVXX2ZLzMvnANml+OeVY3CwLz7ZvoylsT0AGIB3YLvUuO8A0XBZGC27GNB7v07MVrR+Pgr6g1F7HlDB508wlM7nP1DvkuYZZhfgxz0PTNEh+2PF1jSyXjwRe1VZgjMFszRJp9xlHgnPKFN9g1SxqSyoSSrLjFuWIb06raU+GEUMKvkeCrFJdE7n5Umm7YkBibU47C1NP~1",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1765102455.146489,
+      "expires": 1765119365.422929,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
-      "name": "_scid_r",
-      "value": "7N2boOTY46kqIAyabmDtCtNiVyLo9myQKVj6Sw",
+      "name": "ADRUM_BT",
+      "value": "R:0|i:4822|g:2c9c3a13-611d-44f6-a99c-8cc6633e6a622545006|e:320|h:e|n:customer1_be12de70-87be-45ee-86d9-ba878ff9a400",
+      "domain": "www.ajio.com",
+      "path": "/",
+      "expires": 1765112194.559971,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_s",
+      "value": "YAAQR0XHFwdvtOiaAQAAqjTi+ATYofMxOjhkNHB92bGXY0X9Pps1ZiSPwaZ505DGNwTxxQLYz0By6VsahN5uzll8tRp3QgYVbGqCqYAH6FA8ZK8K8OJg5Kpmpss2MyGCtEQAP2m9l+lveDpGLzuh3J0ha3UJ5Y3tS986MI8X4i0pB+MksGlaeipZn4VeVPpEbRGd/b6cpLhWggdyPnF6OAOBEiCiyLioeeKTe6zYLVomBWsnbFrvgYtqHJvBxn3G5vMOy83vLC7oZK/EesZCqhLM5nBpGxFnfykdssTLZ5FfDu14drJyexnQmWOeSXpAcm4Ji2aku1z1E5XHzQ5+lMTZ4yiO7/QFREtJHUXkk+++4uxFBHrtV6r9LVyttKlnfi/pl6ozaG6SU8bRGb8LXSYidzEo0Gdlyb5HTnsCRwGxpi4OPNoBPYZqtKm7SxC42bIKCx7fh/Eeh8hpSxqxSMrepaRKMRhfxBI6bOzfsxzDMh/cTfb4OUULBpKPivWSx/GdRU9xacebq/RFk+jW2giTDDYeKvgHrecSqTIWg9imgWNELb3RSgNViOH+dcFDBNrkksbRODrlAl3uNCJ0E1Hi",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1767790565.560165,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_so",
+      "value": "DED1E27C66E8CFE50D0DCBD5753F1339BA04AC77AF1720F9DF977FE5D68525B0~YAAQR0XHFwhvtOiaAQAAqjTi+AWP/ePSVaCdNi6zgNzTWk5XCXkk1F35gX4OXRpEHr1j0mL0dIpiy+E8yAMxJtzjUZ2pecbVpuj8HvP6mkj4XlZMokB5LbzL86gatpcCJU0CslLiDm3CXFjrh/jtN7QIZrz2d8TFMO6/Cl/ksvR2y++/xOEwrK5bRXOJyr8Bd/jfriMVzv2f7b+y4PcuYBrD69qwWFmPn8C4smoeTHRckDDsTz4mS6zYZ4KelCe0JvXmjIoPaKT7314ACQpkhWwSTq0NcQFu0swYvmqSHU+D9p4CznqADfWd+LnxW9W+FGx+dRQ4LO6mVJyNmNgKwcg7rZ1TgJRrdzqsblKUNHMCBFtNXFYPYVqzG+0rVpJJmgpPp5aB4YzT/FBAgsAqmwxKP9p3Y1Q7XH3rvyQ6rc8DMMBz72RtJVvSkwFfiigL7XaFWNFMhgdo3Nz+Zty8qMRmLwYWE8uNGR7J9GjbanXIs4k=",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1765198565.560227,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sv",
+      "value": "3A52E6C699B74C57F3E8DFDA4357E177~YAAQR0XHFwlvtOiaAQAAqjTi+B7Ma9N3A4VVtD9w2SwkUu7Wqzkoj15hjM6yMyFsJsV59pzDJlTKdFMBG/XeRCysUkgkUW2pdkNQZiYfy+0ngRP1h53aOTA2y+xKNfl2ON8qratiZ+Qk7hy5w5lKw4VCs7WlRICcv+gS4/ZlRqELR2zit4NGjBO2Or6LtYbFx7M8oSdEvBAhwu4NLgVRiRuZ2YOzBAIokOuj6l4pyR/aRZiG+XYMi78el8sVsw==~1",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1765119365.560285,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "24059A87B9D9091D45965352DD906F26~YAAQR0XHFwpvtOiaAQAAqjTi+B4rTwheoLam6Y5mTakgbTaaKdlPPzsmJm9FvrhEuGVg041DGkm1zgzX+GD8UuglzJx8N7yGXXK0h8aAtQdZNyoLX4VKaLBn809+BdJnhthzf/vsEfebK+vyFP59bdzYKC6bJznq7KBqdpzjd/UgXS6EqynG8/nj0BnxaCTNcs6ovqBY7YcX9EpXO02wByv9o8OUzKgtP4oGj+Njfxq3Y8Bb9PhsslN2L4fWF/RJ79zmLvAySIBC+pGQbxY36uZG7fFfir12QgLTThEu+k+GuFOuaRMtNbPGaPU6WtqjVFy0kTeOnFqiV6eO3ez+1G9kuzR3JIit0V0Oh9cl5w3PL1OJNuKGGtU/AECV4sAfT6Nm5t8wvxnRiBZuAPkzVPWSGSwUSoZmMrOH38ytuD3fjrUt3VdQgDXayg==~4473399~3355971",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1765126500.560322,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "B9807BF0FE26D0D582C1A0794D81B8FC~000000000000000000000000000000~YAAQRozQF2vUV6yaAQAAzTTi+B41mZLB3sgL60CmB4IXYQO5O7g4Jj8P+0Ead3EHh9durXB7AxMNoAnoXte5jAp8kMB65bo2MV7F5C2GSSATSGIMa5EWDkyr0mwRZZIDzulB6uqDAWxMlw/l1UHJiDeVQlL3zDlAcUE5TPPSh+qJnbxBiQxaxBdltbJMpkLwjeG6btmWZ5n8Zrmj6EnMZtAd7R61IB4dpLZGKVJ3qhUWk23iuF5MzbRVwDmDfNaab9wRvAgbKhIxeAjcdH+6WIRbpIRwuiPzUYJp+xN+7bxBGIIYiKV9S0VP67dStl9jllXdEil1c2wLh+H56ZGuSKUmpL3LIhKc05FEg/F2NCR3w5QIs8wIw8pAJC6GjGhQg51zvsYxo9aX3ufOhYQA3xN/FBcD4vsQ1x//O/+58NuJSgRjzS7NaH/0+xJg86JvcsbM3SycfVkeeapb+No5T05c1EFTngQA",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1799309741,
+      "expires": 1765119363.590445,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid_r",
+      "value": "7d2boOTY46kqIAyabmDtCtNiVyLo9myQKVj6TA",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1799326566,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1765112226,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_abck",
-      "value": "557091A44F70ED83B9B2CC7F42E8DE7A~-1~YAAQX3xBF0jmiqeaAQAAHoDh9w8yU48+UsvQx8S4/RxmHbuxe9RbMvV7OZMbK3+sRhCGdf5CzcRDVB6HCokKWARyPcGvUgunLe4UTBBoGUumy7nUTy4uC2dZJlRvEQ9OjqsLIti1hTC2866/3zkCTw6zLrg+nt4yAsFRvvs7yrMYPwrb3foG85dJq7adk1X0YXtUkEpwHY6R7vHXntGFQ9uzzby5HDpKwtjmWdqUjlnq0mHmD1dTG8Zb4BSSorZxQ5PJ6VKJ+BLtSyyvD/ReYos8qq8hnfbDQUOgGlyxiUuPEqvy3KkS48Dxne5RpKoAyCHyLLkMuvOK5KdRqNqK/7I4xf6hHHBauQz8kyNmhhs8kMoQPpJpPjxUlo39UCseDKj9ylfwzHrNw4itIJefQAg0YhZSpzruqCuJznumXAHHe/XelRjCkrW/lcBCNps9nhTSS217Qr7uzqu/gM6bIrRl3M4p7Lf23Yc3ezCb5DwIqgkEMR0X0xINKmdXhv9wtlrVQ/bO3sSSNXTOK/zc9SfAe1c/3EdKue7q103onYd9A+KlVLe4LUXWzQX9+F3tK/cXneFRWv3kyLqSTfRzIF8A1DpZIPjTSei6HU6zHaAgr17eNZ/g+tUAAkYsA+Bz34s0F0cXswU1Ng==~-1~-1~-1~AAQAAAAE%2f%2f%2f%2f%2f3HdPZzDXPtt4ZPYVPq4fgE02jUBaej4i28egPJvKFqqRJUTHVfQw3RTpohDbkfxJ8QRjnQLzMLe2FXfTbbfg1NeUNBTVkS8tCim~-1",
+      "value": "557091A44F70ED83B9B2CC7F42E8DE7A~-1~YAAQRozQF7/UV6yaAQAAAzni+A8zNulMNayLB02QmlRa+edE6YhHkjIMYADJjQO/AddRtB2LEUUtbZuE4/nMucwts66ksf9Be5jre2QbtRlHtfk20YO74m5cTpLT5UMqf4YaeZYH0kc78+h2kg/s7/fNft7/jcM7ZWxCFfl386/zRUJ0qgnszyi1ylAS+fRva+oAaoTUZhTpi2+Xxk+KDWPs5Wy55nUN2uUCRkJ8x3R+uryXorbelDmMvbg9bRkDPkyDFzCasFduG7D9P8X2V7aD3pzlm94S4xOodM1ICvuLMrgyLjTPzCvxsKtzcm/rV0raMqZGhwZtHM/PkmBqt8su6Zezo6r9JbGX8pjANBuuFItheZzkm2aGqBt9vbgSw5LYVUPVGIKNmC0GTC15hkc9AeMyZgiMCPuTPM1G7noT2inoJc0DHHdRZSHZawpxSLlztjJvfKTYhU/6Uj/2MEZ3d6ZlRVSumdEG2h5VZbMnH9muqYOx7GaF7ZTTcwYUXYPqrELTxKxPGLhsUYo5J+BGAohL6DjXwIjikrX3KCrotb5ZRnrBEEYQyVLnLjdRjaCBRXx3+JZ4ZKKnTMg3MYeeZqRgNdqe3QZsq5WOKTr/20i1Q5ANnZDwOlA92fCnl92hev8Uq5xxQGlBsf9MD4u6K/sfLvbmkmfD0D33y6RTLTFu~-1~-1~-1~AAQAAAAE%2f%2f%2f%2f%2fxGaD3nG8qcLgyRG1FwyYsz2w%2fgXdeJIrLyzHxCWueItJXwU3h6C3AOSpVthBYneMRXZkOYRHZiQUcTGNBUAHtWQLeCYhZ8FSatoNVxdh1ICqP1iqjhPiyp%2fcpdOOdKYDr37vxE%3d~-1",
       "domain": ".myntra.com",
       "path": "/",
-      "expires": 1796631342.113663,
+      "expires": 1796648166.669546,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
+    },
+    {
+      "name": "sessionStatus",
+      "value": "true|undefined",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1765218366,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "FirstPage",
+      "value": "Sun Dec 07 2025 18:26:06 GMT+0530 (India Standard Time)",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1791032166,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_RT",
+      "value": "\"z=1&dm=myntra.com&si=65259ce1-dfe0-4cde-8dc6-00b517f8818f&ss=mivq7i80&sl=1&tt=2aj&rl=1&ld=2ap\"",
+      "domain": ".myntra.com",
+      "path": "/",
+      "expires": 1765716966,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "ohSdvRVMXzAFbO998c2HypD.75Cfhs61obbQG9gPWjM-1765112166-1.0.1.1-cEGxXR73d2o_Nt40eQ3wgxYU5Fz4CBJZq5xB5NAkSbtRRCyzaQX2F4FsJ.mb_ZAmcLSCDjb.tCR8AlFMUJ.q5WUTU2S.7eRS5mD8hUOHHhs",
+      "domain": ".izooto.com",
+      "path": "/",
+      "expires": 1765113966.991941,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gat_UA-68002030-1",
+      "value": "1",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1765112228,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cdigiMrkt",
+      "value": "utm_source%3A%7Cutm_medium%3A%7Cdevice%3Adesktop%7Cexpires%3ATue%2C%2006%20Jan%202026%2012%3A56%3A08%20GMT%7C",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1767704168,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_pinterest_ct_ua",
+      "value": "TWc9PSZEWi9HeXlwOTg2a09oem5ZUmtJc2IxTmpzSVFjcnYralhLVVRYa0dhLyt0bnJnVlRvWTI4T1puTmM5WFhtcGMvVjMzNFJiV1R3RWN3Y2V2KytuR05lUHoyQ0t3RWJ3RHh4RGNsUFpqY0k0az0mV1ovQndqNWR1MmdoZDNsVzdxQ3hQUWdzM0o4PQ==",
+      "domain": ".ct.pinterest.com",
+      "path": "/",
+      "expires": 1796648169.022854,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bm_lso",
+      "value": "DED1E27C66E8CFE50D0DCBD5753F1339BA04AC77AF1720F9DF977FE5D68525B0~YAAQR0XHFwhvtOiaAQAAqjTi+AWP/ePSVaCdNi6zgNzTWk5XCXkk1F35gX4OXRpEHr1j0mL0dIpiy+E8yAMxJtzjUZ2pecbVpuj8HvP6mkj4XlZMokB5LbzL86gatpcCJU0CslLiDm3CXFjrh/jtN7QIZrz2d8TFMO6/Cl/ksvR2y++/xOEwrK5bRXOJyr8Bd/jfriMVzv2f7b+y4PcuYBrD69qwWFmPn8C4smoeTHRckDDsTz4mS6zYZ4KelCe0JvXmjIoPaKT7314ACQpkhWwSTq0NcQFu0swYvmqSHU+D9p4CznqADfWd+LnxW9W+FGx+dRQ4LO6mVJyNmNgKwcg7rZ1TgJRrdzqsblKUNHMCBFtNXFYPYVqzG+0rVpJJmgpPp5aB4YzT/FBAgsAqmwxKP9p3Y1Q7XH3rvyQ6rc8DMMBz72RtJVvSkwFfiigL7XaFWNFMhgdo3Nz+Zty8qMRmLwYWE8uNGR7J9GjbanXIs4k=^1765112169043",
+      "domain": ".www.ajio.com",
+      "path": "/",
+      "expires": 1767704169,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cto_bundle",
+      "value": "dYUjT184JTJCZHVMbFZZR042QjhCMW1OcWtSaDJhNjk4WFJvamVUb0tmeXU0a0tERmd1WGRLJTJGdTU5VXB4QjNOMERiUGNSUWhmVUcySEhINXNNS090QmJJTjZDdUFVQ2k1JTJGbEM5ZkcyRldQaTVlayUyQjhzUXZyYmFhdHNuNiUyQlczck9tbklWN0RRT3FLS28wZXY0NnpSUkxzSnU3b09BJTNEJTNE",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1799276169,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_abck",
+      "value": "E713E0ABDF69B7BD7FC53876D56754F4~-1~YAAQR0XHF1hvtOiaAQAATETi+A/waSj2LvF9s/oTTUv7T/xJbGFlyHF4lKaGXHwI+jN9beGHmkK4tThwHjAFwDphsl37bWXAIqC1VXlG92kzNsL97jhcH0DBuprjL4KwhmGLhXPl+Nt6ANNaV4mzN11sFrpGSzQSkG9xPNbeB6YtgaSr0KspmCcmpDeWVb28Eo+3XNpKw/avmbOIY9uAiAAb9g1VZRUZZhDYWX4M2na8lFRhv2acInTFm4JVuDvXULHzNkLFHhypvN+2fFEvYxwzuERiHhCX3+tdX0wktDEMYX+lZodBhlIdUfjPZfOEmMBMCLiQkXTCBrEMfS5KNentnrHPk/V+rUQaAbEsOu/lP+Xm7NwGKsRlqQWpqkk7SHEpnZoYWZGB6C6y7qUpL7o4guY+P7TsP4neiO8WAtExtwAE9ucRSk1g4VmZAcywTbt6MA/En3guo5nW3TZIdOY5fqTvod9cTCBLcZwVSgu5AuQeRXOgWHeBzjzeDaRvKp+0tQfwaXF/DTyzHmIUlaHoNPSWcGZo3/4q6B43Jb4/Ai8HlXi9TyurhMkFwQ3hsiPShDoKZRGGOMZaHOhZUv1W7oLvN+PeQ7sIvXxORQ8vHZHznpAnZAHmtQJQIMBPgo2rYiMHoLWqkFsj599uQ7BwRsDxQ64NlM4ij5cPiZnmrLrMVzYzNYpCYvAQnOeEZs9t2qBNW8gYYTo=~-1~-1~1765098859~AAQAAAAE%2f%2f%2f%2f%2fylSRUXZqiuFaWmHxn10kymGKaxuf80Rb%2fso6L9BAPCPeeGHao3p0XPMh+enYV9LBAfvwEsDUpONDP7MIeQ32rvfq+u%2fMtNK3MocZgIclnaBF%2fgcfWjuDx601chwvRWvaeYz27k%3d~-1",
+      "domain": ".ajio.com",
+      "path": "/",
+      "expires": 1796648169.738011,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPugT",
+      "value": "1765112174",
+      "domain": ".pubmatic.com",
+      "path": "/",
+      "expires": 1767704174.148658,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "audit_p",
+      "value": "1|WNdZ3eO63nQ2Jq840K6iBsbN1LKJ8c4aXu3KfNNqkb8tKixFwPd8V7GK1VwJYD5Lj2lfyK+8g3IwHTRO1/p4iCck1N7K9KkV0dqlR5NoluSCD9zFQIvrTSkRjfTy53Bm6UJVR09Fa9e9zey7VUo0/cjosJDSfMt2G9TrYQYjMU516h2LKXkYaJDy+KCnXKr4N6JXMcYuiJM=",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1796648174.167531,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://ajio.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "audit",
+      "value": "1|WNdZ3eO63nQ2Jq840K6iBsbN1LKJ8c4aXu3KfNNqkb8tKixFwPd8V7GK1VwJYD5Lj2lfyK+8g3IwHTRO1/p4iCck1N7K9KkV0dqlR5NoluSCD9zFQIvrTSkRjfTy53Bm6UJVR09Fa9e9zey7VUo0/cjosJDSfMt2G9TrYQYjMU516h2LKXkYaJDy+KCnXKr4N6JXMcYuiJM=",
+      "domain": ".rubiconproject.com",
+      "path": "/",
+      "expires": 1796648174.167943,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "um",
+      "value": "!416,NgaFooOJwHsZyZekxl7ev2J5ioo312IgGAHcJTroVWYZeN1PUE7JqWGKWhimOg4WP-KT5Q,1772871280!38,SPEUY1SdC6BCUCUP7ITzFDGg3tSVm9KvEeIxtUhO9BMrL4gyJxtfQnoMGwYzlARLwMKk2vwp07Lyket-iT6SJdAlOQQ,1772888174",
+      "domain": ".360yield.com",
+      "path": "/",
+      "expires": 1772888174.299378,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "umeh",
+      "value": "!416,0,1827303280,-1!38,0,1827320174,-1",
+      "domain": ".360yield.com",
+      "path": "/",
+      "expires": 1772888174.299482,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rlas3",
+      "value": "/elagGY77D7Sz9UfD6MSTnFHUxEtLR33kLBgtVkf9OM=",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1796648174.425293,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "data-c-ts",
+      "value": "1765112174",
+      "domain": ".media.net",
+      "path": "/",
+      "expires": 1767704174.439046,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cto_bundle",
+      "value": "P_16pF9UbEthNjZrYkNUMzMlMkJJdHRYbzVXRFRIJTJGaG1WZU41bThOdEklMkJobThUWkNjYVZnTkZ2NVhuNzNOTkpXN3ZyVyUyQndHcEtTZkZEc0VvbVBiQ2lOeWFJazkwekRrZVlsRFpHTzFuUTZoQ0YlMkJDJTJGSGNsUUVtQm9uWFBUZG96MWlnMkdXcWRQOFg5ZlJjYnYybjFYam0zbmIwd3clM0QlM0Q",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1798808174.465384,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://ajio.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "anj",
+      "value": "dTM7k!M40mh.v04ghqdmU(3$1m6J4P#[2RU7G*.@kC3!5+nOv3U_j:E?pcRkawXi!N<WTi?/3QOG83)lYN'(@TAs^UYo=4nXQNUvEs')=_/%@cA(0'r3RfedE7VW]Fp9SfTzR#m6I>f%*9qmR6gSesLJsKOak8z50VRJDvS*Nh:Ctt*6][SxJ?>qUU2e.8TUM4V^(Y')EuPrsI7Fz'CZ-SzD]4QHa#ldHQ#*OW(Md+>)fy-0T!(::",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1772888174.527825,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
     }
   ],
   "origins": [
     {
-      "origin": "https://www.meesho.com",
+      "origin": "https://www.ajio.com",
       "localStorage": [
         {
-          "name": "ak_a",
-          "value": "BB2DA98B015637E3B645404E534FDEBD"
+          "name": "JioEventsConfig_www.ajio.com_prod",
+          "value": "{\"maxEvents\":5,\"maxRedirects\":3,\"maxRetries\":4,\"maxStorageTime\":30,\"eventExpiry\":10,\"priorityEvents\":[\"APP_LAUNCH\",\"DEEPLINK_LAUNCH\",\"ADD_TO_CART\",\"REMOVE_FROM_CART\",\"ADD_TO_WISHLIST\",\"REMOVE_FROM_WISHLIST\",\"PRODUCT_CANCELLED\",\"PURCHASE_COMPLETED\"],\"nonPriorityEvents\":[\"CART_VIEW\",\"PAGE_VIEW\",\"PRODUCT_LIST_VIEW\",\"PRODUCT_VIEW\",\"SEARCH_VIEW\",\"LOCATION\",\"CUSTOM\",\"DEVICE_INFORMATION\",\"USER_DETAILS\",\"PRODUCT_RETURNED\"],\"configExpiry\":1,\"EventsInLimitAdTracking\":0,\"gzipEnablePayloadSize\":1,\"domain\":\"https://jars-zircon.jio.com/\",\"conversionUrl\":\"https://mercury-ck.jio.com/\",\"ecommConfig\":{\"attribution\":[{\"level\":\"L1\",\"value\":\"1\",\"linkedTo\":\"L4\",\"event\":\"ADD_TO_CART\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L2\",\"value\":\"2\",\"linkedTo\":\"L1\",\"event\":\"PURCHASE_COMPLETED\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L3\",\"value\":\"3\",\"linkedTo\":\"L2\",\"event\":\"CANCEL\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L4\",\"value\":\"4\",\"linkedTo\":\"\",\"event\":\"PRODUCT_CLICK\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L5\",\"value\":\"5\",\"linkedTo\":\"L1\",\"event\":\"REMOVE_FROM_CART\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L6\",\"value\":\"6\",\"linkedTo\":\"\",\"event\":\"ORDER\",\"timeout\":1,\"unitOfTime\":\"h\"},{\"level\":\"L7\",\"value\":\"7\",\"linkedTo\":\"L4\",\"event\":\"INDIRECT_ADD_TO_CART\",\"timeout\":1,\"unitOfTime\":\"h\"},{\"level\":\"L8\",\"value\":\"8\",\"linkedTo\":\"L7\",\"event\":\"INDIRECT_PRODUCT_PURCHASE\",\"timeout\":2,\"unitOfTime\":\"h\"}]},\"version\":1,\"updateTimestamp\":\"20251113123504\",\"expiryDate\":1765112227507}"
+        },
+        {
+          "name": "__rtbhouse.lid",
+          "value": "fCquDM6BgwZRZOK0QOXt"
+        },
+        {
+          "name": "cto_bundle",
+          "value": "dYUjT184JTJCZHVMbFZZR042QjhCMW1OcWtSaDJhNjk4WFJvamVUb0tmeXU0a0tERmd1WGRLJTJGdTU5VXB4QjNOMERiUGNSUWhmVUcySEhINXNNS090QmJJTjZDdUFVQ2k1JTJGbEM5ZkcyRldQaTVlayUyQjhzUXZyYmFhdHNuNiUyQlczck9tbklWN0RRT3FLS28wZXY0NnpSUkxzSnU3b09BJTNEJTNE"
+        },
+        {
+          "name": "topicsLastReferenceTime",
+          "value": "1765112168649"
         },
         {
           "name": "ak_ax",
           "value": "-1"
         },
         {
-          "name": "__mpq_60483c180bee99d71ee5c084d7bb9d20_ev",
-          "value": "[]"
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":4,\"timeouts\":0,\"creationTimeMs\":1765112167966},\"expires\":1772888167966}}"
         },
         {
-          "name": "INITIAL_PAGE_VIEWED",
-          "value": "PDP"
+          "name": "copilotMap",
+          "value": "{}"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1765112168177"
+        },
+        {
+          "name": "_fpuuid",
+          "value": "3DGDBFvorrgQkMIEH8aJN"
+        },
+        {
+          "name": "ak_a",
+          "value": "E713E0ABDF69B7BD7FC53876D56754F4"
+        },
+        {
+          "name": "IDFA",
+          "value": "59f9514c-7d37-4e87-ba26-16970f6b5db7"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "ajs_anonymous_id",
+          "value": "\"65951ab7-cf73-4fa2-a7e1-2a60fd08ac3b\""
+        },
+        {
+          "name": "ajs_user_id",
+          "value": "null"
+        },
+        {
+          "name": "persist:root",
+          "value": "{\"products\":\"{\\\"mappedProductId\\\":null,\\\"isRowsAdding\\\":false,\\\"showLoadMore\\\":false,\\\"isPageLoading\\\":false,\\\"facets\\\":[],\\\"products\\\":[],\\\"rawProducts\\\":[],\\\"gridRowCount\\\":10,\\\"hasErrored\\\":false,\\\"totalResults\\\":0,\\\"currentPage\\\":1,\\\"query\\\":{\\\"gridColumns\\\":3,\\\"viewType\\\":\\\"outfitview\\\"},\\\"sortBy\\\":\\\"relevance\\\",\\\"viewType\\\":\\\"outfitview\\\",\\\"apiLocation\\\":{\\\"query\\\":{}},\\\"displayAllFacetsCategories\\\":false,\\\"closedFacetGroups\\\":[],\\\"closedFacets\\\":[]}\",\"grid\":\"{\\\"results\\\":[],\\\"entities\\\":{},\\\"gridColumns\\\":2,\\\"gridResults\\\":[],\\\"gridColumnWidth\\\":158,\\\"gridRowHeight\\\":321,\\\"gridRowCount\\\":20,\\\"gridWidth\\\":320,\\\"viewType\\\":\\\"outfitview\\\",\\\"cacheInvalid\\\":true,\\\"closedFacetGroups\\\":[],\\\"openFacets\\\":[],\\\"loadingMoreItems\\\":false}\",\"request\":\"{\\\"deviceType\\\":\\\"desktop\\\"}\",\"eossCouponsReducer\":\"{\\\"coupons\\\":[]}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "browserId",
+          "value": "JPjBLBQP3tdJoMUudExWp"
         }
       ]
     },
@@ -1722,15 +1830,15 @@
         },
         {
           "name": "atgLastSession",
-          "value": "1765095341199"
+          "value": "1765112165521"
         },
         {
           "name": "NRBA_SESSION",
-          "value": "{\"value\":\"e4bf0f9a44acf594\",\"inactiveAt\":1765097062817,\"expiresAt\":1765109662816,\"updatedAt\":1765095263168,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":2,\"serverTimeDiff\":-31,\"custom\":{},\"numOfResets\":0}"
+          "value": "{\"value\":\"33927260730c6548\",\"inactiveAt\":1765113966965,\"expiresAt\":1765126566965,\"updatedAt\":1765112167349,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"loggingMode\":2,\"serverTimeDiff\":-34,\"custom\":{},\"numOfResets\":0}"
         },
         {
           "name": "topicsLastReferenceTime",
-          "value": "1765095342017"
+          "value": "1765112166881"
         },
         {
           "name": "izootoUID",
@@ -1738,35 +1846,35 @@
         },
         {
           "name": "consentPopupShownTime",
-          "value": "1765095341097"
+          "value": "1765112165320"
         },
         {
           "name": "_gcl_ls",
           "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1765095256878},\"expires\":1772871256878}}"
         },
         {
-          "name": "lscache-beacon:user-data",
-          "value": "{\"apps\":{\"android\":false,\"ios\":false,\"isPhonePeWebview\":false,\"androidAppVersion\":\"Not Android\",\"androidAppVersionWithReleaseTags\":\"Not Android\",\"iosAppVersionWithReleaseTags\":\"Not IOS\"},\"deviceData\":{\"isMobile\":false,\"isTablet\":false,\"deviceName\":\"\",\"deviceChannel\":\"desktop\",\"deviceType\":\"desktop\",\"isDesktop\":true,\"isRobot\":false,\"os\":\"windows\"},\"features\":{\"mfu.enable\":false,\"mfu.enable.wishlist\":false,\"mfu.exchange.url\":\"https://myntra.com/growth/donate-items\",\"pdp.mfa.recommendation.enable\":\"true\",\"web.ratings.enable\":true,\"web.PDP.fastFashionRating.enable\":true,\"web.list.fastFashionRating.enable\":true,\"search.enableSortDeliveryTime\":\"false\",\"wishlist.enable\":\"true\",\"pdp.recommendation.enable\":\"true\",\"pdp.shoppableLooksWeb.enable\":true,\"autosuggest.character.threshold\":\"3\",\"autosuggest.enable\":\"true\",\"myntraweb.promoheader.enable\":\"true\",\"skubased.servcieability.enable\":\"true\",\"autoFetch.serviceability.enable\":\"true\",\"pdp.offers.expanded\":\"true\",\"disableCouponServiceOnPDP\":\"false\",\"wishlist.oos.showsimilar.disable\":\"false\",\"showLoginCaptcha\":\"false\",\"password.specialchar.enable\":true,\"pdp.crossSell.enable\":\"true\",\"sellableInventoryModeEnabled\":true,\"showSignupCaptcha\":\"false\",\"list.imageSlider.enable\":\"true\",\"loyaltypoints.maxPercentOfCart\":\"10\",\"loyaltypoints.conversionFactor\":1,\"atlas.disable\":\"false\",\"encrypt.v2.enabled\":\"true\",\"cache.akamai.disable\":\"false\",\"sessionExpirySecs\":\"31536000\",\"slots.context\":\"general\",\"slots.fetchSlot\":false,\"slots.refreshRate\":300,\"slots.assignSlotATC\":false,\"slots.assignSlotATW\":false,\"loyaltypoints.enable\":true,\"header.notifications.enabled\":\"false\",\"portal.hrdr.degradablefg.enable\":\"false\",\"onlyMymyntraSessionUpdate.enable\":\"false\",\"sessionTampercheck.enabled\":\"true\",\"cache.desktop.home\":\"true\",\"search.personalisation\":\"false\",\"pwaNewUserOnboarding.deliveryOptions\":true,\"pwaNewUserOnboarding.halfCards\":true,\"pwaNewUserOnboarding.banners\":true,\"pwaNewUserOnboarding.feedBanners\":true,\"desktopNewUserOnboarding.freeShipping\":true,\"desktop.serverProxy.enable\":false,\"slots.disableChangeSlot\":true,\"web.PDP.couponCatalogue\":true,\"desktop.addressSelection\":true,\"pdp.attachedOffers.enabled\":true,\"ma.instrumentation.enable\":true,\"disable.reviewsQuestionAnswer\":false,\"web.pdp.expiry\":true,\"desktop.authnz.enable\":true,\"enableDesktopSpa\":true,\"pdp.freeSampleSelector\":true,\"search.nbr\":false,\"search.speedPromise\":true,\"search.deliveryTat\":true,\"pdp.freeSampleSelectorDesktop\":true,\"web.GA.disable\":true,\"plp.desktop.pla\":true,\"search.priceSlider\":true},\"kvpairs\":{\"web.taxBanner\":{\"default\":{\"enable\":false,\"info\":\"As per guidelines, we are only delivering essentials in govt-specified pincodes\"},\"pwa\":{\"enable\":false,\"info\":\"As per guidelines, we are only delivering essentials in govt-specified pincodes\",\"bgColor\":\"#03a685\",\"rowCount\":2},\"desktop\":{\"enable\":false,\"info\":\"- As per guidelines, we are only delivering essentials in govt-specified pincodes - \",\"bgColor\":\"#03a685\"},\"checkout\":{\"enable\":false,\"info\":\"As per guidelines, we are only delivering essentials in govt-specified pincodes\"}},\"admissioncontrol.popup.data\":\"{\\\"title\\\": \\\"GREAT!\\\",\\\"p1\\\": \\\"Shop during Early Access & make sure you get all your favourites before they stock out!\\\",\\\"p2\\\": \\\"Buy before the sale opens for all!\\\",\\\"image\\\": \\\"https://constant.myntassets.com/pwa/assets/img/eors-logo-unit-dark.png\\\"}\",\"pdp.emi.plans\":[{\"plans\":[{\"months\":3,\"interest\":15,\"f\":0.3417},{\"months\":6,\"interest\":15,\"f\":0.17403},{\"months\":9,\"interest\":15,\"f\":0.11817},{\"months\":12,\"interest\":15,\"f\":0.09026},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"HDFC\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":13,\"f\":0.11722},{\"months\":12,\"interest\":13,\"f\":0.08932},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"ICICI\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":15,\"f\":0.11817},{\"months\":12,\"interest\":15,\"f\":0.09026},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"CITI\"},{\"plans\":[{\"months\":3,\"interest\":14,\"f\":0.34114},{\"months\":6,\"interest\":14,\"f\":0.17354},{\"months\":9,\"interest\":14,\"f\":0.11769},{\"months\":12,\"interest\":14,\"f\":0.08979}],\"bank\":\"SBI\"},{\"plans\":[{\"months\":3,\"interest\":12,\"f\":0.34002},{\"months\":6,\"interest\":12,\"f\":0.17255},{\"months\":9,\"interest\":13,\"f\":0.11722},{\"months\":12,\"interest\":13,\"f\":0.08932},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"AXIS\"},{\"plans\":[{\"months\":3,\"interest\":12,\"f\":0.34002},{\"months\":6,\"interest\":12,\"f\":0.17255},{\"months\":9,\"interest\":14,\"f\":0.11769},{\"months\":12,\"interest\":14,\"f\":0.08979},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"KOTAK\"},{\"plans\":[{\"months\":3,\"interest\":15,\"f\":0.3417},{\"months\":6,\"interest\":15,\"f\":0.17403},{\"months\":9,\"interest\":15,\"f\":0.11817},{\"months\":12,\"interest\":15,\"f\":0.09026}],\"bank\":\"AMEX\"},{\"plans\":[{\"months\":3,\"interest\":12.5,\"f\":0.3403},{\"months\":6,\"interest\":12.5,\"f\":0.1728},{\"months\":9,\"interest\":13.5,\"f\":0.11745},{\"months\":12,\"interest\":13.5,\"f\":0.08955},{\"months\":18,\"interest\":13.5,\"f\":0.06168}],\"bank\":\"HSBC\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":13,\"f\":0.11722},{\"months\":12,\"interest\":13,\"f\":0.08932},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"INDUSIND\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":13,\"f\":0.11722},{\"months\":12,\"interest\":13,\"f\":0.08932},{\"months\":18,\"interest\":13,\"f\":0.06145},{\"months\":24,\"interest\":13,\"f\":0.04754}],\"bank\":\"RBL\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":14,\"f\":0.11769},{\"months\":12,\"interest\":14,\"f\":0.08979},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"Standard Chartered\"}],\"pdp.emi.terms\":{\"intro\":\"Welcome to Myntra. This page details the Equated Monthly Installments (EMI)  made available on Myntra marketplace platform (Myntra) on behalf of participating seller/s at their sole discretion and may be revoked or suspended by them any time. These terms and conditions are in addition to the Myntra Terms of Use to which you agree and are bound by using Myntra.\",\"terms\":[\"The EMI payment option is available only on credit cards issued by the following banks: HDFC, ICICI, SBI, CitiBank, Axis, Amex, HSBC, IndusInd, Kotak, RBL ,Standard Chartered.\",\"The EMI facility is offered by the card issuing bank through PayUBiz. The EMI eligibility, payment plan and refund rules are solely on the internal discretion and approvals of the bank. Myntra shall not be held liable for any dispute between the customer and bank arising out of or in connection with the EMI payment made on Myntra.\",\"The EMI facility is available for all products on Myntra except some jewellery items especially gold items. Myntra reserves the right to stop the EMI facility against any product sold on the platform anytime without any priority notice.\",\"The facility is available only for order value above Rs. 2500. The minimum eligible order value varies from bank to bank.\",\"Myntra reserves the right to temporarily or permanently stop the EMI facility without any prior notice.\",\"Myntra does not charge the customer any processing or convenience fee for this service\",\"Myntra is offering the EMI facility through PayU Biz. The EMI plans, tenure and interest are as per the information shared with PayU Biz. For any concern or dispute a customer should contact the respective bank.\",\"In the case of cancellations or returns of items purchased on EMI, Myntra will facilitate the refunds for and on behalf of the sellers as per the relevant refund policy. The customer is advised to check with the respective bank/issuer offering the EMI how the cancellations or refund will affect the EMI terms and of any pre-closure or interest charges levied on the customer.\"]},\"shipping.charges.cartlimit\":\"799\",\"myntraweb.promoheader.data\":\"{\\\"data\\\":{\\\"children\\\":[{\\\"children\\\":[{\\\"children\\\":[],\\\"props\\\":{\\\"title\\\":\\\"Myntra Insider\\\",\\\"url\\\":\\\"/myntrainsider?cache=false\\\",\\\"meta\\\": {\\\"new\\\":true,\\\"disable\\\":false}}},{\\\"children\\\":[],\\\"props\\\":{\\\"title\\\":\\\"Gift Card\\\",\\\"url\\\":\\\"/giftcard\\\",\\\"meta\\\": {\\\"new\\\":false,\\\"disable\\\":false}}},{\\\"children\\\":[],\\\"props\\\":{\\\"title\\\":\\\"Track Orders\\\",\\\"url\\\":\\\"/my/orders\\\",\\\"meta\\\": {\\\"new\\\":false,\\\"disable\\\":false}}},{\\\"children\\\":[],\\\"props\\\":{\\\"title\\\":\\\"Contact Us\\\",\\\"url\\\":\\\"/contactus\\\",\\\"meta\\\": {\\\"new\\\":false,\\\"disable\\\":false}}}],\\\"props\\\":{\\\"title\\\":\\\"block\\\",\\\"meta\\\": {\\\"mobile\\\":false}}}],\\\"props\\\":{\\\"title\\\":\\\"giftCard.links\\\"}}}\",\"hrdr.salebanner.data\":\"{\\\"enable\\\":\\\"true\\\",\\\"image\\\":\\\"\\\",\\\"timerlabel\\\":\\\"Sale Ends in\\\",\\\"message\\\":\\\"\\\",\\\"enddate\\\":\\\"2025-06-12T18:29:59.999Z\\\",\\\"when\\\":\\\"\\\",\\\"name\\\":\\\"\\\"}\",\"app.android.dlink\":\"https://335741.measurementapi.com/serve?action=click&publisher_id=335741&site_id=128503&invoke_id=282383&my_campaign=Organic&my_publisher=Other%20Organic&my_adgroup=Myntra%20Brand&my_ad=0&site_id_android=128503&site_id_ios=128517\",\"app.windows.dlink\":\"http://www.windowsphone.com/en-us/store/app/myntra-india-fashion-store/a92e3afb-c791-4624-86da-8624f91cfbc1\",\"app.ios.dlink\":\"http://ad.apsalar.com/api/v1/ad?re=0&st=687711906604&h=1f2b9e36f2083b55df984310594e479adb75adb5\",\"pdp.offers.visible\":\"EMI\",\"pdpurlchange.categories\":[],\"prelaunch.brands\":{\"date\":\"Buy Later\"},\"earlyslot.config\":{\"appSlotApiCall\":true,\"saleStartTime\":\"1569695400000\",\"platinumSlotStartTime\":\"1569677400000\",\"slotCreativeURL\":\"https://constant.myntassets.com/pwa/assets/img/72c37880-476c-4b4a-b0ea-91f0b6054c821569179931342-BFD_mysale_coupon.png\",\"topBanner\":{\"imgUrl\":\"https://constant.myntassets.com/pwa/assets/img/2e0ab496-dea6-4daa-a1e3-f30f2718036f1569178709286-hero-banner.jpg\",\"landingUrl\":\"/eors19-best-prices\"},\"couponsCreativeBanner\":{\"imgUrl\":\"https://constant.myntassets.com/pwa/assets/img/87d8481c-3c84-41d0-a05c-006e9d7854601569178709271-MYNTRA-INSIDER-BANNER.jpg\",\"landingUrl\":\"/growth/eors19-buypage\"},\"mySalePageTitle\":\"Big Fashion Days Sale\",\"slotInfo\":{\"slot\":{\"beforeSlot\":{\"desc\":\"You have an early entry slot. Shop before the sale starts & get your favourite products before they’re sold out. Hurry!\"},\"atSlot\":{\"desc\":\"You have an exclusive VIP Slot. Shop before the sale starts and grab your favourite products before they run out.\"},\"afterSlot\":{\"desc\":\"Your VIP Slot has ended. You can continue to shop during the sale starting midnight. See you there!\"},\"title\":\"EXCLUSIVE GOLD SLOT\",\"platinumTitle\":\"EXCLUSIVE PLATINUM SLOT\",\"slot_change_text\":\"CHANGE SLOT TIME\",\"links\":[{\"title\":\"SHOP NOW\",\"url\":\"/welcome-to-myntra\"}]},\"noSlot\":{\"title\":\"EXCLUSIVE GOLD SLOT\",\"desc\":\"Start shortlisting your favourite styles now and get a slot for early access to the sale.\",\"dateDesc\":\"Shop before sale starts\",\"timeDesc\":\"Get your slot now\",\"links\":[{\"title\":\"PLAY GAMES NOW TO GET A SLOT\",\"url\":\"/growth/bfd19-buypage?source=game\",\"id\":\"play_games\"}]}},\"couponsInfo\":{\"enable\":\"false\",\"title\":\"EORS Coupons\",\"desc\":\"\",\"links\":[{\"title\":\"VIEW ALL COUPONS\",\"url\":\"/growth/prebuzz-buypage\",\"id\":\"view_all_coupons\"}]},\"quickCash\":{\"enable\":\"false\",\"background\":\"https://constant.myntassets.com/pwa/assets/img/373efad3-c8f3-41a2-8cbb-1d7d5d3b34ff1543578937171-bg_quickcash_profile.png\",\"title\":{\"__html\":\"<b>Myntra Points</b> earned so far\"},\"nonLoggedInTitle\":{\"__html\":\"<b>Shout & Earn</b>\"},\"desc\":{\"__html\":\"Invite your friends to the End Of Reason Sale &amp; get <i>₹</i>50 for every friend who visits. They get <i>₹</i>50 too.\"},\"links\":[{\"title\":\"KNOW MORE\",\"title2\":\"KNOW MORE\",\"url\":\"/referrals-dashboard\",\"urlForApp\":\"/referrals-dashboard\",\"id\":\"earn_cash\"}]}},\"hrdr.pricereveal.data\":\"{\\\"enable\\\":\\\"false\\\",\\\"buttonlabel\\\":\\\"Sales starts at midnight\\\",\\\"info\\\":\\\"Select size to check if we have very few left\\\"}\",\"oneTapLogin\":{\"enable\":true,\"desktopEnabled\":true,\"enableOnCheckout\":false,\"nativeLogin\":{\"loginPopup\":{\"enable\":true,\"loginHalfcardLoadTime\":10,\"popupBannerRatio\":\"3*1\",\"popupBanner\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/3/16/4555c67e-7cf2-43f9-b6c8-f923da1debba1584336497021-group-2x.png\"},\"loginPageBanner\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/3/16/c5a5875b-1660-44a1-937c-e4144e2c49fb1584336497054-banner-login-page-10-2x.png\",\"loginPageBannerRatio\":\"600*240\",\"sidebarBanner\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/3/16/77ce188f-013a-4d35-8fa7-17e10a8427071584336497086-banner-hamburger-09-2-2x.png\"},\"popUpDisableTime\":24,\"popUpLoadTime\":2,\"yoloLoadeEvent\":false,\"oneTapDisablePage\":[\"/login\",\"/register\",\"/otplogin\",\"/shoutnearn/refer\",\"/shoutnearn/refer/\",\"/shoutnearn/rewards\",\"/login/password\",\"/accountlink\",\"/login/signup\",\"/login/email\",\"/recovery/options\",\"/recovery/reset-password\",\"/forgot\",\"/recovery\",\"/mobilelink\",\"/login/passwordverify\",\"/recovery/options/alternate-number\",\"/recovery/options/card-details\",\"/recovery/update-account\",\"/recovery/options/alternate-number/otp\",\"/recovery/options/customer-care\",\"/recovery/update-account/pmn/otp\",\"/login/createaccount\"],\"autoOtp\":{\"enable\":true,\"regex\":\"\\\\d{4}\"}},\"priorityCheckout.config\":{\"enable\":false,\"event\":\"EORS\",\"startTime\":1764275123000,\"endTime\":1764287123000,\"charges\":49,\"vipPassEnabled\":false,\"option1\":{\"header\":\"Buy With VIP Early Access Charge\",\"image\":\"https://constant.myntassets.com/checkout/assets/img/EarlyCheckout.svg\",\"linesLevel1\":[\"Checkout before the sale rush starts \\n <span style='font-weight:700;'>Pay ₹{amount} extra per order</span> and get your favourite \\nproducts at the sale prices today\"],\"linesLevel2\":[\"Pay only ₹{amount} extra (non refundable) for the entire order and shop at sale price now.\",\"No need of worrying about products or sizes going out-of-stock and no need of shopping at midnight!\"]},\"option2\":{\"header\":\"Wait Till Midnight for Sale To Start\",\"image\":\"https://constant.myntassets.com/checkout/assets/img/Waiting.svg\",\"linesLevel1\":[\"Wait till midnight for the sale to start and shop without paying any fee.\"],\"linesLevel2\":[\"Don't want to pay the Early Access fee? Wait for the sale to start\",\"There is a chance that your favourite products will run out-of-stock during the sale rush.\",\"Sale to start at 00:01 hours, 10th December\"],\"slotLine\":\"Your early slot is at $slot.\"},\"option3\":{\"header\":\"Buy With VIP Ticket\",\"addToBag\":\"ADD VIP TICKET\",\"tag\":\"ONE TIME BUY ₹1\",\"image\":\"https://constant.myntassets.com/checkout/assets/img/Ticket.webp\",\"linesLevel1\":[\"Add a VIP Ticket for exclusive access before EORS by paying ₹19. Save more with each order placed before SALE.\\n<div style='color:#E34935'>Cash on Delivery for this order will not be available\"],\"linesLevel2\":[\"Pay one time fee of ₹1 (non refundable) for the current order and shop at sale price now.\",\"No need of worrying about products or sizes going out-of-stock and no need of shopping at midnight!\"],\"errorCallout\":\"Cash on Delivery not available for this order with VIP Ticket\"},\"agreeText\":\"I agree to pay Rs.49 for Early Access.\",\"Eorstime\":\"EORS to start (midnight, 5 Dec)\",\"headerIcon\":\"https://constant.myntassets.com/checkout/assets/img/pig.svg\",\"buttonText\":\"BUY NOW WITH EARLY ACCESS\",\"spcButtonText\":\"Buy Now with Early Access\",\"featureName\":\"Early Access\",\"orderTotalName\":\"Early Access Fee\",\"mainText\":\"Hurray! You will save Rs. %s on this order\",\"headerSubLine\":\"Buy now with Early Access and get your favourite products for sure, at EORS prices! Additional offers available on the payments page.\",\"freeHeaderSubLine\":\"Shop now with Free Early Access and get your favorite products at EORS prices.\",\"freeEarlyAccessText\":\"Get EORS Early Access for free!\",\"vipEAInfoText\":\"VIP Early Access charge of ₹{amount} applied\"},\"sessionExpirySecs\":\"604800\",\"atTokenExpirySecs\":\"16070400\",\"rtTokenExpirySecs\":\"16070400\",\"extraDevices\":\"{\\\"MOTOE2\\\":\\\"XT1021\\\",\\\"NOTE\\\":\\\"1W\\\",\\\"honor6\\\":\\\"H60-L04\\\",\\\"LenevoZ2\\\":\\\"X2-AP\\\",\\\"Yota\\\":\\\"C9660\\\",\\\"HonorHolly\\\":\\\"U19\\\",\\\"Alcatel\\\":\\\"KOT49H\\\",\\\"HTC\\\":\\\"M9PLUS\\\",\\\"ZENFON1\\\":\\\"ASUS_Z00AD\\\",\\\"ZENFON2\\\":\\\"ASUS_Z008D\\\",\\\"SAMSUNG-NOTE\\\":\\\"SM-T561\\\",\\\"MOTOG3\\\":\\\"MOTOG3\\\",\\\"Android\\\":\\\"MyntraRetailAndroid\\\",\\\"iPhone\\\":\\\"MyntraRetailiPhone\\\"}\",\"pwaNewUserOnboarding.halfCards\":{\"return\":{\"header\":\"Easy Returns\",\"desktopHeader\":\"Easy Returns\",\"body\":{\"cardReturn\":\"Go to &lt;strong&gt;Menu&lt;/strong&gt; > &lt;strong&gt;My Orders&lt;/strong&gt; > &lt;strong&gt;Return&lt;/strong&gt; and select the time slot and mode for return\",\"cardAgentCustomer\":\"Delivery agent will pick up the product\",\"cardCash\":\"Refund will be processed in 7-14 days after the quality check\"},\"footer\":\"&lt;strong&gt;Note:&lt;/strong&gt; The product should not be damaged and the price tags should be intact. T&C applicable\"},\"exchange\":{\"header\":\"Easy Exchanges\",\"desktopHeader\":\"Easy Exchanges\",\"body\":{\"cardExchange\":\"Go to &lt;strong&gt;Menu&lt;/strong&gt; > &lt;strong&gt;My Orders&lt;/strong&gt; > &lt;strong&gt;Exchange&lt;/strong&gt; and select the time slot for exchange\",\"cardAgentCustomer\":\"Delivery agent will deliver the new product and pick up the old one\",\"cardAgentDeliver\":\"No additional payment needed\"},\"footer\":\"&lt;strong&gt;Note:&lt;/strong&gt; The product should not be damaged and the price tags should be intact. T&C applicable\"},\"try\":{\"header\":\"How does Try and Buy work?\",\"desktopHeader\":\"Try and Buy\",\"body\":{\"cardTry\":\"Select option &lt;strong&gt;&quot;Try and Buy&quot;&lt;/strong&gt; in the address confirmation page\",\"cardAgentCustomer\":\"Delivery agent waits while you try the items\",\"cardClothes\":\"Keep the items you like and return the rest to the agent\",\"cardCash\":\"Pay only for what you keep (for pay on delivery orders) or get refunded for the ones returned (for prepaid orders)\"},\"footer\":\"&lt;strong&gt;Ordering for the first time?&lt;/strong&gt; You can also avail COD with Try &amp; Buy and pay only for what you keep. T&C applicable\"},\"differentialReturns\":{\"enable\":false,\"header\":\"How hassle free 15 day return works\",\"desktopHeader\":\"Hassle free 15 day returns\",\"body\":{\"bpcReturnRequest\":\"&lt;h6&gt;Raise Return Request&lt;/h6&gt;&lt;p&gt;Go to ‘My Orders’ section and click on return on a wrong, defective or expired product&lt;/p&gt;\",\"bpcRequestApproval\":\"&lt;h6&gt;Request Approval&lt;/h6&gt;&lt;p&gt;Once the request is raised, it’ll be evaluated within 3 business days.&lt;/p&gt;\",\"bpcRefund\":\"&lt;h6&gt;Refund&lt;/h6&gt;&lt;p&gt;The amount will be refunded to the selected mode once the product is picked up and physically evaluated*&lt;/p&gt;\"},\"footer\":\"&lt;p style='color:#ff5722';&quot;&gt;*In case of self ship, courier the item to the nearest warehouse. Check FAQ for details&lt;/p&gt;\",\"images\":{\"bpcReturnRequest\":\"https://assets.myntassets.com/assets/images/2021/5/24/df66b668-d952-4881-a2ae-7041c96043861621846711169-return_request.png\",\"bpcRequestApproval\":\"https://assets.myntassets.com/assets/images/2021/5/24/cd09461f-7511-4a0b-acc0-dfd3351f75f01621848256046-request_approval.png\",\"bpcRefund\":\"https://assets.myntassets.com/assets/images/2021/5/24/2a615c32-116e-4491-92e2-e79205d071421621848162720-refund.png\",\"differentialReturns\":\"https://constant.myntassets.com/pwa/assets/img/differential-returns-icon.png\"}}},\"pwaNewUserOnboarding.banners\":{\"trustBuilders\":{\"trustOriginal\":\"Genuine Products\",\"trustQuality\":\"7 Step Quality Check\",\"trustSecure\":\"Secure Payments\"},\"newUsersPDP\":{\"title\":\"Upto 500 Off \",\"description\":\"Applicable on your first order.&lt;br/&gt; Use code: MYNTRA500\"},\"exchangeReturn\":{\"return\":{\"title\":\"Easy 14 days returns\",\"description\":\"Choose to return within 14 days.\"},\"exchange\":{\"title\":\"Easy 14 days exchange\",\"description\":\"Choose to exchange for a different size (if available) within 14 days.\"},\"returnAndExchange\":{\"title\":\"Easy 14 days returns and exchange\",\"description\":\"Choose to return or exchange for a different size (if available) within 14 days.\"},\"noReturnAndExchange\":{\"title\":\"Return and Exchange not available\",\"description\":\"Items like innerwear, socks, certain accessories and some high-value fragile items do not come under our return/exchange policy.\"},\"differentialReturns\":{\"title\":\"Hassle Free returnPeriod Day Return\",\"description\":\"You can return the product within returnPeriod days if the delivered product is damaged, expired, different from ordered.\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/differential-returns-icon.png\"}},\"newUsersPLP\":{\"coupon\":{\"bold\":\"UPTO 500 OFF\",\"text\":\"MYNTRA500\"}},\"newUsersDynamicPLP\":{\"data\":{\"discountAmount\":500,\"discountCouponCode\":\"MYNTRA500\",\"discountMsg\":\"{discountAmount} off only on App\",\"valueProps\":[{\"text\":\"Guaranteed Refunds\",\"icon\":\"refunds-icon\"},{\"text\":\"Easy Return & Exchange\",\"icon\":\"return-exchange-icon\"}]}}},\"pwaNewUserOnboarding.feedBanners\":{\"sessionTimeMinutes\":30,\"cards\":{\"grid_men\":{\"enabled\":false,\"type\":\"GRID\",\"index\":2,\"columnCount\":3,\"audience\":\"all\",\"header\":\"ESSENTIALS FOR MEN\",\"content\":[{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-tshirts\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/b2d6cb61-2796-46ba-b813-bf723c8fc27e1559216808945-Men-category-cards_01_tshirts.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-shirts\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/3c637a0a-0cda-45a7-8ce8-5bb212d4b6411559216808935-Men-category-cards_02_shirts.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-casual-shoes\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/c05e6606-cd11-4d96-895c-b1b8defc2d871559216808925-Men-category-cards_03_casual_shoes.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-jeans\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/1f2ab0ea-e6a3-4efe-b248-cbec95a900161559216808913-Men-category-cards_04_jeans.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-sports-shoes\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/ac2715e2-b2e6-41a8-9f91-79ed52d5eacb1559216808902-Men-category-cards_05_sports_shoes.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-trousers\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/f8262050-fe52-4390-98b8-21c634e09bae1559216808891-Men-category-cards_06_trousers.jpg\"}]},\"grid_women\":{\"enabled\":false,\"type\":\"GRID\",\"index\":1,\"columnCount\":3,\"audience\":\"all\",\"header\":\"ESSENTIALS FOR WOMEN\",\"content\":[{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-kurtas\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/6916789c-0e4e-4e70-860b-7bed6af846681559216916445-women-category-cards_01_kurtas.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-dresses\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/7a363be2-002c-45a0-96b0-30c359ab7f5b1559216916421-women-category-cards_02_dresses.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-tops\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/a876ce8c-5b1d-4b87-a5cd-626f20b8c1171559216916411-women-category-cards_03_tops.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-kurtasets\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/4d76fbbe-d72b-4df3-86f9-59e7152b66b51559216916400-women-category-cards_04_kurta_Sets.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-jeans\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/2a0ce60a-4d10-4e61-8c0a-f59f377213d51559216916390-women-category-cards_05_jeans.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-tshirts\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/3fd040fc-431d-4060-9469-f0c11b7329121559216916380-women-category-cards_06_tshirts.jpg\"}]},\"trust_builders\":{\"enabled\":false,\"index\":1,\"type\":\"BANNER\",\"audience\":\"newUser\",\"sessionCount\":10,\"content\":{\"width\":411,\"height\":41,\"link\":\"\",\"src\":\"https://assets.myntassets.com/assets/images/2020/4/17/94ced9ef-4b6b-4e4f-88e9-f9e0d03e253e1587148152258-app-strip-1.png\"}},\"new_user_offer_feedcard\":{\"enabled\":false,\"index\":0,\"type\":\"BANNER\",\"audience\":\"newUser\",\"sessionCount\":20,\"content\":{\"width\":49,\"height\":15,\"src\":\"https://assets.myntassets.com/assets/images/2021/7/2/5e726400-0a65-4bda-b298-530b686fbaa61625248177800-msite.jpg\",\"link\":\"https://myntra.onelink.me/eWcy/f7830d2\"}},\"new_user_free_delivery\":{\"enabled\":false,\"index\":2,\"type\":\"BANNER\",\"sessionCount\":10,\"audience\":\"newUser\",\"content\":{\"width\":48,\"height\":10,\"src\":\"https://assets.myntassets.com/assets/images/banners/2020/3/14/3d8c544d-7afa-4cfc-b366-990c503690f11584165964634-HP_Permanent_Strip.jpg\",\"link\":\"https://www.myntra.com/welcome-to-myntra\"}}}},\"desktopNewUserOnboarding.freeShipping\":{\"pages\":[\"home\",\"search\",\"shop\"],\"trustBuilders\":{\"genuine\":\"Genuine Products\",\"try\":\"Try & Buy\",\"exchange\":\"Easy Exchanges & Returns\"},\"sidebar\":\"UPTO ₹500 OFF\",\"button\":{\"text\":\"SIGN UP NOW >\",\"link\":\"/register\"},\"image\":{\"url\":\"https://assets.myntassets.com/assets/images/2025/7/22/189d2a70-82d0-4c23-8620-a3d640ab0e7c1753193332975-900x600_500.png\"},\"content\":{\"pre-header\":\"Avail Upto\",\"main-header\":\"500 OFF\"},\"coupon\":{\"text\":\"Coupon Code:\",\"code\":\"MYNTRA500\",\"subtitle\":\" Applicable on your first order\"},\"ironam\":{\"action\":\"spride\"}},\"pdp.contentRevamp.FTF.exclutionList\":[\"Business Unit\",\"Body Shape ID\",\"Family\",\"Class\",\"Segment\",\"Brick\",\"Processing Time\",\"Number of Components\",\"Units per Bundle\",\"Body or Garment Size\",\"Units Per Bundle\",\"Minimum Usable Period in Months\",\"Total Shelf Life in Months\",\"Minimum Shelf Life in Months\",\"Main Trend Name\",\"Multiset pack\",\"Design styling\",\"Sub Trend\",\"Ingredients\",\"Benefits\",\"Special Features\",\"Collection Name\",\"How-to-Use\",\"How-to-Apply\",\"Net Weight\",\"About the Brand\",\"Suitable for Undertone\",\"Notes\",\"Fragrance Story\",\"Model\",\"Compatible Filter\"],\"xceleratorTagsPriority\":{\"plp\":{\"top\":[\"FIELD_productimagetag\",\"FIELD_eorsPicksTag\",\"SA_XT_NEW_SEASON\",\"SA_XT_NEW\",\"SA_XT_Trending\"],\"bottom\":[\"PERSONALISED_PRICING\",\"MFU\",\"FIELD_tdBxGyText\",\"LOCAL_XT_fewLeft\",\"SA_XT_Best_Price\"]},\"pdp\":{\"top\":[\"SA_XT_Essential\",\"SA_XT_NEW_SEASON\",\"SA_XT_NEW\",\"SA_XT_Trending\"],\"bottom\":[\"PERSONALISED_PRICING\",\"MFU\",\"PRICE_OFFER\",\"EXPRESS_DELIVERY\",\"API_XT_BOTTOM\",\"LOCAL_XT_fewLeft\"]},\"wishlist\":{\"top\":[\"SA_XT_NEW_SEASON\",\"SA_XT_NEW\",\"SA_XT_Trending\",\"SA_XT_Popular\",\"FIELD_productimagetag\"]}},\"xceleratorTagsConfig\":{\"bottom\":[{\"name\":\"tags.fewLeft\",\"tagText\":\"Only Few Left!\",\"skuThreshold\":5,\"minSku\":2},{\"name\":\"tags.freeShipping\",\"tagText\":\"Free Shipping!\",\"freeShippingThreshold\":1500}],\"top\":[{\"name\":\"tags.new\",\"tagText\":\"NEW\",\"tdThreshold\":1,\"daysThreshold\":60}]},\"product.emi.info\":\"{\\\"minInterestRate\\\":\\\"12\\\",\\\"maxMonths\\\":\\\"24\\\"}\",\"referAndEarn\":{\"enable\":false,\"redirectUrl\":\"https://www.myntra.com\",\"topBanner\":{\"enable\":false,\"newUser\":{\"enable\":false,\"description\":\"Invite friends to Myntra’s EORS & get up to ₹150 MynCash for every person who visits\",\"cta\":\"INVITE NOW\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/rupee_illustration.png\"},\"bannerWithScratch\":{\"enable\":false,\"multiCardDescription\":\"new scratch cards available\",\"singleCardDescription\":\"new scratch card available\",\"description1\":\"You've earned\",\"description2\":\"MynCash so far\",\"description3\":\"You won\",\"multiCardDescription2\":\"scratch cards\",\"singleCardDescription2\":\"scratch card\",\"wishText\":\"Congratulations!\",\"cta\":\"CLAIM\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/rupee_illustration.png\"},\"bannerWithoutScratch\":{\"enable\":false,\"description\":\"You can earn up to\",\"cta\":\"EARN MORE\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"cashMetaInfo\":\"MynCash earned\"}},\"desktopSNE\":{\"enable\":false,\"newUser\":{\"enable\":false,\"description\":\"Invite friends to Myntra’s EORS & get up to ₹150 MynCash for every person who visits\",\"cta\":\"INVITE NOW\",\"link\":\"/shoutnearn/refer\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/rupee_illustration.png\"},\"bannerWithScratch\":{\"enable\":true,\"ctaHeading4\":\"You won\",\"singleCardDescription\":\"scratch card\",\"multiCardDescription\":\"scratch cards\",\"singleCardDescription2\":\"New scratch card available\",\"multiCardDescription2\":\"New scratch cards available\",\"ctaHeading2\":\"You've earned\",\"ctaHeading3\":\"MynCash so far\",\"wishText\":\"Congratulations!\",\"cta\":\"CLAIM\",\"link\":\"/shoutnearn/rewards\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/rupee_illustration.png\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\"},\"bannerWithoutScratch\":{\"enable\":true,\"heading\":\"MynCash earned\",\"cta\":\"EARN MORE\",\"description\":\"You can earn up to\",\"link\":\"/shoutnearn/refer\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/money.png\"}},\"feedBanner\":{\"enable\":false,\"newUser\":{\"enable\":true,\"image\":\"https://assets.myntassets.com/assets/images/retaillabs/2022/11/23/b116fd35-78f0-46e0-a1d6-7aebd08713a71669221288305-sne-hp-banner-thin-1080x342.jpg\"},\"bannerWithScratch\":{\"enable\":true,\"image\":\"https://assets.myntassets.com/assets/images/retaillabs/2021/9/23/d90a10af-c468-444c-9262-1411de788c531632377525953-scratch_cards_1.png\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"title\":\"Shout & Earn\",\"description\":\"Invite more friends to earn more MynCash\",\"multiCardMetaInfo\":\"Scratch cards\",\"singleCardMetaInfo\":\"Scratch card\",\"cta\":\"CLAIM NOW\",\"cashMetaInfo\":\"MynCash earned\"},\"bannerWithoutScratch\":{\"enable\":true,\"image\":\"https://assets.myntassets.com/assets/images/retaillabs/2022/9/2/c5b4e2a3-35cc-4f5f-98e7-4da6df9dc8d51662113654928-sne-man-single-456x448.png\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"title\":\"Shout & Earn\",\"description\":\"Invite more friends to Myntra’s EORS & earn more MynCash\",\"cta\":\"INVITE NOW\",\"cashMetaInfo\":\"MynCash earned\"}},\"dashboard\":{\"title\":\"\",\"body\":\"\",\"tncLink\":\"https://www.myntra.com/tac\",\"backgroundImg\":\"https://assets.myntassets.com/assets/images/retaillabs/2022/12/4/76ef9e4f-1995-49c6-867f-3a7af645cd121670138185307-sne-hp-banner-1440x684-ux-edit.jpg\",\"unscratchedImage\":\"https://constant.myntassets.com/pwa/assets/img/scratch_card_carousel.png\",\"pointsCard\":{\"description\":\"MynCash earned\",\"description2\":\"You can win up to\",\"description3\":\"MynCash\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"maxCashLimit\":500},\"share\":{\"title\":\"Invite Friends\",\"description\":\"Invite friends to Myntra’s End Of Reason Sale for the best fashion deals.\",\"subject\":\"Hey, come check out Myntra's End Of Reason Sale 10th - 16th Dec where the best of brands are at 50-90% Off! Click this link & we could both get up to ₹150 Off at India's biggest fashion sale!\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/EORS_JUN_2020.png\",\"shareUrl\":\"https://www.myntra.com/shoutnearn/refer\",\"iosMailImg\":\"https://constant.myntassets.com/pwa/assets/img/b645be81-c584-4e93-ac0d-4d8a4b5e1a411529421140610-ic_email.png\",\"cta\":\"COPY INVITE LINK\",\"fbEnable\":false},\"scratch\":{\"title\":\"Your Rewards\",\"description\":\"Scratch to claim your rewards!\",\"cta\":\"View All\",\"cashInfo\":\"MynCash earned\",\"minCardToShowCta\":3,\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\"},\"footer\":{\"footerTitle\":\"How It Works\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/dashboard_sample_card.png\",\"data\":[{\"title\":\"Purchase & Redeem (9th Dec - 16th Dec)\",\"body\":\"When you are shopping at the sale, select the MynCash option on the checkout page (as shown in the image below). You can claim a maximum of 10% of your total order value. Your MynCash will expire at 11:59 PM on Dec 16th, 2022.\"},{\"title\":\"How to Use\",\"body\":\"Once you have earned some MynCash by referring your friends, simply apply them through a checkbox at the transaction page when you checkout. Image shown below.\"}]},\"referredUser\":{\"heading\":\"You Won\",\"reward\":\"1 Scratch Card\",\"info\":\"A friend has invited you to Myntra's End Of Reason Sale. Visit now & get a chance to win up to ₹150 MynCash!\",\"claimCta\":\"CLAIM SCRATCH CARD\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/reward_half_card.png\"},\"limitErrorMsg\":\"You have reached the maximum reward limit of ₹500 using Shout & Earn\"},\"cardStore\":{\"cashInfo\":\"MynCash earned\",\"heading\":\"Your Rewards\",\"info\":\"Scratch the card to claim your rewards\",\"cta\":\"INVITE FRIENDS\",\"tncLink\":\"https://www.myntra.com/tac\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\"},\"scratchPopup\":{\"usJoinedMsg1\":\"You got this scratch card because\",\"usJoinedMsg2\":\"invited you. Scratch & earn Myncash to get an additional discount from 9th to 16th Dec at the Myntra’s End Of Reason sale\",\"usInviteMsg1\":\"You got this scratch card because\",\"usInviteMsg2\":\"accepted your invitation. Scratch & earn Myncash to get an additional discount from 9th to 16th Dec at the Myntra’s End Of Reason sale\",\"sMsg1\":\"You've earned ₹\",\"sMsg2\":\"MynCash from this scratch card.\\nUse this to get an additional discount from 9th to 16th Dec at the Myntra’s End Of Reason sale!\",\"usHeading\":\"Win up to ₹150 MynCash!\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"cashInfo\":\"MynCash earned\"},\"noSale\":{\"image\":\"https://constant.myntassets.com/pwa/assets/img/announcement.png\",\"message\":\"Sale Ended\",\"description\":\"Shout & Earn program was only for Myntra's End Of Reason Sale. The sale has now ended. See you in the next one!\",\"actionText\":\"CONTINUE SHOPPING\",\"action\":\"/\"},\"fraudDetected\":{\"text\":\"No scratch card for you\",\"actionText\":\"OKAY\",\"fqa\":[{\"title\":\"Why didn't you get a scratch card?\",\"description\":\"We were unable to give you a scratch card because we noticed some suspicious activity on your Myntra account\"},{\"title\":\"Want to know more about this?\",\"description\":\"Please get in touch with our customer care support and we will be happy to help you!\"}]}},\"web.pincodecheck.msg\":\"Please enter PIN code to check delivery time & Pay on Delivery Availability\",\"desktop.web.userDetection\":{\"enable\":true,\"maDetection\":{\"enable\":false,\"sendGaId\":false}},\"priorityBehaviourList\":{\"insiderTiers\":[\"Elite\",\"Icon\",\"Select\"]},\"earlyAccessBannerConfig\":{\"feed\":{\"enable\":false,\"priority\":{\"visible\":true,\"heading\":\"Enjoy free early access\",\"subText\":\"18 - 19 Dec 2020\",\"description\":\"2 FULL DAYS\",\"bgImage\":{\"width\":375,\"height\":99,\"url\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/9/fe3200c0-6f51-4c87-8c1a-b63611a1e1531607520701127-eors-ticket-unit-burger-copy-3x.png\"},\"link\":\"\"},\"regular\":{\"visible\":true,\"heading\":\"Get your Gold Slot\",\"subText\":\"SHOP AT SALE PRICES\",\"description\":\"19 Dec, 7 PM - 11 PM\",\"bgImage\":{\"width\":375,\"height\":99,\"url\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/9/06bb96fa-2926-4ba1-9c55-95844dabbe8a1607520701077-eors-ticket-unit-burger-3x.png\"},\"link\":\"/growth/playnearn\"},\"slot\":{\"visible\":true,\"heading\":\"Here's your Gold Slot\",\"bgImage\":{\"width\":375,\"height\":99,\"url\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/9/06bb96fa-2926-4ba1-9c55-95844dabbe8a1607520701077-eors-ticket-unit-burger-3x.png\"},\"link\":\"\"}},\"wishlist\":{\"enable\":false,\"priority\":{\"visible\":true,\"imgUri\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/8/c6df57df-856f-4e99-8c60-c28b4c306e4f1607439455276-vip-pass-prebuzz-ea-users-copy-2-3x.png\",\"aspectRatio\":\"688*108\",\"link\":\"\"},\"regular\":{\"visible\":true,\"imgUri\":\"https://constant.myntassets.com/pwa/assets/img/vip-pass-prebuzz-non-ea-users-copy-4.png\",\"aspectRatio\":\"688*108\",\"link\":\"/growth/playnearn\"},\"slot\":{\"visible\":false,\"imgUri\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/8/7177a6af-4d8c-45d1-a7b1-9289cf02ccee1607439455140-vip-pass-prebuzz-ea-users-copy-4-3x.png\",\"aspectRatio\":\"656*190\",\"link\":\"\"}}},\"firebaseEnable\":{\"enableDesktop\":true,\"enablePWA\":true,\"enableCheckout\":true},\"SentryDashboard\":{\"pwa\":{\"enableClient\":true},\"desktop\":{\"enableClient\":true}},\"web.complianceRequirements\":{\"grievancePopup\":{\"subject\":\"Contact Seller\",\"writeTo\":\"Myntra Designs Private Limited; Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru – 560103\",\"email\":\"support@myntra.com\",\"phone\":\"080 6156 1999\"},\"sellerPopup\":{\"heading\":\"More Information\",\"subHeading\":\"Product Code\",\"sections\":{\"manufacturerInfo\":\"Manufacturer Details\",\"importerInfo\":\"Importer Details\",\"packerInfo\":\"Packer Details\",\"countryOfOrigin\":\"Country of Origin\"}},\"maskedSellerPopup\":{\"heading\":\"More Information\",\"subHeading\":\"Product Code\",\"sections\":{\"importerInfo\":\"Importer Details\",\"countryOfOrigin\":\"Country of Origin\"}},\"testing\":{\"remove\":\"this\"}},\"checkout.addToCartMessaging\":{\"itemAlreadyPresent\":\"You have this item in your bag and we have increased the quantity by 1\",\"itemReachedMaxQty\":\"You have this item in your bag with the maximum available quantity\",\"itemAlreadyPresentAsFreeGift\":\"Item can't be added to cart, already present as free gift\"},\"myntra.corpInfo\":[{\"title\":\"Annual Return 2021\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/MGT-7.pdf\"},{\"title\":\"Annual Return 2022\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/MDPL_Form_MGT-7_FY_21-22.pdf\"},{\"title\":\"Annual Return 2023\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/MGT7_8_List_of_SHs.pdf\"},{\"title\":\"Annual Return 2024\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/Annual%20return_MDPL_23-24_pdf.pdf\"},{\"title\":\"Annual Return 2025\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/Annual_Return_2025.pdf\"},{\"title\":\"CSR Policy\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/MDPL_CSR_Policy.pdf\"}],\"web.r360\":{\"expiryInMins\":15,\"enabled\":true},\"desktopExternalRoutes\":[\"/contactus\",\"/checkout/\",\"/my/\",\"/studio/\",\"/myntrainsider\",\"/giftcard\",\"www.facebook.com\",\"twitter.com\",\"www.youtube.com\",\"www.instagram.com\",\"play.google.com\",\"itunes.apple.com\",\"/login\",\"/register\"],\"desktop.pla.paginationContext\":{\"refresh\":true,\"v\":1},\"desktop.globalSite\":{\"whitelistedCountries\":[\"SG\"],\"timeout\":0},\"userConsentConfig.web\":{\"loginInterval\":1500000,\"consentInterval\":10800000,\"enabled\":true,\"popupEnabled\":false}},\"server__date\":{\"date\":\"2025-12-07T08:15:41.019Z\",\"dateInMs\":1765095341019},\"env\":{\"browser\":{\"lscache\":true},\"services\":{\"root\":\"http://www.myntra.com/\",\"secureRoot\":\"https://www.myntra.com/\",\":search\":{\"path\":\"search-service/searchservice/search/\"},\":apify\":{\"path\":\"user/mobile/getotp\"},\":userprofile\":{\"path\":\"/user/\"},\":wallet\":{\"path\":\"pp/\"},\":lgptests\":{\"path\":\"/lgp/tests\"},\":details\":{\"path\":\"myntapi/style/style-service/pdpservice/style/pdp/imageres/\"},\":idp\":{\"path\":\"myntapi/idp/auth/\"},\":idea\":{\"path\":\"myntapi/idea/\"},\":idea-internal\":{\"path\":\"idea/opt\"},\":seo\":{\"path\":\"search/seo/\"},\":crm\":{\"path\":\"myntapi/crm/\"},\":callmeback\":{\"path\":\"myntapi/callmeback/\"},\":helpshiftchat\":{\"path\":\"myntapi/helpshiftchat/\"},\":wms\":{\"path\":\"myntapi/wms/\"},\":session-store\":{\"path\":\"SessionStoreService/rest/sessions/\"},\":session-store-new\":{\"path\":\"SessionStoreService/rest/opt/sessions/\"},\":sessions\":{\"path\":\"myntapi/idp/session/\"},\":searchstyles\":{\"path\":\"search-service/searchservice/search/\"},\":checkout\":{\"path\":\"myntra-absolut-service/absolut/\"},\":address\":{\"path\":\"myntra-address-service/\"},\":topnav\":{\"path\":\"config/nav/\"},\":banners\":{\"path\":\"myntra-banner-webapp/banner/personalizedbanner/\"},\":promodata\":{\"path\":\"configuration/keyValuePair/widget/header.promotion.data\"},\":kvpairs\":{\"path\":\"configuration/keyValuePair/widget/\"},\":featureGate\":{\"path\":\"configuration/keyValuePair/featureGate/\"},\":content\":{\"path\":\"myntra-cms-service/content/\"},\":contactus\":{\"path\":\"myntapi/crm/\"},\":atlas\":{\"path\":\"data/\",\"proxy\":\"/search/track/atlas/\"},\":stats\":{\"proxy\":\"/search/track/stats/\"},\":abtests\":{\"path\":\"configuration/abtest/\"},\":bots\":{\"path\":\"myntapi/bots\"},\":offer\":{\"path\":\"myntapi/coupons/pdp\"},\":oldofferservice\":{\"path\":\"ajaxPDPCouponWidget.php\"},\":lookgoodclub\":{\"path\":\"myntapi/lookgoodclub\"},\":serviceability\":{\"path\":\"ajaxPincodeWidget.php\"},\":locality\":{\"path\":\"myntra/ajax_pincode_locality.php\"},\":notifyme\":{\"path\":\"subs_notification.php\"},\":looks\":{\"path\":\"myntapi/cms/content/\"},\":sizechart\":{\"path\":\"myntapi/catalog/sizechart/\"},\":sizechartrecos\":{\"path\":\"fitrrati/recommendation/\"},\":fitrratisizechart\":{\"path\":\"fitrrati/myntrasizechart/\"},\":recommendation\":{\"path\":\"myntapi/style/style-service/pdpservice/style/recommendation/\"},\":crossSell\":{\"path\":\"product/\"},\":notification\":{\"path\":\"myntapi/notifications/\"},\":premiumshop\":{\"path\":\"myntapi/premiumshop/\"},\":inlinecontent\":{\"path\":\"myntapi/inlinecontent/\"},\":lms\":{\"path\":\"myntapi/lms/\"},\":atp\":{\"path\":\"myntapi/atp/\"},\":css\":{\"path\":\"myntapi/css/\"},\":oms\":{\"path\":\"myntapi/oms/\"},\":rms\":{\"path\":\"myntapi/rms/\"},\":rms_archived\":{\"path\":\"myntapi/rms/\"},\":vinyl\":{\"path\":\"myntapi/vinyl/\"},\":omsbounty\":{\"path\":\"myntra-bounty-service/bounty/portalOrder/\"},\":pricing\":{\"path\":\"myntapi/pricing/\"},\":privilege\":{\"path\":\"myntapi/privilege/\"},\":coupons\":{\"path\":\"myntapi/coupons/\"},\":urlshortner\":{\"path\":\"us/\"},\":checkout-internal\":{\"path\":\"myntra-absolut-service/absolut/\"},\":plutus\":{\"path\":\"myntra/plutus/v1/\"},\":fss\":{\"path\":\"v1/bin/\"},\":lp\":{\"path\":\"lp/\",\"client\":\"portal\",\"version\":\"1.0\"},\":deals\":{\"path\":\"pp/deal/\"},\":halloffame\":{\"path\":\"halloffame/testimonial/\"},\":user\":{\"path\":\"myntapi/user/\"},\":saved-cards\":{\"path\":\"payments/paymentInstruments/\"},\":best-coupon\":{\"path\":\"coupons/myntcoupon/\"},\":giftcard\":{\"path\":\"giftcard-service/\"},\":giftcard_mymyntra\":{\"path\":\"myntapi/giftcard/\"},\":captcha\":{\"path\":\"captcha/\"},\":static-pages\":{\"path\":\"myntapi/staticpages/\"},\":pps\":{\"path\":\"/myntra-payment-plan-service/v1/\"},\":vms\":{\"path\":\"myntapi/vms/\"},\":seller\":{\"path\":\"myntapi/seller/\"},\":request-management-system\":{\"path\":\"/\"},\":alteration\":{\"path\":\"fs/alteration\"},\":hallmark\":{\"path\":\"myntra-hallmark-service/\"},\":location\":{\"path\":\"myntra-location-service/location/\"},\":survey\":{\"path\":\"myntapi/survey/\"},\":notifyMeService\":{\"path\":\"v1/notifications/\"},\":gatewayv1\":{\"path\":\"v1/\"},\":myntservice\":{\"path\":\"mynts/v1/\"},\":payments\":{\"path\":\"payments/\"},\":features\":{},\":collection\":{\"path\":\"collections/me/wishlist\"},\"static-pages\":{\"path\":\"myntapi/staticpages/\"},\":cashbackservice\":{\"path\":\"pp/\"}},\"instrumentation\":{\"debug\":false,\"clientId\":\"lzZNMYGoPkQVWOGL3wg81DLeJ4arpd\"},\"staticFiles\":{\"root\":\"http://myntra.myntassets.com/\",\"defaultRoot\":\"http://myntra.myntassets.com/\",\"secureRoot\":\"https://cdn.myntassets.com/\",\"cloudinaryRoot\":\"http://assets.myntassets.com/\",\"cloudinarySecureRoot\":\"https://assets.myntassets.com/\",\"path\":\"myx/\",\"src\":\"./public\",\"dest\":\"./dist\",\"staticPrefix\":\"/search/\",\"hashify\":true,\"compress\":true,\"cdn\":true},\"statsd\":{\"app\":\"myx-search\",\"prefix\":\"myx-production-\",\"host\":\"statsd-frontend.myntra.com\",\"port\":8125,\"isEnabled\":true,\"samplingRate\":1},\"GA\":{\"enabled\":false,\"UA\":\"\"},\"gaKey\":\"UA-1752831-18\",\"cookie\":{\"prefix\":\"\",\"domain\":\".myntra.com\",\"uuidcookiedomain\":\".myntra.com\"},\"fbAppId\":\"182424375109898\",\"hosts\":{\"root\":\"http://www.myntra.com/\",\"secureRoot\":\"https://www.myntra.com/\"}},\"microsessid\":103,\"session\":{\"USER_TOKEN\":\"R7KbR4AGBSDUYlKZccFU0xPC6ufnqTEX\",\"login\":\"\",\"isLoggedIn\":false},\"traffic\":{\"medium\":\"\",\"source\":\"\",\"referrer\":\"\",\"channel\":\"direct\",\"isFirstTime\":\"0\",\"isRegistered\":\"0\",\"ruUserHashId\":\"d41d8cd98f00b204e9800998ecf8427e\"},\"isOSCompatible\":false,\"lp\":{\"status\":\"disabled\"},\"mxab\":{\"config.bucket\":\"regular\",\"coupon.cart.channelAware\":\"channelAware_Enabled\",\"cart.cartfiller.personalised\":\"enabled\"}}"
+          "name": "izootoSession",
+          "value": "{\"count\":2,\"expiry\":1765113967201}"
         },
         {
-          "name": "izootoSession",
-          "value": "{\"count\":1,\"expiry\":1765097142068}"
+          "name": "lscache-beacon:user-data",
+          "value": "{\"apps\":{\"android\":false,\"ios\":false,\"isPhonePeWebview\":false,\"androidAppVersion\":\"Not Android\",\"androidAppVersionWithReleaseTags\":\"Not Android\",\"iosAppVersionWithReleaseTags\":\"Not IOS\"},\"deviceData\":{\"isMobile\":false,\"isTablet\":false,\"deviceName\":\"\",\"deviceChannel\":\"desktop\",\"deviceType\":\"desktop\",\"isDesktop\":true,\"isRobot\":false,\"os\":\"windows\"},\"features\":{\"mfu.enable\":false,\"mfu.enable.wishlist\":false,\"mfu.exchange.url\":\"https://myntra.com/growth/donate-items\",\"pdp.mfa.recommendation.enable\":\"true\",\"web.ratings.enable\":true,\"web.PDP.fastFashionRating.enable\":true,\"web.list.fastFashionRating.enable\":true,\"search.enableSortDeliveryTime\":\"false\",\"wishlist.enable\":\"true\",\"pdp.recommendation.enable\":\"true\",\"pdp.shoppableLooksWeb.enable\":true,\"autosuggest.character.threshold\":\"3\",\"autosuggest.enable\":\"true\",\"myntraweb.promoheader.enable\":\"true\",\"skubased.servcieability.enable\":\"true\",\"autoFetch.serviceability.enable\":\"true\",\"pdp.offers.expanded\":\"true\",\"disableCouponServiceOnPDP\":\"false\",\"wishlist.oos.showsimilar.disable\":\"false\",\"showLoginCaptcha\":\"false\",\"password.specialchar.enable\":true,\"pdp.crossSell.enable\":\"true\",\"sellableInventoryModeEnabled\":true,\"showSignupCaptcha\":\"false\",\"list.imageSlider.enable\":\"true\",\"loyaltypoints.maxPercentOfCart\":\"10\",\"loyaltypoints.conversionFactor\":1,\"atlas.disable\":\"false\",\"encrypt.v2.enabled\":\"true\",\"cache.akamai.disable\":\"false\",\"sessionExpirySecs\":\"31536000\",\"slots.context\":\"general\",\"slots.fetchSlot\":false,\"slots.refreshRate\":300,\"slots.assignSlotATC\":false,\"slots.assignSlotATW\":false,\"loyaltypoints.enable\":true,\"header.notifications.enabled\":\"false\",\"portal.hrdr.degradablefg.enable\":\"false\",\"onlyMymyntraSessionUpdate.enable\":\"false\",\"sessionTampercheck.enabled\":\"true\",\"cache.desktop.home\":\"true\",\"search.personalisation\":\"false\",\"pwaNewUserOnboarding.deliveryOptions\":true,\"pwaNewUserOnboarding.halfCards\":true,\"pwaNewUserOnboarding.banners\":true,\"pwaNewUserOnboarding.feedBanners\":true,\"desktopNewUserOnboarding.freeShipping\":true,\"desktop.serverProxy.enable\":false,\"slots.disableChangeSlot\":true,\"web.PDP.couponCatalogue\":true,\"desktop.addressSelection\":true,\"pdp.attachedOffers.enabled\":true,\"ma.instrumentation.enable\":true,\"disable.reviewsQuestionAnswer\":false,\"web.pdp.expiry\":true,\"desktop.authnz.enable\":true,\"enableDesktopSpa\":true,\"pdp.freeSampleSelector\":true,\"search.nbr\":false,\"search.speedPromise\":true,\"search.deliveryTat\":true,\"pdp.freeSampleSelectorDesktop\":true,\"web.GA.disable\":true,\"plp.desktop.pla\":true,\"search.priceSlider\":true},\"kvpairs\":{\"web.taxBanner\":{\"default\":{\"enable\":false,\"info\":\"As per guidelines, we are only delivering essentials in govt-specified pincodes\"},\"pwa\":{\"enable\":false,\"info\":\"As per guidelines, we are only delivering essentials in govt-specified pincodes\",\"bgColor\":\"#03a685\",\"rowCount\":2},\"desktop\":{\"enable\":false,\"info\":\"- As per guidelines, we are only delivering essentials in govt-specified pincodes - \",\"bgColor\":\"#03a685\"},\"checkout\":{\"enable\":false,\"info\":\"As per guidelines, we are only delivering essentials in govt-specified pincodes\"}},\"admissioncontrol.popup.data\":\"{\\\"title\\\": \\\"GREAT!\\\",\\\"p1\\\": \\\"Shop during Early Access & make sure you get all your favourites before they stock out!\\\",\\\"p2\\\": \\\"Buy before the sale opens for all!\\\",\\\"image\\\": \\\"https://constant.myntassets.com/pwa/assets/img/eors-logo-unit-dark.png\\\"}\",\"pdp.emi.plans\":[{\"plans\":[{\"months\":3,\"interest\":15,\"f\":0.3417},{\"months\":6,\"interest\":15,\"f\":0.17403},{\"months\":9,\"interest\":15,\"f\":0.11817},{\"months\":12,\"interest\":15,\"f\":0.09026},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"HDFC\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":13,\"f\":0.11722},{\"months\":12,\"interest\":13,\"f\":0.08932},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"ICICI\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":15,\"f\":0.11817},{\"months\":12,\"interest\":15,\"f\":0.09026},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"CITI\"},{\"plans\":[{\"months\":3,\"interest\":14,\"f\":0.34114},{\"months\":6,\"interest\":14,\"f\":0.17354},{\"months\":9,\"interest\":14,\"f\":0.11769},{\"months\":12,\"interest\":14,\"f\":0.08979}],\"bank\":\"SBI\"},{\"plans\":[{\"months\":3,\"interest\":12,\"f\":0.34002},{\"months\":6,\"interest\":12,\"f\":0.17255},{\"months\":9,\"interest\":13,\"f\":0.11722},{\"months\":12,\"interest\":13,\"f\":0.08932},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"AXIS\"},{\"plans\":[{\"months\":3,\"interest\":12,\"f\":0.34002},{\"months\":6,\"interest\":12,\"f\":0.17255},{\"months\":9,\"interest\":14,\"f\":0.11769},{\"months\":12,\"interest\":14,\"f\":0.08979},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"KOTAK\"},{\"plans\":[{\"months\":3,\"interest\":15,\"f\":0.3417},{\"months\":6,\"interest\":15,\"f\":0.17403},{\"months\":9,\"interest\":15,\"f\":0.11817},{\"months\":12,\"interest\":15,\"f\":0.09026}],\"bank\":\"AMEX\"},{\"plans\":[{\"months\":3,\"interest\":12.5,\"f\":0.3403},{\"months\":6,\"interest\":12.5,\"f\":0.1728},{\"months\":9,\"interest\":13.5,\"f\":0.11745},{\"months\":12,\"interest\":13.5,\"f\":0.08955},{\"months\":18,\"interest\":13.5,\"f\":0.06168}],\"bank\":\"HSBC\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":13,\"f\":0.11722},{\"months\":12,\"interest\":13,\"f\":0.08932},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"INDUSIND\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":13,\"f\":0.11722},{\"months\":12,\"interest\":13,\"f\":0.08932},{\"months\":18,\"interest\":13,\"f\":0.06145},{\"months\":24,\"interest\":13,\"f\":0.04754}],\"bank\":\"RBL\"},{\"plans\":[{\"months\":3,\"interest\":13,\"f\":0.34058},{\"months\":6,\"interest\":13,\"f\":0.17304},{\"months\":9,\"interest\":14,\"f\":0.11769},{\"months\":12,\"interest\":14,\"f\":0.08979},{\"months\":18,\"interest\":15,\"f\":0.06238},{\"months\":24,\"interest\":15,\"f\":0.04849}],\"bank\":\"Standard Chartered\"}],\"pdp.emi.terms\":{\"intro\":\"Welcome to Myntra. This page details the Equated Monthly Installments (EMI)  made available on Myntra marketplace platform (Myntra) on behalf of participating seller/s at their sole discretion and may be revoked or suspended by them any time. These terms and conditions are in addition to the Myntra Terms of Use to which you agree and are bound by using Myntra.\",\"terms\":[\"The EMI payment option is available only on credit cards issued by the following banks: HDFC, ICICI, SBI, CitiBank, Axis, Amex, HSBC, IndusInd, Kotak, RBL ,Standard Chartered.\",\"The EMI facility is offered by the card issuing bank through PayUBiz. The EMI eligibility, payment plan and refund rules are solely on the internal discretion and approvals of the bank. Myntra shall not be held liable for any dispute between the customer and bank arising out of or in connection with the EMI payment made on Myntra.\",\"The EMI facility is available for all products on Myntra except some jewellery items especially gold items. Myntra reserves the right to stop the EMI facility against any product sold on the platform anytime without any priority notice.\",\"The facility is available only for order value above Rs. 2500. The minimum eligible order value varies from bank to bank.\",\"Myntra reserves the right to temporarily or permanently stop the EMI facility without any prior notice.\",\"Myntra does not charge the customer any processing or convenience fee for this service\",\"Myntra is offering the EMI facility through PayU Biz. The EMI plans, tenure and interest are as per the information shared with PayU Biz. For any concern or dispute a customer should contact the respective bank.\",\"In the case of cancellations or returns of items purchased on EMI, Myntra will facilitate the refunds for and on behalf of the sellers as per the relevant refund policy. The customer is advised to check with the respective bank/issuer offering the EMI how the cancellations or refund will affect the EMI terms and of any pre-closure or interest charges levied on the customer.\"]},\"shipping.charges.cartlimit\":\"799\",\"myntraweb.promoheader.data\":\"{\\\"data\\\":{\\\"children\\\":[{\\\"children\\\":[{\\\"children\\\":[],\\\"props\\\":{\\\"title\\\":\\\"Myntra Insider\\\",\\\"url\\\":\\\"/myntrainsider?cache=false\\\",\\\"meta\\\": {\\\"new\\\":true,\\\"disable\\\":false}}},{\\\"children\\\":[],\\\"props\\\":{\\\"title\\\":\\\"Gift Card\\\",\\\"url\\\":\\\"/giftcard\\\",\\\"meta\\\": {\\\"new\\\":false,\\\"disable\\\":false}}},{\\\"children\\\":[],\\\"props\\\":{\\\"title\\\":\\\"Track Orders\\\",\\\"url\\\":\\\"/my/orders\\\",\\\"meta\\\": {\\\"new\\\":false,\\\"disable\\\":false}}},{\\\"children\\\":[],\\\"props\\\":{\\\"title\\\":\\\"Contact Us\\\",\\\"url\\\":\\\"/contactus\\\",\\\"meta\\\": {\\\"new\\\":false,\\\"disable\\\":false}}}],\\\"props\\\":{\\\"title\\\":\\\"block\\\",\\\"meta\\\": {\\\"mobile\\\":false}}}],\\\"props\\\":{\\\"title\\\":\\\"giftCard.links\\\"}}}\",\"hrdr.salebanner.data\":\"{\\\"enable\\\":\\\"true\\\",\\\"image\\\":\\\"\\\",\\\"timerlabel\\\":\\\"Sale Ends in\\\",\\\"message\\\":\\\"\\\",\\\"enddate\\\":\\\"2025-06-12T18:29:59.999Z\\\",\\\"when\\\":\\\"\\\",\\\"name\\\":\\\"\\\"}\",\"app.android.dlink\":\"https://335741.measurementapi.com/serve?action=click&publisher_id=335741&site_id=128503&invoke_id=282383&my_campaign=Organic&my_publisher=Other%20Organic&my_adgroup=Myntra%20Brand&my_ad=0&site_id_android=128503&site_id_ios=128517\",\"app.windows.dlink\":\"http://www.windowsphone.com/en-us/store/app/myntra-india-fashion-store/a92e3afb-c791-4624-86da-8624f91cfbc1\",\"app.ios.dlink\":\"http://ad.apsalar.com/api/v1/ad?re=0&st=687711906604&h=1f2b9e36f2083b55df984310594e479adb75adb5\",\"pdp.offers.visible\":\"EMI\",\"pdpurlchange.categories\":[],\"prelaunch.brands\":{\"date\":\"Buy Later\"},\"earlyslot.config\":{\"appSlotApiCall\":true,\"saleStartTime\":\"1569695400000\",\"platinumSlotStartTime\":\"1569677400000\",\"slotCreativeURL\":\"https://constant.myntassets.com/pwa/assets/img/72c37880-476c-4b4a-b0ea-91f0b6054c821569179931342-BFD_mysale_coupon.png\",\"topBanner\":{\"imgUrl\":\"https://constant.myntassets.com/pwa/assets/img/2e0ab496-dea6-4daa-a1e3-f30f2718036f1569178709286-hero-banner.jpg\",\"landingUrl\":\"/eors19-best-prices\"},\"couponsCreativeBanner\":{\"imgUrl\":\"https://constant.myntassets.com/pwa/assets/img/87d8481c-3c84-41d0-a05c-006e9d7854601569178709271-MYNTRA-INSIDER-BANNER.jpg\",\"landingUrl\":\"/growth/eors19-buypage\"},\"mySalePageTitle\":\"Big Fashion Days Sale\",\"slotInfo\":{\"slot\":{\"beforeSlot\":{\"desc\":\"You have an early entry slot. Shop before the sale starts & get your favourite products before they’re sold out. Hurry!\"},\"atSlot\":{\"desc\":\"You have an exclusive VIP Slot. Shop before the sale starts and grab your favourite products before they run out.\"},\"afterSlot\":{\"desc\":\"Your VIP Slot has ended. You can continue to shop during the sale starting midnight. See you there!\"},\"title\":\"EXCLUSIVE GOLD SLOT\",\"platinumTitle\":\"EXCLUSIVE PLATINUM SLOT\",\"slot_change_text\":\"CHANGE SLOT TIME\",\"links\":[{\"title\":\"SHOP NOW\",\"url\":\"/welcome-to-myntra\"}]},\"noSlot\":{\"title\":\"EXCLUSIVE GOLD SLOT\",\"desc\":\"Start shortlisting your favourite styles now and get a slot for early access to the sale.\",\"dateDesc\":\"Shop before sale starts\",\"timeDesc\":\"Get your slot now\",\"links\":[{\"title\":\"PLAY GAMES NOW TO GET A SLOT\",\"url\":\"/growth/bfd19-buypage?source=game\",\"id\":\"play_games\"}]}},\"couponsInfo\":{\"enable\":\"false\",\"title\":\"EORS Coupons\",\"desc\":\"\",\"links\":[{\"title\":\"VIEW ALL COUPONS\",\"url\":\"/growth/prebuzz-buypage\",\"id\":\"view_all_coupons\"}]},\"quickCash\":{\"enable\":\"false\",\"background\":\"https://constant.myntassets.com/pwa/assets/img/373efad3-c8f3-41a2-8cbb-1d7d5d3b34ff1543578937171-bg_quickcash_profile.png\",\"title\":{\"__html\":\"<b>Myntra Points</b> earned so far\"},\"nonLoggedInTitle\":{\"__html\":\"<b>Shout & Earn</b>\"},\"desc\":{\"__html\":\"Invite your friends to the End Of Reason Sale &amp; get <i>₹</i>50 for every friend who visits. They get <i>₹</i>50 too.\"},\"links\":[{\"title\":\"KNOW MORE\",\"title2\":\"KNOW MORE\",\"url\":\"/referrals-dashboard\",\"urlForApp\":\"/referrals-dashboard\",\"id\":\"earn_cash\"}]}},\"hrdr.pricereveal.data\":\"{\\\"enable\\\":\\\"false\\\",\\\"buttonlabel\\\":\\\"Sales starts at midnight\\\",\\\"info\\\":\\\"Select size to check if we have very few left\\\"}\",\"oneTapLogin\":{\"enable\":true,\"desktopEnabled\":true,\"enableOnCheckout\":false,\"nativeLogin\":{\"loginPopup\":{\"enable\":true,\"loginHalfcardLoadTime\":10,\"popupBannerRatio\":\"3*1\",\"popupBanner\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/3/16/4555c67e-7cf2-43f9-b6c8-f923da1debba1584336497021-group-2x.png\"},\"loginPageBanner\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/3/16/c5a5875b-1660-44a1-937c-e4144e2c49fb1584336497054-banner-login-page-10-2x.png\",\"loginPageBannerRatio\":\"600*240\",\"sidebarBanner\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/3/16/77ce188f-013a-4d35-8fa7-17e10a8427071584336497086-banner-hamburger-09-2-2x.png\"},\"popUpDisableTime\":24,\"popUpLoadTime\":2,\"yoloLoadeEvent\":false,\"oneTapDisablePage\":[\"/login\",\"/register\",\"/otplogin\",\"/shoutnearn/refer\",\"/shoutnearn/refer/\",\"/shoutnearn/rewards\",\"/login/password\",\"/accountlink\",\"/login/signup\",\"/login/email\",\"/recovery/options\",\"/recovery/reset-password\",\"/forgot\",\"/recovery\",\"/mobilelink\",\"/login/passwordverify\",\"/recovery/options/alternate-number\",\"/recovery/options/card-details\",\"/recovery/update-account\",\"/recovery/options/alternate-number/otp\",\"/recovery/options/customer-care\",\"/recovery/update-account/pmn/otp\",\"/login/createaccount\"],\"autoOtp\":{\"enable\":true,\"regex\":\"\\\\d{4}\"}},\"priorityCheckout.config\":{\"enable\":false,\"event\":\"EORS\",\"startTime\":1764275123000,\"endTime\":1764287123000,\"charges\":49,\"vipPassEnabled\":false,\"option1\":{\"header\":\"Buy With VIP Early Access Charge\",\"image\":\"https://constant.myntassets.com/checkout/assets/img/EarlyCheckout.svg\",\"linesLevel1\":[\"Checkout before the sale rush starts \\n <span style='font-weight:700;'>Pay ₹{amount} extra per order</span> and get your favourite \\nproducts at the sale prices today\"],\"linesLevel2\":[\"Pay only ₹{amount} extra (non refundable) for the entire order and shop at sale price now.\",\"No need of worrying about products or sizes going out-of-stock and no need of shopping at midnight!\"]},\"option2\":{\"header\":\"Wait Till Midnight for Sale To Start\",\"image\":\"https://constant.myntassets.com/checkout/assets/img/Waiting.svg\",\"linesLevel1\":[\"Wait till midnight for the sale to start and shop without paying any fee.\"],\"linesLevel2\":[\"Don't want to pay the Early Access fee? Wait for the sale to start\",\"There is a chance that your favourite products will run out-of-stock during the sale rush.\",\"Sale to start at 00:01 hours, 10th December\"],\"slotLine\":\"Your early slot is at $slot.\"},\"option3\":{\"header\":\"Buy With VIP Ticket\",\"addToBag\":\"ADD VIP TICKET\",\"tag\":\"ONE TIME BUY ₹1\",\"image\":\"https://constant.myntassets.com/checkout/assets/img/Ticket.webp\",\"linesLevel1\":[\"Add a VIP Ticket for exclusive access before EORS by paying ₹19. Save more with each order placed before SALE.\\n<div style='color:#E34935'>Cash on Delivery for this order will not be available\"],\"linesLevel2\":[\"Pay one time fee of ₹1 (non refundable) for the current order and shop at sale price now.\",\"No need of worrying about products or sizes going out-of-stock and no need of shopping at midnight!\"],\"errorCallout\":\"Cash on Delivery not available for this order with VIP Ticket\"},\"agreeText\":\"I agree to pay Rs.49 for Early Access.\",\"Eorstime\":\"EORS to start (midnight, 5 Dec)\",\"headerIcon\":\"https://constant.myntassets.com/checkout/assets/img/pig.svg\",\"buttonText\":\"BUY NOW WITH EARLY ACCESS\",\"spcButtonText\":\"Buy Now with Early Access\",\"featureName\":\"Early Access\",\"orderTotalName\":\"Early Access Fee\",\"mainText\":\"Hurray! You will save Rs. %s on this order\",\"headerSubLine\":\"Buy now with Early Access and get your favourite products for sure, at EORS prices! Additional offers available on the payments page.\",\"freeHeaderSubLine\":\"Shop now with Free Early Access and get your favorite products at EORS prices.\",\"freeEarlyAccessText\":\"Get EORS Early Access for free!\",\"vipEAInfoText\":\"VIP Early Access charge of ₹{amount} applied\"},\"sessionExpirySecs\":\"604800\",\"atTokenExpirySecs\":\"16070400\",\"rtTokenExpirySecs\":\"16070400\",\"extraDevices\":\"{\\\"MOTOE2\\\":\\\"XT1021\\\",\\\"NOTE\\\":\\\"1W\\\",\\\"honor6\\\":\\\"H60-L04\\\",\\\"LenevoZ2\\\":\\\"X2-AP\\\",\\\"Yota\\\":\\\"C9660\\\",\\\"HonorHolly\\\":\\\"U19\\\",\\\"Alcatel\\\":\\\"KOT49H\\\",\\\"HTC\\\":\\\"M9PLUS\\\",\\\"ZENFON1\\\":\\\"ASUS_Z00AD\\\",\\\"ZENFON2\\\":\\\"ASUS_Z008D\\\",\\\"SAMSUNG-NOTE\\\":\\\"SM-T561\\\",\\\"MOTOG3\\\":\\\"MOTOG3\\\",\\\"Android\\\":\\\"MyntraRetailAndroid\\\",\\\"iPhone\\\":\\\"MyntraRetailiPhone\\\"}\",\"pwaNewUserOnboarding.halfCards\":{\"return\":{\"header\":\"Easy Returns\",\"desktopHeader\":\"Easy Returns\",\"body\":{\"cardReturn\":\"Go to &lt;strong&gt;Menu&lt;/strong&gt; > &lt;strong&gt;My Orders&lt;/strong&gt; > &lt;strong&gt;Return&lt;/strong&gt; and select the time slot and mode for return\",\"cardAgentCustomer\":\"Delivery agent will pick up the product\",\"cardCash\":\"Refund will be processed in 7-14 days after the quality check\"},\"footer\":\"&lt;strong&gt;Note:&lt;/strong&gt; The product should not be damaged and the price tags should be intact. T&C applicable\"},\"exchange\":{\"header\":\"Easy Exchanges\",\"desktopHeader\":\"Easy Exchanges\",\"body\":{\"cardExchange\":\"Go to &lt;strong&gt;Menu&lt;/strong&gt; > &lt;strong&gt;My Orders&lt;/strong&gt; > &lt;strong&gt;Exchange&lt;/strong&gt; and select the time slot for exchange\",\"cardAgentCustomer\":\"Delivery agent will deliver the new product and pick up the old one\",\"cardAgentDeliver\":\"No additional payment needed\"},\"footer\":\"&lt;strong&gt;Note:&lt;/strong&gt; The product should not be damaged and the price tags should be intact. T&C applicable\"},\"try\":{\"header\":\"How does Try and Buy work?\",\"desktopHeader\":\"Try and Buy\",\"body\":{\"cardTry\":\"Select option &lt;strong&gt;&quot;Try and Buy&quot;&lt;/strong&gt; in the address confirmation page\",\"cardAgentCustomer\":\"Delivery agent waits while you try the items\",\"cardClothes\":\"Keep the items you like and return the rest to the agent\",\"cardCash\":\"Pay only for what you keep (for pay on delivery orders) or get refunded for the ones returned (for prepaid orders)\"},\"footer\":\"&lt;strong&gt;Ordering for the first time?&lt;/strong&gt; You can also avail COD with Try &amp; Buy and pay only for what you keep. T&C applicable\"},\"differentialReturns\":{\"enable\":false,\"header\":\"How hassle free 15 day return works\",\"desktopHeader\":\"Hassle free 15 day returns\",\"body\":{\"bpcReturnRequest\":\"&lt;h6&gt;Raise Return Request&lt;/h6&gt;&lt;p&gt;Go to ‘My Orders’ section and click on return on a wrong, defective or expired product&lt;/p&gt;\",\"bpcRequestApproval\":\"&lt;h6&gt;Request Approval&lt;/h6&gt;&lt;p&gt;Once the request is raised, it’ll be evaluated within 3 business days.&lt;/p&gt;\",\"bpcRefund\":\"&lt;h6&gt;Refund&lt;/h6&gt;&lt;p&gt;The amount will be refunded to the selected mode once the product is picked up and physically evaluated*&lt;/p&gt;\"},\"footer\":\"&lt;p style='color:#ff5722';&quot;&gt;*In case of self ship, courier the item to the nearest warehouse. Check FAQ for details&lt;/p&gt;\",\"images\":{\"bpcReturnRequest\":\"https://assets.myntassets.com/assets/images/2021/5/24/df66b668-d952-4881-a2ae-7041c96043861621846711169-return_request.png\",\"bpcRequestApproval\":\"https://assets.myntassets.com/assets/images/2021/5/24/cd09461f-7511-4a0b-acc0-dfd3351f75f01621848256046-request_approval.png\",\"bpcRefund\":\"https://assets.myntassets.com/assets/images/2021/5/24/2a615c32-116e-4491-92e2-e79205d071421621848162720-refund.png\",\"differentialReturns\":\"https://constant.myntassets.com/pwa/assets/img/differential-returns-icon.png\"}}},\"pwaNewUserOnboarding.banners\":{\"trustBuilders\":{\"trustOriginal\":\"Genuine Products\",\"trustQuality\":\"7 Step Quality Check\",\"trustSecure\":\"Secure Payments\"},\"newUsersPDP\":{\"title\":\"Upto 500 Off \",\"description\":\"Applicable on your first order.&lt;br/&gt; Use code: MYNTRA500\"},\"exchangeReturn\":{\"return\":{\"title\":\"Easy 14 days returns\",\"description\":\"Choose to return within 14 days.\"},\"exchange\":{\"title\":\"Easy 14 days exchange\",\"description\":\"Choose to exchange for a different size (if available) within 14 days.\"},\"returnAndExchange\":{\"title\":\"Easy 14 days returns and exchange\",\"description\":\"Choose to return or exchange for a different size (if available) within 14 days.\"},\"noReturnAndExchange\":{\"title\":\"Return and Exchange not available\",\"description\":\"Items like innerwear, socks, certain accessories and some high-value fragile items do not come under our return/exchange policy.\"},\"differentialReturns\":{\"title\":\"Hassle Free returnPeriod Day Return\",\"description\":\"You can return the product within returnPeriod days if the delivered product is damaged, expired, different from ordered.\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/differential-returns-icon.png\"}},\"newUsersPLP\":{\"coupon\":{\"bold\":\"UPTO 500 OFF\",\"text\":\"MYNTRA500\"}},\"newUsersDynamicPLP\":{\"data\":{\"discountAmount\":500,\"discountCouponCode\":\"MYNTRA500\",\"discountMsg\":\"{discountAmount} off only on App\",\"valueProps\":[{\"text\":\"Guaranteed Refunds\",\"icon\":\"refunds-icon\"},{\"text\":\"Easy Return & Exchange\",\"icon\":\"return-exchange-icon\"}]}}},\"pwaNewUserOnboarding.feedBanners\":{\"sessionTimeMinutes\":30,\"cards\":{\"grid_men\":{\"enabled\":false,\"type\":\"GRID\",\"index\":2,\"columnCount\":3,\"audience\":\"all\",\"header\":\"ESSENTIALS FOR MEN\",\"content\":[{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-tshirts\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/b2d6cb61-2796-46ba-b813-bf723c8fc27e1559216808945-Men-category-cards_01_tshirts.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-shirts\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/3c637a0a-0cda-45a7-8ce8-5bb212d4b6411559216808935-Men-category-cards_02_shirts.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-casual-shoes\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/c05e6606-cd11-4d96-895c-b1b8defc2d871559216808925-Men-category-cards_03_casual_shoes.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-jeans\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/1f2ab0ea-e6a3-4efe-b248-cbec95a900161559216808913-Men-category-cards_04_jeans.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-sports-shoes\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/ac2715e2-b2e6-41a8-9f91-79ed52d5eacb1559216808902-Men-category-cards_05_sports_shoes.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-men-trousers\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/f8262050-fe52-4390-98b8-21c634e09bae1559216808891-Men-category-cards_06_trousers.jpg\"}]},\"grid_women\":{\"enabled\":false,\"type\":\"GRID\",\"index\":1,\"columnCount\":3,\"audience\":\"all\",\"header\":\"ESSENTIALS FOR WOMEN\",\"content\":[{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-kurtas\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/6916789c-0e4e-4e70-860b-7bed6af846681559216916445-women-category-cards_01_kurtas.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-dresses\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/7a363be2-002c-45a0-96b0-30c359ab7f5b1559216916421-women-category-cards_02_dresses.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-tops\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/a876ce8c-5b1d-4b87-a5cd-626f20b8c1171559216916411-women-category-cards_03_tops.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-kurtasets\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/4d76fbbe-d72b-4df3-86f9-59e7152b66b51559216916400-women-category-cards_04_kurta_Sets.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-jeans\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/2a0ce60a-4d10-4e61-8c0a-f59f377213d51559216916390-women-category-cards_05_jeans.jpg\"},{\"height\":435,\"width\":327,\"link\":\"https://www.myntra.com/welcome-to-myntra-women-tshirts\",\"src\":\"https://constant.myntassets.com/pwa/assets/img/3fd040fc-431d-4060-9469-f0c11b7329121559216916380-women-category-cards_06_tshirts.jpg\"}]},\"trust_builders\":{\"enabled\":false,\"index\":1,\"type\":\"BANNER\",\"audience\":\"newUser\",\"sessionCount\":10,\"content\":{\"width\":411,\"height\":41,\"link\":\"\",\"src\":\"https://assets.myntassets.com/assets/images/2020/4/17/94ced9ef-4b6b-4e4f-88e9-f9e0d03e253e1587148152258-app-strip-1.png\"}},\"new_user_offer_feedcard\":{\"enabled\":false,\"index\":0,\"type\":\"BANNER\",\"audience\":\"newUser\",\"sessionCount\":20,\"content\":{\"width\":49,\"height\":15,\"src\":\"https://assets.myntassets.com/assets/images/2021/7/2/5e726400-0a65-4bda-b298-530b686fbaa61625248177800-msite.jpg\",\"link\":\"https://myntra.onelink.me/eWcy/f7830d2\"}},\"new_user_free_delivery\":{\"enabled\":false,\"index\":2,\"type\":\"BANNER\",\"sessionCount\":10,\"audience\":\"newUser\",\"content\":{\"width\":48,\"height\":10,\"src\":\"https://assets.myntassets.com/assets/images/banners/2020/3/14/3d8c544d-7afa-4cfc-b366-990c503690f11584165964634-HP_Permanent_Strip.jpg\",\"link\":\"https://www.myntra.com/welcome-to-myntra\"}}}},\"desktopNewUserOnboarding.freeShipping\":{\"pages\":[\"home\",\"search\",\"shop\"],\"trustBuilders\":{\"genuine\":\"Genuine Products\",\"try\":\"Try & Buy\",\"exchange\":\"Easy Exchanges & Returns\"},\"sidebar\":\"UPTO ₹500 OFF\",\"button\":{\"text\":\"SIGN UP NOW >\",\"link\":\"/register\"},\"image\":{\"url\":\"https://assets.myntassets.com/assets/images/2025/7/22/189d2a70-82d0-4c23-8620-a3d640ab0e7c1753193332975-900x600_500.png\"},\"content\":{\"pre-header\":\"Avail Upto\",\"main-header\":\"500 OFF\"},\"coupon\":{\"text\":\"Coupon Code:\",\"code\":\"MYNTRA500\",\"subtitle\":\" Applicable on your first order\"},\"ironam\":{\"action\":\"spride\"}},\"pdp.contentRevamp.FTF.exclutionList\":[\"Business Unit\",\"Body Shape ID\",\"Family\",\"Class\",\"Segment\",\"Brick\",\"Processing Time\",\"Number of Components\",\"Units per Bundle\",\"Body or Garment Size\",\"Units Per Bundle\",\"Minimum Usable Period in Months\",\"Total Shelf Life in Months\",\"Minimum Shelf Life in Months\",\"Main Trend Name\",\"Multiset pack\",\"Design styling\",\"Sub Trend\",\"Ingredients\",\"Benefits\",\"Special Features\",\"Collection Name\",\"How-to-Use\",\"How-to-Apply\",\"Net Weight\",\"About the Brand\",\"Suitable for Undertone\",\"Notes\",\"Fragrance Story\",\"Model\",\"Compatible Filter\"],\"xceleratorTagsPriority\":{\"plp\":{\"top\":[\"FIELD_productimagetag\",\"FIELD_eorsPicksTag\",\"SA_XT_NEW_SEASON\",\"SA_XT_NEW\",\"SA_XT_Trending\"],\"bottom\":[\"PERSONALISED_PRICING\",\"MFU\",\"FIELD_tdBxGyText\",\"LOCAL_XT_fewLeft\",\"SA_XT_Best_Price\"]},\"pdp\":{\"top\":[\"SA_XT_Essential\",\"SA_XT_NEW_SEASON\",\"SA_XT_NEW\",\"SA_XT_Trending\"],\"bottom\":[\"PERSONALISED_PRICING\",\"MFU\",\"PRICE_OFFER\",\"EXPRESS_DELIVERY\",\"API_XT_BOTTOM\",\"LOCAL_XT_fewLeft\"]},\"wishlist\":{\"top\":[\"SA_XT_NEW_SEASON\",\"SA_XT_NEW\",\"SA_XT_Trending\",\"SA_XT_Popular\",\"FIELD_productimagetag\"]}},\"xceleratorTagsConfig\":{\"bottom\":[{\"name\":\"tags.fewLeft\",\"tagText\":\"Only Few Left!\",\"skuThreshold\":5,\"minSku\":2},{\"name\":\"tags.freeShipping\",\"tagText\":\"Free Shipping!\",\"freeShippingThreshold\":1500}],\"top\":[{\"name\":\"tags.new\",\"tagText\":\"NEW\",\"tdThreshold\":1,\"daysThreshold\":60}]},\"product.emi.info\":\"{\\\"minInterestRate\\\":\\\"12\\\",\\\"maxMonths\\\":\\\"24\\\"}\",\"referAndEarn\":{\"enable\":false,\"redirectUrl\":\"https://www.myntra.com\",\"topBanner\":{\"enable\":false,\"newUser\":{\"enable\":false,\"description\":\"Invite friends to Myntra’s EORS & get up to ₹150 MynCash for every person who visits\",\"cta\":\"INVITE NOW\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/rupee_illustration.png\"},\"bannerWithScratch\":{\"enable\":false,\"multiCardDescription\":\"new scratch cards available\",\"singleCardDescription\":\"new scratch card available\",\"description1\":\"You've earned\",\"description2\":\"MynCash so far\",\"description3\":\"You won\",\"multiCardDescription2\":\"scratch cards\",\"singleCardDescription2\":\"scratch card\",\"wishText\":\"Congratulations!\",\"cta\":\"CLAIM\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/rupee_illustration.png\"},\"bannerWithoutScratch\":{\"enable\":false,\"description\":\"You can earn up to\",\"cta\":\"EARN MORE\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"cashMetaInfo\":\"MynCash earned\"}},\"desktopSNE\":{\"enable\":false,\"newUser\":{\"enable\":false,\"description\":\"Invite friends to Myntra’s EORS & get up to ₹150 MynCash for every person who visits\",\"cta\":\"INVITE NOW\",\"link\":\"/shoutnearn/refer\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/rupee_illustration.png\"},\"bannerWithScratch\":{\"enable\":true,\"ctaHeading4\":\"You won\",\"singleCardDescription\":\"scratch card\",\"multiCardDescription\":\"scratch cards\",\"singleCardDescription2\":\"New scratch card available\",\"multiCardDescription2\":\"New scratch cards available\",\"ctaHeading2\":\"You've earned\",\"ctaHeading3\":\"MynCash so far\",\"wishText\":\"Congratulations!\",\"cta\":\"CLAIM\",\"link\":\"/shoutnearn/rewards\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/rupee_illustration.png\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\"},\"bannerWithoutScratch\":{\"enable\":true,\"heading\":\"MynCash earned\",\"cta\":\"EARN MORE\",\"description\":\"You can earn up to\",\"link\":\"/shoutnearn/refer\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/money.png\"}},\"feedBanner\":{\"enable\":false,\"newUser\":{\"enable\":true,\"image\":\"https://assets.myntassets.com/assets/images/retaillabs/2022/11/23/b116fd35-78f0-46e0-a1d6-7aebd08713a71669221288305-sne-hp-banner-thin-1080x342.jpg\"},\"bannerWithScratch\":{\"enable\":true,\"image\":\"https://assets.myntassets.com/assets/images/retaillabs/2021/9/23/d90a10af-c468-444c-9262-1411de788c531632377525953-scratch_cards_1.png\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"title\":\"Shout & Earn\",\"description\":\"Invite more friends to earn more MynCash\",\"multiCardMetaInfo\":\"Scratch cards\",\"singleCardMetaInfo\":\"Scratch card\",\"cta\":\"CLAIM NOW\",\"cashMetaInfo\":\"MynCash earned\"},\"bannerWithoutScratch\":{\"enable\":true,\"image\":\"https://assets.myntassets.com/assets/images/retaillabs/2022/9/2/c5b4e2a3-35cc-4f5f-98e7-4da6df9dc8d51662113654928-sne-man-single-456x448.png\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"title\":\"Shout & Earn\",\"description\":\"Invite more friends to Myntra’s EORS & earn more MynCash\",\"cta\":\"INVITE NOW\",\"cashMetaInfo\":\"MynCash earned\"}},\"dashboard\":{\"title\":\"\",\"body\":\"\",\"tncLink\":\"https://www.myntra.com/tac\",\"backgroundImg\":\"https://assets.myntassets.com/assets/images/retaillabs/2022/12/4/76ef9e4f-1995-49c6-867f-3a7af645cd121670138185307-sne-hp-banner-1440x684-ux-edit.jpg\",\"unscratchedImage\":\"https://constant.myntassets.com/pwa/assets/img/scratch_card_carousel.png\",\"pointsCard\":{\"description\":\"MynCash earned\",\"description2\":\"You can win up to\",\"description3\":\"MynCash\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"maxCashLimit\":500},\"share\":{\"title\":\"Invite Friends\",\"description\":\"Invite friends to Myntra’s End Of Reason Sale for the best fashion deals.\",\"subject\":\"Hey, come check out Myntra's End Of Reason Sale 10th - 16th Dec where the best of brands are at 50-90% Off! Click this link & we could both get up to ₹150 Off at India's biggest fashion sale!\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/EORS_JUN_2020.png\",\"shareUrl\":\"https://www.myntra.com/shoutnearn/refer\",\"iosMailImg\":\"https://constant.myntassets.com/pwa/assets/img/b645be81-c584-4e93-ac0d-4d8a4b5e1a411529421140610-ic_email.png\",\"cta\":\"COPY INVITE LINK\",\"fbEnable\":false},\"scratch\":{\"title\":\"Your Rewards\",\"description\":\"Scratch to claim your rewards!\",\"cta\":\"View All\",\"cashInfo\":\"MynCash earned\",\"minCardToShowCta\":3,\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\"},\"footer\":{\"footerTitle\":\"How It Works\",\"image\":\"https://constant.myntassets.com/pwa/assets/img/dashboard_sample_card.png\",\"data\":[{\"title\":\"Purchase & Redeem (9th Dec - 16th Dec)\",\"body\":\"When you are shopping at the sale, select the MynCash option on the checkout page (as shown in the image below). You can claim a maximum of 10% of your total order value. Your MynCash will expire at 11:59 PM on Dec 16th, 2022.\"},{\"title\":\"How to Use\",\"body\":\"Once you have earned some MynCash by referring your friends, simply apply them through a checkbox at the transaction page when you checkout. Image shown below.\"}]},\"referredUser\":{\"heading\":\"You Won\",\"reward\":\"1 Scratch Card\",\"info\":\"A friend has invited you to Myntra's End Of Reason Sale. Visit now & get a chance to win up to ₹150 MynCash!\",\"claimCta\":\"CLAIM SCRATCH CARD\",\"imageUrl\":\"https://constant.myntassets.com/pwa/assets/img/reward_half_card.png\"},\"limitErrorMsg\":\"You have reached the maximum reward limit of ₹500 using Shout & Earn\"},\"cardStore\":{\"cashInfo\":\"MynCash earned\",\"heading\":\"Your Rewards\",\"info\":\"Scratch the card to claim your rewards\",\"cta\":\"INVITE FRIENDS\",\"tncLink\":\"https://www.myntra.com/tac\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\"},\"scratchPopup\":{\"usJoinedMsg1\":\"You got this scratch card because\",\"usJoinedMsg2\":\"invited you. Scratch & earn Myncash to get an additional discount from 9th to 16th Dec at the Myntra’s End Of Reason sale\",\"usInviteMsg1\":\"You got this scratch card because\",\"usInviteMsg2\":\"accepted your invitation. Scratch & earn Myncash to get an additional discount from 9th to 16th Dec at the Myntra’s End Of Reason sale\",\"sMsg1\":\"You've earned ₹\",\"sMsg2\":\"MynCash from this scratch card.\\nUse this to get an additional discount from 9th to 16th Dec at the Myntra’s End Of Reason sale!\",\"usHeading\":\"Win up to ₹150 MynCash!\",\"moneyImage\":\"https://constant.myntassets.com/pwa/assets/img/money.png\",\"cashInfo\":\"MynCash earned\"},\"noSale\":{\"image\":\"https://constant.myntassets.com/pwa/assets/img/announcement.png\",\"message\":\"Sale Ended\",\"description\":\"Shout & Earn program was only for Myntra's End Of Reason Sale. The sale has now ended. See you in the next one!\",\"actionText\":\"CONTINUE SHOPPING\",\"action\":\"/\"},\"fraudDetected\":{\"text\":\"No scratch card for you\",\"actionText\":\"OKAY\",\"fqa\":[{\"title\":\"Why didn't you get a scratch card?\",\"description\":\"We were unable to give you a scratch card because we noticed some suspicious activity on your Myntra account\"},{\"title\":\"Want to know more about this?\",\"description\":\"Please get in touch with our customer care support and we will be happy to help you!\"}]}},\"web.pincodecheck.msg\":\"Please enter PIN code to check delivery time & Pay on Delivery Availability\",\"desktop.web.userDetection\":{\"enable\":true,\"maDetection\":{\"enable\":false,\"sendGaId\":false}},\"priorityBehaviourList\":{\"insiderTiers\":[\"Elite\",\"Icon\",\"Select\"]},\"earlyAccessBannerConfig\":{\"feed\":{\"enable\":false,\"priority\":{\"visible\":true,\"heading\":\"Enjoy free early access\",\"subText\":\"18 - 19 Dec 2020\",\"description\":\"2 FULL DAYS\",\"bgImage\":{\"width\":375,\"height\":99,\"url\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/9/fe3200c0-6f51-4c87-8c1a-b63611a1e1531607520701127-eors-ticket-unit-burger-copy-3x.png\"},\"link\":\"\"},\"regular\":{\"visible\":true,\"heading\":\"Get your Gold Slot\",\"subText\":\"SHOP AT SALE PRICES\",\"description\":\"19 Dec, 7 PM - 11 PM\",\"bgImage\":{\"width\":375,\"height\":99,\"url\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/9/06bb96fa-2926-4ba1-9c55-95844dabbe8a1607520701077-eors-ticket-unit-burger-3x.png\"},\"link\":\"/growth/playnearn\"},\"slot\":{\"visible\":true,\"heading\":\"Here's your Gold Slot\",\"bgImage\":{\"width\":375,\"height\":99,\"url\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/9/06bb96fa-2926-4ba1-9c55-95844dabbe8a1607520701077-eors-ticket-unit-burger-3x.png\"},\"link\":\"\"}},\"wishlist\":{\"enable\":false,\"priority\":{\"visible\":true,\"imgUri\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/8/c6df57df-856f-4e99-8c60-c28b4c306e4f1607439455276-vip-pass-prebuzz-ea-users-copy-2-3x.png\",\"aspectRatio\":\"688*108\",\"link\":\"\"},\"regular\":{\"visible\":true,\"imgUri\":\"https://constant.myntassets.com/pwa/assets/img/vip-pass-prebuzz-non-ea-users-copy-4.png\",\"aspectRatio\":\"688*108\",\"link\":\"/growth/playnearn\"},\"slot\":{\"visible\":false,\"imgUri\":\"https://assets.myntassets.com/assets/images/retaillabs/2020/12/8/7177a6af-4d8c-45d1-a7b1-9289cf02ccee1607439455140-vip-pass-prebuzz-ea-users-copy-4-3x.png\",\"aspectRatio\":\"656*190\",\"link\":\"\"}}},\"firebaseEnable\":{\"enableDesktop\":true,\"enablePWA\":true,\"enableCheckout\":true},\"SentryDashboard\":{\"pwa\":{\"enableClient\":true},\"desktop\":{\"enableClient\":true}},\"web.complianceRequirements\":{\"grievancePopup\":{\"subject\":\"Contact Seller\",\"writeTo\":\"Myntra Designs Private Limited; Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru – 560103\",\"email\":\"support@myntra.com\",\"phone\":\"080 6156 1999\"},\"sellerPopup\":{\"heading\":\"More Information\",\"subHeading\":\"Product Code\",\"sections\":{\"manufacturerInfo\":\"Manufacturer Details\",\"importerInfo\":\"Importer Details\",\"packerInfo\":\"Packer Details\",\"countryOfOrigin\":\"Country of Origin\"}},\"maskedSellerPopup\":{\"heading\":\"More Information\",\"subHeading\":\"Product Code\",\"sections\":{\"importerInfo\":\"Importer Details\",\"countryOfOrigin\":\"Country of Origin\"}},\"testing\":{\"remove\":\"this\"}},\"checkout.addToCartMessaging\":{\"itemAlreadyPresent\":\"You have this item in your bag and we have increased the quantity by 1\",\"itemReachedMaxQty\":\"You have this item in your bag with the maximum available quantity\",\"itemAlreadyPresentAsFreeGift\":\"Item can't be added to cart, already present as free gift\"},\"myntra.corpInfo\":[{\"title\":\"Annual Return 2021\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/MGT-7.pdf\"},{\"title\":\"Annual Return 2022\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/MDPL_Form_MGT-7_FY_21-22.pdf\"},{\"title\":\"Annual Return 2023\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/MGT7_8_List_of_SHs.pdf\"},{\"title\":\"Annual Return 2024\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/Annual%20return_MDPL_23-24_pdf.pdf\"},{\"title\":\"Annual Return 2025\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/Annual_Return_2025.pdf\"},{\"title\":\"CSR Policy\",\"docLink\":\"https://constant.myntassets.com/pwa/assets/pdf/MDPL_CSR_Policy.pdf\"}],\"web.r360\":{\"expiryInMins\":15,\"enabled\":true},\"desktopExternalRoutes\":[\"/contactus\",\"/checkout/\",\"/my/\",\"/studio/\",\"/myntrainsider\",\"/giftcard\",\"www.facebook.com\",\"twitter.com\",\"www.youtube.com\",\"www.instagram.com\",\"play.google.com\",\"itunes.apple.com\",\"/login\",\"/register\"],\"desktop.pla.paginationContext\":{\"refresh\":true,\"v\":1},\"desktop.globalSite\":{\"whitelistedCountries\":[\"SG\"],\"timeout\":0},\"userConsentConfig.web\":{\"loginInterval\":1500000,\"consentInterval\":10800000,\"enabled\":true,\"popupEnabled\":false}},\"server__date\":{\"date\":\"2025-12-07T12:56:05.246Z\",\"dateInMs\":1765112165246},\"env\":{\"browser\":{\"lscache\":true},\"services\":{\"root\":\"http://www.myntra.com/\",\"secureRoot\":\"https://www.myntra.com/\",\":search\":{\"path\":\"search-service/searchservice/search/\"},\":apify\":{\"path\":\"user/mobile/getotp\"},\":userprofile\":{\"path\":\"/user/\"},\":wallet\":{\"path\":\"pp/\"},\":lgptests\":{\"path\":\"/lgp/tests\"},\":details\":{\"path\":\"myntapi/style/style-service/pdpservice/style/pdp/imageres/\"},\":idp\":{\"path\":\"myntapi/idp/auth/\"},\":idea\":{\"path\":\"myntapi/idea/\"},\":idea-internal\":{\"path\":\"idea/opt\"},\":seo\":{\"path\":\"search/seo/\"},\":crm\":{\"path\":\"myntapi/crm/\"},\":callmeback\":{\"path\":\"myntapi/callmeback/\"},\":helpshiftchat\":{\"path\":\"myntapi/helpshiftchat/\"},\":wms\":{\"path\":\"myntapi/wms/\"},\":session-store\":{\"path\":\"SessionStoreService/rest/sessions/\"},\":session-store-new\":{\"path\":\"SessionStoreService/rest/opt/sessions/\"},\":sessions\":{\"path\":\"myntapi/idp/session/\"},\":searchstyles\":{\"path\":\"search-service/searchservice/search/\"},\":checkout\":{\"path\":\"myntra-absolut-service/absolut/\"},\":address\":{\"path\":\"myntra-address-service/\"},\":topnav\":{\"path\":\"config/nav/\"},\":banners\":{\"path\":\"myntra-banner-webapp/banner/personalizedbanner/\"},\":promodata\":{\"path\":\"configuration/keyValuePair/widget/header.promotion.data\"},\":kvpairs\":{\"path\":\"configuration/keyValuePair/widget/\"},\":featureGate\":{\"path\":\"configuration/keyValuePair/featureGate/\"},\":content\":{\"path\":\"myntra-cms-service/content/\"},\":contactus\":{\"path\":\"myntapi/crm/\"},\":atlas\":{\"path\":\"data/\",\"proxy\":\"/search/track/atlas/\"},\":stats\":{\"proxy\":\"/search/track/stats/\"},\":abtests\":{\"path\":\"configuration/abtest/\"},\":bots\":{\"path\":\"myntapi/bots\"},\":offer\":{\"path\":\"myntapi/coupons/pdp\"},\":oldofferservice\":{\"path\":\"ajaxPDPCouponWidget.php\"},\":lookgoodclub\":{\"path\":\"myntapi/lookgoodclub\"},\":serviceability\":{\"path\":\"ajaxPincodeWidget.php\"},\":locality\":{\"path\":\"myntra/ajax_pincode_locality.php\"},\":notifyme\":{\"path\":\"subs_notification.php\"},\":looks\":{\"path\":\"myntapi/cms/content/\"},\":sizechart\":{\"path\":\"myntapi/catalog/sizechart/\"},\":sizechartrecos\":{\"path\":\"fitrrati/recommendation/\"},\":fitrratisizechart\":{\"path\":\"fitrrati/myntrasizechart/\"},\":recommendation\":{\"path\":\"myntapi/style/style-service/pdpservice/style/recommendation/\"},\":crossSell\":{\"path\":\"product/\"},\":notification\":{\"path\":\"myntapi/notifications/\"},\":premiumshop\":{\"path\":\"myntapi/premiumshop/\"},\":inlinecontent\":{\"path\":\"myntapi/inlinecontent/\"},\":lms\":{\"path\":\"myntapi/lms/\"},\":atp\":{\"path\":\"myntapi/atp/\"},\":css\":{\"path\":\"myntapi/css/\"},\":oms\":{\"path\":\"myntapi/oms/\"},\":rms\":{\"path\":\"myntapi/rms/\"},\":rms_archived\":{\"path\":\"myntapi/rms/\"},\":vinyl\":{\"path\":\"myntapi/vinyl/\"},\":omsbounty\":{\"path\":\"myntra-bounty-service/bounty/portalOrder/\"},\":pricing\":{\"path\":\"myntapi/pricing/\"},\":privilege\":{\"path\":\"myntapi/privilege/\"},\":coupons\":{\"path\":\"myntapi/coupons/\"},\":urlshortner\":{\"path\":\"us/\"},\":checkout-internal\":{\"path\":\"myntra-absolut-service/absolut/\"},\":plutus\":{\"path\":\"myntra/plutus/v1/\"},\":fss\":{\"path\":\"v1/bin/\"},\":lp\":{\"path\":\"lp/\",\"client\":\"portal\",\"version\":\"1.0\"},\":deals\":{\"path\":\"pp/deal/\"},\":halloffame\":{\"path\":\"halloffame/testimonial/\"},\":user\":{\"path\":\"myntapi/user/\"},\":saved-cards\":{\"path\":\"payments/paymentInstruments/\"},\":best-coupon\":{\"path\":\"coupons/myntcoupon/\"},\":giftcard\":{\"path\":\"giftcard-service/\"},\":giftcard_mymyntra\":{\"path\":\"myntapi/giftcard/\"},\":captcha\":{\"path\":\"captcha/\"},\":static-pages\":{\"path\":\"myntapi/staticpages/\"},\":pps\":{\"path\":\"/myntra-payment-plan-service/v1/\"},\":vms\":{\"path\":\"myntapi/vms/\"},\":seller\":{\"path\":\"myntapi/seller/\"},\":request-management-system\":{\"path\":\"/\"},\":alteration\":{\"path\":\"fs/alteration\"},\":hallmark\":{\"path\":\"myntra-hallmark-service/\"},\":location\":{\"path\":\"myntra-location-service/location/\"},\":survey\":{\"path\":\"myntapi/survey/\"},\":notifyMeService\":{\"path\":\"v1/notifications/\"},\":gatewayv1\":{\"path\":\"v1/\"},\":myntservice\":{\"path\":\"mynts/v1/\"},\":payments\":{\"path\":\"payments/\"},\":features\":{},\":collection\":{\"path\":\"collections/me/wishlist\"},\"static-pages\":{\"path\":\"myntapi/staticpages/\"},\":cashbackservice\":{\"path\":\"pp/\"}},\"instrumentation\":{\"debug\":false,\"clientId\":\"lzZNMYGoPkQVWOGL3wg81DLeJ4arpd\"},\"staticFiles\":{\"root\":\"http://myntra.myntassets.com/\",\"defaultRoot\":\"http://myntra.myntassets.com/\",\"secureRoot\":\"https://cdn.myntassets.com/\",\"cloudinaryRoot\":\"http://assets.myntassets.com/\",\"cloudinarySecureRoot\":\"https://assets.myntassets.com/\",\"path\":\"myx/\",\"src\":\"./public\",\"dest\":\"./dist\",\"staticPrefix\":\"/search/\",\"hashify\":true,\"compress\":true,\"cdn\":true},\"statsd\":{\"app\":\"myx-search\",\"prefix\":\"myx-production-\",\"host\":\"statsd-frontend.myntra.com\",\"port\":8125,\"isEnabled\":true,\"samplingRate\":1},\"GA\":{\"enabled\":false,\"UA\":\"\"},\"gaKey\":\"UA-1752831-18\",\"cookie\":{\"prefix\":\"\",\"domain\":\".myntra.com\",\"uuidcookiedomain\":\".myntra.com\"},\"fbAppId\":\"182424375109898\",\"hosts\":{\"root\":\"http://www.myntra.com/\",\"secureRoot\":\"https://www.myntra.com/\"}},\"microsessid\":647,\"session\":{\"USER_TOKEN\":\"k8R6itykjpDoRc4yNjTKMXM4L4zRcgGG\",\"login\":\"\",\"isLoggedIn\":false},\"traffic\":{\"medium\":\"\",\"source\":\"\",\"referrer\":\"\",\"channel\":\"direct\",\"isFirstTime\":\"0\",\"isRegistered\":\"0\",\"ruUserHashId\":\"d41d8cd98f00b204e9800998ecf8427e\"},\"isOSCompatible\":false,\"lp\":{\"status\":\"disabled\"},\"mxab\":{\"config.bucket\":\"regular\",\"coupon.cart.channelAware\":\"channelAware_Enabled\",\"cart.cartfiller.personalised\":\"enabled\"}}"
         },
         {
           "name": "lscache-beacon:user-data-cacheexpiration",
-          "value": "29418260"
+          "value": "29418541"
         },
         {
           "name": "u_sclid_r",
-          "value": "dS9lfuWC8WMcFwS3ZTZ70nmzIfDpoHpaIC6IE-zdm6Dk2OOpKiAMmm5g7QrTYlci6PZskClY-ks"
+          "value": "di9lfuWC8WMcFwS3ZTZ70nmzIfDpoHpaIC6IFO3dm6Dk2OOpKiAMmm5g7QrTYlci6PZskClY-kw"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1765112166288"
         },
         {
           "name": "pca-ma-ttl",
           "value": "1765181656224"
-        },
-        {
-          "name": "lastExternalReferrerTime",
-          "value": "1765095341470"
         },
         {
           "name": "izootoSync",
@@ -1799,71 +1907,23 @@
       ]
     },
     {
-      "origin": "https://www.ajio.com",
+      "origin": "https://www.meesho.com",
       "localStorage": [
         {
-          "name": "JioEventsConfig_www.ajio.com_prod",
-          "value": "{\"maxEvents\":5,\"maxRedirects\":3,\"maxRetries\":4,\"maxStorageTime\":30,\"eventExpiry\":10,\"priorityEvents\":[\"APP_LAUNCH\",\"DEEPLINK_LAUNCH\",\"ADD_TO_CART\",\"REMOVE_FROM_CART\",\"ADD_TO_WISHLIST\",\"REMOVE_FROM_WISHLIST\",\"PRODUCT_CANCELLED\",\"PURCHASE_COMPLETED\"],\"nonPriorityEvents\":[\"CART_VIEW\",\"PAGE_VIEW\",\"PRODUCT_LIST_VIEW\",\"PRODUCT_VIEW\",\"SEARCH_VIEW\",\"LOCATION\",\"CUSTOM\",\"DEVICE_INFORMATION\",\"USER_DETAILS\",\"PRODUCT_RETURNED\"],\"configExpiry\":1,\"EventsInLimitAdTracking\":0,\"gzipEnablePayloadSize\":1,\"domain\":\"https://jars-zircon.jio.com/\",\"conversionUrl\":\"https://mercury-ck.jio.com/\",\"ecommConfig\":{\"attribution\":[{\"level\":\"L1\",\"value\":\"1\",\"linkedTo\":\"L4\",\"event\":\"ADD_TO_CART\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L2\",\"value\":\"2\",\"linkedTo\":\"L1\",\"event\":\"PURCHASE_COMPLETED\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L3\",\"value\":\"3\",\"linkedTo\":\"L2\",\"event\":\"CANCEL\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L4\",\"value\":\"4\",\"linkedTo\":\"\",\"event\":\"PRODUCT_CLICK\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L5\",\"value\":\"5\",\"linkedTo\":\"L1\",\"event\":\"REMOVE_FROM_CART\",\"timeout\":5,\"unitOfTime\":\"d\"},{\"level\":\"L6\",\"value\":\"6\",\"linkedTo\":\"\",\"event\":\"ORDER\",\"timeout\":1,\"unitOfTime\":\"h\"},{\"level\":\"L7\",\"value\":\"7\",\"linkedTo\":\"L4\",\"event\":\"INDIRECT_ADD_TO_CART\",\"timeout\":1,\"unitOfTime\":\"h\"},{\"level\":\"L8\",\"value\":\"8\",\"linkedTo\":\"L7\",\"event\":\"INDIRECT_PRODUCT_PURCHASE\",\"timeout\":2,\"unitOfTime\":\"h\"}]},\"version\":1,\"updateTimestamp\":\"20251113123504\",\"expiryDate\":1765095319673}"
-        },
-        {
-          "name": "browserId",
-          "value": "BbSE_gzqfWa4cogigrKHb"
-        },
-        {
-          "name": "cto_bundle",
-          "value": "lBtXjF84JTJCZHVMbFZZR042QjhCMW1OcWtSaDFOZGtjRXZnQmdKMDI0SnhZa1VIWUZSU1ZraiUyQnJZMnBtQkdEeiUyRkZ4UkREOGVaSDU1WEhnWUR6czQ4RVo2b0xIUkQ4eWdWVFVWTGVVJTJGUzN4JTJGb21yc2NGYnlOcFZGR29oSldaSkNPT3JFQklNcTl2M0VJcFphVTIwTCUyQm94ajFWU0ElM0QlM0Q"
-        },
-        {
-          "name": "topicsLastReferenceTime",
-          "value": "1765095280427"
+          "name": "ak_a",
+          "value": "BB2DA98B015637E3B645404E534FDEBD"
         },
         {
           "name": "ak_ax",
           "value": "-1"
         },
         {
-          "name": "_gcl_ls",
-          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":2,\"timeouts\":0,\"creationTimeMs\":1765095279759},\"expires\":1772871279759}}"
+          "name": "__mpq_60483c180bee99d71ee5c084d7bb9d20_ev",
+          "value": "[]"
         },
         {
-          "name": "copilotMap",
-          "value": "{}"
-        },
-        {
-          "name": "lastExternalReferrerTime",
-          "value": "1765095279841"
-        },
-        {
-          "name": "_fpuuid",
-          "value": "3DGDBFvorrgQkMIEH8aJN"
-        },
-        {
-          "name": "ak_a",
-          "value": "E713E0ABDF69B7BD7FC53876D56754F4"
-        },
-        {
-          "name": "IDFA",
-          "value": "59f9514c-7d37-4e87-ba26-16970f6b5db7"
-        },
-        {
-          "name": "lastExternalReferrer",
-          "value": "empty"
-        },
-        {
-          "name": "ajs_anonymous_id",
-          "value": "\"65951ab7-cf73-4fa2-a7e1-2a60fd08ac3b\""
-        },
-        {
-          "name": "ajs_user_id",
-          "value": "null"
-        },
-        {
-          "name": "persist:root",
-          "value": "{\"products\":\"{\\\"mappedProductId\\\":null,\\\"isRowsAdding\\\":false,\\\"showLoadMore\\\":false,\\\"isPageLoading\\\":false,\\\"facets\\\":[],\\\"products\\\":[],\\\"rawProducts\\\":[],\\\"gridRowCount\\\":10,\\\"hasErrored\\\":false,\\\"totalResults\\\":0,\\\"currentPage\\\":1,\\\"query\\\":{\\\"gridColumns\\\":3,\\\"viewType\\\":\\\"outfitview\\\"},\\\"sortBy\\\":\\\"relevance\\\",\\\"viewType\\\":\\\"outfitview\\\",\\\"apiLocation\\\":{\\\"query\\\":{}},\\\"displayAllFacetsCategories\\\":false,\\\"closedFacetGroups\\\":[],\\\"closedFacets\\\":[]}\",\"grid\":\"{\\\"results\\\":[],\\\"entities\\\":{},\\\"gridColumns\\\":2,\\\"gridResults\\\":[],\\\"gridColumnWidth\\\":158,\\\"gridRowHeight\\\":321,\\\"gridRowCount\\\":20,\\\"gridWidth\\\":320,\\\"viewType\\\":\\\"outfitview\\\",\\\"cacheInvalid\\\":true,\\\"closedFacetGroups\\\":[],\\\"openFacets\\\":[],\\\"loadingMoreItems\\\":false}\",\"request\":\"{\\\"deviceType\\\":\\\"desktop\\\"}\",\"eossCouponsReducer\":\"{\\\"coupons\\\":[]}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
-        },
-        {
-          "name": "__rtbhouse.lid",
-          "value": "fCquDM6BgwZRZOK0QOXt"
+          "name": "INITIAL_PAGE_VIEWED",
+          "value": "PDP"
         }
       ]
     },

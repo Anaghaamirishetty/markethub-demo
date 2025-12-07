@@ -491,10 +491,6 @@ kill -9 <PID>
 
 MIT License - see LICENSE file for details
 
-## 👥 Contributors
-
-- Golla Bharath - [GitHub](https://github.com/GollaBharath)
-
 ## 📞 Support
 
 For issues, questions, or contributions:
